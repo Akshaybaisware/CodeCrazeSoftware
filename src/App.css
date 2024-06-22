@@ -1,42 +1,61 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.bg-dark-gradient {
+  background: linear-gradient(to right, #000000, #434343);
+}
+.dropdown-toggle{
+  color: white !important;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar-toggler{
+  background-color: white !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.offcanvas-header {
+  background: linear-gradient(to right, #000000, #434343);
+}
+.nav-link:hover {
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: white;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 7em;
+  transform: translateX(-50%);
+}
+.navbar-nav .dropdown-menu{
+  background-color: #000000;
+
+  
+ 
+  
+}
+.dropdown-item:hover{
+  background-color: transparent !important;
+  border-width: 0.1rem !important;
+  border-style: solid !important;
+  border-color: white !important;
+}
+
+
+@media (max-width: 991px) {
+  .offcanvas-body{
+    background: linear-gradient(to right, #000000, #434343);
   }
-  to {
-    transform: rotate(360deg);
   }
+  @media (min-width: 991px) {
+    .offcanvas-header,
+    .offcanvas-body {
+        display: none;
+    }
+    .offcanvas.show,
+    .offcanvas.show:not(.hiding),
+    .offcanvas.showing {
+        display: none !important;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
