@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
+
 .bg-dark-gradient {
   background: linear-gradient(to right, #000000, #434343);
 }
-.dropdown-toggle{
+
+.dropdown-toggle {
   color: white !important;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: white !important;
 }
-
-
 
 .offcanvas-header {
   background: linear-gradient(to right, #000000, #434343);
 }
+
 .nav-link:hover {
   border-width: 0.1rem;
   border-style: solid;
@@ -25,37 +27,168 @@
   left: 7em;
   transform: translateX(-50%);
 }
-.navbar-nav .dropdown-menu{
-  background-color: #000000;
 
-  
- 
-  
+.navbar-nav .dropdown-menu {
+  background-color: #000000;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
   background-color: transparent !important;
   border-width: 0.1rem !important;
   border-style: solid !important;
   border-color: white !important;
 }
 
-
-@media (max-width: 991px) {
-  .offcanvas-body{
-    background: linear-gradient(to right, #000000, #434343);
-  }
-  }
-  @media (min-width: 991px) {
-    .offcanvas-header,
-    .offcanvas-body {
-        display: none;
-    }
-    .offcanvas.show,
-    .offcanvas.show:not(.hiding),
-    .offcanvas.showing {
-        display: none !important;
-    }
+.image-container {
+  position: relative;
 }
 
+.custom-image-height {
+  height: 50vh; /* Increased height */
+  object-fit: cover;
+  width: 100%;
+}
 
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+  font-family: "bootstrap-icons";
+  font-weight: 600;
+  font-style: normal;
+}
 
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Catamaran', sans-serif;
+  background: transparent;
+}
+
+.BackgroundImage {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+  max-width: 100%; 
+}
+
+.BackgroundImage img {
+
+  width: 100%; 
+
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size:cover;
+  background-repeat:no-repeat;
+ 
+}
+
+.text-overlay i {
+  font-size: 5rem;
+}
+
+.text-overlay p {
+  font-size: 1rem;
+}
+
+.BackgroundImage .top-50 {
+  top: 20% !important;
+}
+.row{
+  display: ruby !important;
+}
+.BackgroundImage .fs-bold{
+  font-weight: bold;
+
+}
+.BackgroundImage .fs-lighter{
+  font-weight: lighter;
+  color: grey;
+
+}
+
+@media (max-width: 768px) {
+  .text-overlay i {
+    font-size: 4rem !important;
+  }
+
+  .text-overlay p {
+    font-size: 1.4rem !important;
+  }
+
+  .custom-image-height {
+    height: 25vh;
+  }
+
+  .BackgroundText .top-50 {
+    top: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-overlay i {
+    font-size: 3rem !important;
+  }
+
+  .text-overlay p {
+    font-size: 0.6rem !important;
+  }
+
+  .custom-image-height {
+    height: 20vh;
+  }
+
+  .BackgroundText .top-50 {
+    top: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .offcanvas-body {
+    background: linear-gradient(to right, #000000, #434343);
+  }
+
+  .text-overlay i {
+    font-size: 4rem !important;
+  }
+
+  .text-overlay p {
+    font-size: 1.5rem !important;
+  }
+
+  .text-overlay h4 {
+    font-size: 1.8rem !important;
+  }
+
+  .custom-image-height {
+    height: 30vh;
+  }
+
+  .row > .col-md-6:nth-child(odd) {
+    order: 2;
+  }
+
+  .row > .col-md-6:nth-child(even) {
+    order: 1;
+  }
+}
+
+@media (min-width: 991px) {
+  .offcanvas-header,
+  .offcanvas-body {
+    display: none;
+  }
+
+  .offcanvas.show,
+  .offcanvas.show:not(.hiding),
+  .offcanvas.showing {
+    display: none !important;
+  }
+}
