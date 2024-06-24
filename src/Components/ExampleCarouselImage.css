@@ -1,0 +1,48 @@
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as per your layout needs */
+    flex-wrap: wrap; /* Allow the images to wrap to the next line */
+  }
+  
+  .image-wrapper {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .image-wrapper.zoomed {
+    transform: scale(1.5); 
+    z-index: 1; 
+    position: relative; 
+  }
+  
+  /* Specific styles for each image */
+  .image-wrapper.shipyaari img {
+    max-width: 1000px; 
+    height: 100px;
+  }
+  
+  .image-wrapper.airrnp img {
+    /* Add specific styles for airrnp image if needed */
+  }
+  
+  .image-wrapper.getmock img {
+    /* Add specific styles for getmock image if needed */
+  }
+  
+  .carousel-indicators .active {
+    opacity: 0 !important;
+  }
+
+  .image-wrapper.parkers img {
+    max-width: 500px; 
+    height: 100px;
+  }
+  
+  .image-wrapper:hover {
+    transform: scale(1.1); /* Example zoom on hover */
+  }
+  

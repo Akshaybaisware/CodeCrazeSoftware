@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
+
+
+.image-container {
+  position: relative;
+}
+
+.custom-image-height {
+  height: 50vh; 
+  object-fit: cover;
+  width: 100%;
+}
+.top-100 {
+  top: 146% !important;
+}
+
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+  font-family: "bootstrap-icons";
+  font-weight: 600;
+  font-style: normal;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Catamaran', sans-serif;
+  background: transparent;
+}
+
+.BackgroundImage {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+  max-width: 100%; 
+}
+
+.BackgroundImage img {
+
+  width: 100%; 
+
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+ 
+}
+
+
+.text-overlay i {
+  font-size: 5rem;
+}
+.Picture-Container{
+  position: relative !important;
+
+  bottom: 35rem !important;
+}
+
+
+.text-overlay p {
+  font-size: 1rem;
+}
+
+.BackgroundImage .top-50 {
+  top: 20% !important;
+}
+.row{
+  display: ruby !important;
+}
+.BackgroundImage .fs-bold{
+  font-weight: bold;
+  font-family: 'Catamaran', sans-serif;
+
+}
+.BackgroundImage .fs-lighter{
+  font-weight: lighter;
+  color: grey;
+  font-family: 'Catamaran', sans-serif;
+
+}
+.Paragraph{
+ 
+    background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
+    width: 13vw !important;
+  
+  
+}
+
+.Paragraph:hover{
+  color:black !important;
+  border-width: 0.1rem !important;
+  border-style: solid !important;
+  border-color: blue !important;
+}
+.content-container{
+  position: relative;
+  bottom: 60vh ;
+  text-align: center;
+
+}
+
+.content-container .fs-bold{
+  font-weight: bold;
+  font-family: 'Catamaran', sans-serif;
+
+}
+.content-container  .fs-lighter{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: lighter !important;
+  color: grey;
+  font-size: medium !important;
+}
+.img-thumbnail:hover{
+  color: red;
+}
+
+@media (min-width:576px) and (max-width: 768px) {
+  .Carousel-Image .text-black-50{
+    font-size: 0.9em !important ;
+
+  }
+  .content-container{
+    bottom: 35vh !important; 
+
+  }
+
+  .BackgroundImage .fs-bold{
+    font-size: 1em ;
+  }
+  .BackgroundImage .fs-4{
+    font-size: 0.8em !important ;
+  }
+  
+  
+  .text-overlay i {
+    font-size: 4rem !important;
+  }
+
+  .text-overlay p {
+    font-size: 1.4rem !important;
+  }
+  .Carousel-Image{
+    top: 15em;
+  }
+  .Carousel-Image .w-50{
+    width: 35% !important;
+  }
+ 
+
+  .custom-image-height {
+    height: 25vh;
+  }
+
+  .BackgroundText .top-50 {
+    top: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .Carousel-Image .text-black-50{
+    font-size: 0.6em !important ;
+
+  }
+  .content-container{
+    bottom: 30vh !important; 
+
+  }
+  .BackgroundImage .fs-bold{
+    font-size: 1em ;
+  }
+  .BackgroundImage .fs-4{
+    font-size: 0.6em !important ;
+  }
+  .Carousel-Image{
+    top: 22em;
+  }
+  .Carousel-Image .w-50{
+    width: 30% !important;
+  }
+
+  
+  
+  .text-overlay i {
+    font-size: 3rem !important;
+  }
+
+  .text-overlay p {
+    font-size: 0.6rem !important;
+  }
+  .BackgroundImage .top-50 {
+    top: 20% !important;
+  }
+  
+  .custom-image-height {
+    height: 20vh;
+  }
+
+  .BackgroundText .top-50 {
+    top: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .BackgroundImage .fs-bold{
+    font-size: 1em ;
+  }
+  .BackgroundImage .fs-4{
+    font-size: 0.8em !important ;
+  }
+  .content-container{
+    bottom: 38vh !important; 
+
+  }
+  
+.Carousel-Image{
+  top: 11em;
+}
+.Carousel-Image .w-50{
+  width: 45% !important;
+}
+  .text-overlay i {
+    font-size: 4rem !important;
+  }
+
+  .text-overlay p {
+    font-size: 1.1rem !important;
+  }
+
+  .text-overlay h4 {
+    font-size: 1.8rem !important;
+  }
+
+  .custom-image-height {
+    height: 30vh;
+  }
+
+  .row > .col-md-6:nth-child(odd) {
+    order: 2;
+  }
+
+  .row > .col-md-6:nth-child(even) {
+    order: 1;
+  }
+}
+
