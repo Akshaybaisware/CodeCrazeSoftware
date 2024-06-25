@@ -247,8 +247,8 @@ width: 99%;
     font-size: 0.8em !important;
   }
   .Our_Work .bg-dark {
-    position: absolute;
-    top: 324vh;
+    position: relative;
+    top: -10vh;
   }
   .content-container {
     bottom: 40vh !important;
@@ -291,9 +291,9 @@ width: 99%;
     font-size: 0.8em !important;
   }
   .Our_Work .bg-dark {
-    position: absolute;
+    position: relative;
 
-    top: 450vh ;
+    top: -2vh ;
     
   }
   .content-container {
@@ -330,9 +330,12 @@ width: 99%;
     font-size: 0.6em !important;
   }
   .Our_Work .bg-dark {
-    position: absolute;
-    top: 115em;
-    width: 99%;
+    position: relative;
+    top: -5em;
+   
+  }
+  .approach-item h3 {
+    font-size:1.0em;
   }
   .content-container {
     bottom: 30vh !important;
