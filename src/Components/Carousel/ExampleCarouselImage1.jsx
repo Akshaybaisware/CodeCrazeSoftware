@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Image from 'react-bootstrap/Image';
 import './ExampleCarouselImage.css'; 
-import shipyaari from '../Images/shipyaari.jpg';
-import airrnp from '../Images/airrnp.jpg';
-import getmock from '../Images/getmock.jpg';
-import parkers from '../Images/parkres.jpg';
+import shipyaari from '../../Images/shipyaari.jpg';
+import airrnp from '../../Images/airrnp.jpg';
+import getmock from '../../Images/getmock.jpg';
+import parkers from '../../Images/parkres.jpg';
+
 
 const ExampleCarouselImage = () => {
   const [zoomedImage, setZoomedImage] = useState(null);
