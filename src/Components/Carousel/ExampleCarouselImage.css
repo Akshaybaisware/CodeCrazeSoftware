@@ -21,16 +21,18 @@
   
   /* Specific styles for each image */
   .image-wrapper.shipyaari img {
-    max-width: 1000px; 
+    width: 280px; 
     height: 100px;
   }
   
   .image-wrapper.airrnp img {
-    /* Add specific styles for airrnp image if needed */
+    width: 280px; 
+    height: 100px;
   }
   
   .image-wrapper.getmock img {
-    /* Add specific styles for getmock image if needed */
+    width: 280px; 
+    height: 100px;
   }
   
   .carousel-indicators .active {
@@ -38,7 +40,7 @@
   }
 
   .image-wrapper.parkers img {
-    max-width: 500px; 
+  width: 280px; 
     height: 100px;
   }
   

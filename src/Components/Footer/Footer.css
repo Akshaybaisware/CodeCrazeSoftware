@@ -1,0 +1,73 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .contact-us, .quick-links, .contact-info, .map {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff4c4c;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-button:hover {
+    background-color: #e04a4a;
+  }
+  
+  .quick-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quick-links ul li {
+    margin: 5px 0;
+  }
+  
+  .quick-links ul li a {
+    color: #ff4c4c;
+    text-decoration: none;
+  }
+  
+  .quick-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .social-links a:hover {
+    color: #ff4c4c;
+  }
+ 
+  @media (max-width:991px){
+    .footer{
+      position: relative;
+      top: 45em;
+    }
+
+  }

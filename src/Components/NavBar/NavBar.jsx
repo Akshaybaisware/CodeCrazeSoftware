@@ -2,9 +2,9 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Offcanvas from 'react-bootstrap/Offcanvas'; // Add this import
+import Offcanvas from 'react-bootstrap/Offcanvas'; 
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image'; // Add this import
+import Image from 'react-bootstrap/Image'; 
 import { NavLink } from "react-router-dom";
 
 

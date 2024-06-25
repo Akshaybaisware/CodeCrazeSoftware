@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-section, .overview-section, .success-section, .clients-section {
+    margin-bottom: 2rem;
+  }
+  .about-section{
+    word-wrap:break-word;
+    font-family:"Catamaran,sans-serif";
+    line-height:29px;
+    color:#f8f4f4;
+
+    background:linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding:15em;
+
+  }
+  
+  #animatedText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8f7f7;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .icon {
+    font-size: 50px;
+    color: #007bff;
+  }
+  
+  .client-logo {
+    margin: 1rem;
+    width: 100px;
+    height: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  

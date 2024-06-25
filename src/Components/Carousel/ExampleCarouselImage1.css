@@ -1,7 +1,7 @@
 .image-container {
     display: flex;
-    justify-content: space-around; /* Adjust as per your layout needs */
-    flex-wrap: wrap; /* Allow the images to wrap to the next line */
+    justify-content: space-around; 
+    flex-wrap: wrap; 
   }
   
   .image-wrapper {
@@ -14,29 +14,31 @@
   
   
   .image-wrapper.zoomed {
-    transform: scale(1.5); /* Example zoom on click */
-    z-index: 1; /* Ensure it overlays other elements */
-    position: relative; /* Adjust as per your layout needs */
+    transform: scale(1.5); 
+    z-index: 1; 
+    position: relative; 
   }
   
-  /* Specific styles for each image */
+
   .image-wrapper.shipyaari img {
-    max-width: 500px; 
+    width: 280px; 
     height: 100px;
   }  
   .image-wrapper.airrnp img {
-    
+    width: 280px; 
+    height: 100px;
   }
   
   .image-wrapper.getmock img {
-    /* Add specific styles for getmock image if needed */
+    width: 280px; 
+    height: 100px;
   }
   
   .carousel-indicators .active {
     opacity: 0 !important;
   }
   .image-wrapper .parkers img {
-    max-width: 500px; 
+    width: 280px; 
     height: 100px;
   }
   

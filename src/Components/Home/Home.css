@@ -65,6 +65,11 @@
 
   bottom: 35rem !important;
 }
+.approach-item img{
+  width:100px !important;
+
+  height: 100px !important;
+}
 
 
 .text-overlay p {
@@ -96,6 +101,7 @@
   
 }
 
+
 .Paragraph:hover{
   color:black !important;
   border-width: 0.1rem !important;
@@ -104,7 +110,7 @@
 }
 .content-container{
   position: relative;
-  bottom: 60vh ;
+  bottom: 73vh ;
   text-align: center;
 
 }
@@ -123,134 +129,233 @@
 .img-thumbnail:hover{
   color: red;
 }
-
-@media (min-width:576px) and (max-width: 768px) {
-  .Carousel-Image .text-black-50{
-    font-size: 0.9em !important ;
-
-  }
-  .content-container{
-    bottom: 35vh !important; 
-
-  }
-
-  .BackgroundImage .fs-bold{
-    font-size: 1em ;
-  }
-  .BackgroundImage .fs-4{
-    font-size: 0.8em !important ;
-  }
-  
-  
-  .text-overlay i {
-    font-size: 4rem !important;
-  }
-
-  .text-overlay p {
-    font-size: 1.4rem !important;
-  }
-  .Carousel-Image{
-    top: 15em;
-  }
-  .Carousel-Image .w-50{
-    width: 35% !important;
-  }
- 
-
-  .custom-image-height {
-    height: 25vh;
-  }
-
-  .BackgroundText .top-50 {
-    top: 100% !important;
-  }
+.Our_Work .bg-dark{
+position: absolute;
+top:115em;
+width: 99%;
+}
+.business-approach {
+  text-align: center;
+  padding: 20px;
 }
 
-@media (max-width: 576px) {
+.business-approach h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
 
-  .Carousel-Image .text-black-50{
-    font-size: 0.6em !important ;
+.business-approach p {
+  margin-bottom: 30px;
+}
 
-  }
-  .content-container{
-    bottom: 30vh !important; 
+.approach-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  }
-  .BackgroundImage .fs-bold{
-    font-size: 1em ;
-  }
-  .BackgroundImage .fs-4{
-    font-size: 0.6em !important ;
-  }
-  .Carousel-Image{
-    top: 22em;
-  }
-  .Carousel-Image .w-50{
-    width: 30% !important;
-  }
+.approach-item {
+  width: 30%;
+  margin: 20px 0;
+  text-align: center;
+}
 
-  
-  
-  .text-overlay i {
-    font-size: 3rem !important;
-  }
+.approach-item img {
+  width: 50px;
+  height: 50px;
+}
 
-  .text-overlay p {
-    font-size: 0.6rem !important;
-  }
-  .BackgroundImage .top-50 {
-    top: 20% !important;
-  }
-  
-  .custom-image-height {
-    height: 20vh;
-  }
+.approach-item h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
 
-  .BackgroundText .top-50 {
-    top: 100% !important;
-  }
+.approach-item p {
+  font-size: 1em;
+}
+
+.Content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  background-color: #4a4e9c;
+  color: white;
+}
+
+.text-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.enquire-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #4a4e9c;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: start;
+}
+
+.enquire-button:hover {
+  background-color: #ddd;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .BackgroundImage .fs-bold{
-    font-size: 1em ;
+  .BackgroundImage .fs-bold {
+    font-size: 1em;
   }
-  .BackgroundImage .fs-4{
-    font-size: 0.8em !important ;
-  }
-  .content-container{
-    bottom: 38vh !important; 
+  .Content-section{
+    position: absolute;
 
   }
-  
-.Carousel-Image{
-  top: 11em;
-}
-.Carousel-Image .w-50{
-  width: 45% !important;
-}
+  .BackgroundImage .fs-4 {
+    font-size: 0.8em !important;
+  }
+  .Our_Work .bg-dark {
+    position: absolute;
+    top: 324vh;
+  }
+  .content-container {
+    bottom: 40vh !important;
+  }
+  .Carousel-Image {
+    top: 11em;
+  }
+  .Carousel-Image .w-50 {
+    width: 45% !important;
+  }
   .text-overlay i {
     font-size: 4rem !important;
   }
-
   .text-overlay p {
     font-size: 1.1rem !important;
   }
-
   .text-overlay h4 {
     font-size: 1.8rem !important;
   }
-
   .custom-image-height {
     height: 30vh;
   }
-
   .row > .col-md-6:nth-child(odd) {
     order: 2;
   }
-
   .row > .col-md-6:nth-child(even) {
     order: 1;
   }
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .BackgroundImage .fs-bold {
+    font-size: 1em;
+  }
+  .Content-section{
+    position: absolute;
+    
+  }
+  .BackgroundImage .fs-4 {
+    font-size: 0.8em !important;
+  }
+  .Our_Work .bg-dark {
+    position: absolute;
+
+    top: 450vh ;
+    
+  }
+  .content-container {
+    bottom: 35vh !important;
+  }
+  .Carousel-Image {
+    top: 15em;
+  }
+  .Carousel-Image .w-50 {
+    width: 35% !important;
+  }
+  .Carousel-Image .text-black-50 {
+    font-size: 0.9em !important;
+  }
+  .text-overlay i {
+    font-size: 4rem !important;
+  }
+  .text-overlay p {
+    font-size: 1.4rem !important;
+  }
+  .custom-image-height {
+    height: 25vh;
+  }
+  .BackgroundText .top-50 {
+    top: 100% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .BackgroundImage .fs-bold {
+    font-size: 1em;
+  }
+  .BackgroundImage .fs-4 {
+    font-size: 0.6em !important;
+  }
+  .Our_Work .bg-dark {
+    position: absolute;
+    top: 115em;
+    width: 99%;
+  }
+  .content-container {
+    bottom: 30vh !important;
+  }
+  .Carousel-Image {
+    top: 22em;
+  }
+  .Carousel-Image .w-50 {
+    width: 30% !important;
+  }
+  .Carousel-Image .text-black-50 {
+    font-size: 0.6em !important;
+  }
+  .text-overlay i {
+    font-size: 3rem !important;
+  }
+  .text-overlay p {
+    font-size: 0.6rem !important;
+  }
+  .custom-image-height {
+    height: 20vh;
+  }
+  .BackgroundText .top-50 {
+    top: 100% !important;
+  }
+}

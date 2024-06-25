@@ -24,10 +24,44 @@ import Picture8 from "../../Images/third-section-1.jpg";
 import Picture9 from "../../Images/third-section-2.jpg";
 
 import Picture10 from "../../Images/third-section-3.jpg";
+import SideImage from "../../Images/sixth_section.jpg"
 
 import BackgroundImage from "../../Images/third_background.jpg";
 
 function Home() {
+  const approaches = [
+    {
+      icon: 'src/Images/gradient-icon-circle-1.png',
+      title: 'Best Development Strategy',
+      description: 'A streamlined strategy of delivering great web & mobile apps is what Prevoyance Solutions recognized for.'
+    },
+    {
+      icon: 'src/Images/gradient-icon-circle-2.png',
+      title: 'Value Added Services',
+      description: 'Our value added services guarantee the clients to have outcomes beyond the expectations.'
+    },
+    {
+      icon: 'src/Images/gradient-icon-circle-3.png',
+      title: 'Customer Satisfaction',
+      description: 'We consider our success on the basis of the clients\' successfully performing websites or mobile apps.'
+    },
+    {
+      icon: 'src/Images/gradient-icon-circle-4.png',
+      title: 'Best Technological Solutions',
+      description: 'Inspired IT specialists are looking forward to understand the varied project requirements & come up with the superlative solutions.'
+    },
+    {
+      icon: 'src/Images/gradient-icon-circle-5.png',
+      title: 'Customer Tailored Support',
+      description: 'We are dedicated to ensuring that our customers can contact us in the best way for them.'
+    },
+    {
+      icon: 'src/Images/gradient-icon-circle-6.png',
+      title: 'Customize Solutions',
+      description: 'Absolutely customized development services are defined for Start-ups, Small businesses & large organizations.'
+    },
+  ];
+  
   return (
     <div>
       <Carousel>
@@ -260,6 +294,34 @@ function Home() {
           </Carousel.Item>
         </Carousel>
       </div>
+      <div className="business-approach">
+      <h2>Our business approach.</h2>
+      <p>Every business is different and our approach towards clients makes us stand in crowd, making Prevoyance Solutions as their first choice for IT solutions.</p>
+      <div className="approach-list">
+        {approaches.map((approach, index) => (
+          <div className="approach-item" key={index}>
+            <img src={approach.icon} alt={approach.title} />
+            <h3>{approach.title}</h3>
+            <p>{approach.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div className="Content-section">
+      <div className="content">
+        <div className="image-section">
+          <img src={SideImage} alt="Team Discussion" className="image"/>
+        </div>
+        <div className="text-section">
+          <h1>Engaging, purposeful, and creative.</h1>
+          <p>
+            Every business is unique and so are its needs. At Prevoyance Solutions, we provide the best solutions for designing, development, and digital marketing.
+          </p>
+          <button className="enquire-button">Enquire Us</button>
+        </div>
+      </div>
+    </div>
+
     </div>
   );
 }

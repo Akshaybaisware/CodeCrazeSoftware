@@ -15,7 +15,7 @@ const ExampleCarouselImage = () => {
   };
 
   return (
-    <div className="image-container bg-dark ">
+    <div className="image-container  ">
       <div className={`image-wrapper shipyaari ${zoomedImage === 'shipyaari' ? 'zoomed' : ''}`} onClick={() => handleImageClick('shipyaari')}>
         <Image src={shipyaari} alt="Shipyaari" fluid />
       </div>
