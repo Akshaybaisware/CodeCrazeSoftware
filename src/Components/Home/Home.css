@@ -110,7 +110,7 @@
 }
 .content-container{
   position: relative;
-  bottom: 73vh ;
+  top: -30em ;
   text-align: center;
 
 }
@@ -131,7 +131,7 @@
 }
 .Our_Work .bg-dark{
 position: absolute;
-top:115em;
+bottom:105em;
 width: 99%;
 }
 .business-approach {
