@@ -107,9 +107,8 @@
   position: absolute;
   bottom: 93em;
   width: 99%;
-  
   overflow: hidden;
-  max-height: 23vh;
+  max-height: 40vh;
 }
 .Our_Work .content-container{
   position: relative;
@@ -238,6 +237,8 @@
   .Our_Work .bg-dark {
     position: relative;
     top: -13em;
+    overflow: hidden;
+    max-height: 60vh;
   }
 
   .Our_Work .content-container {
@@ -298,6 +299,8 @@
   .Our_Work .bg-dark {
     position: relative;
     top: -10em;
+    overflow: hidden;
+    max-height: 30vh;
   }
 
   .content-container {
@@ -349,6 +352,8 @@
   .Our_Work .bg-dark {
     position: relative;
     top: -5em;
+    overflow: hidden;
+    max-height: 30vh;
   }
 
   .approach-item h3 {
@@ -395,9 +400,9 @@
   }
   .Picture-Container .row{
 
-    --bs-gutter-x:-18em !important;
+    --bs-gutter-x:-15em ;
     position: relative;
-    top: 2em;
+    top: 3em;
     
   
     }
@@ -406,6 +411,8 @@
   .Our_Work .bg-dark {
     position: relative;
     top: -5em !important;
+    overflow: hidden;
+    max-height: 30vh;
   }
 
   .approach-item h3 {
@@ -427,7 +434,7 @@
   }
 
   .Carousel-Image .text-black-50 {
-    font-size: 0.3em !important;
+    font-size: 0.2em !important;
   }
 
   .BackgroundText .top-50 {

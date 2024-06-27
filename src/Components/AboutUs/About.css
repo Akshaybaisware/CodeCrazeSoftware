@@ -1,131 +1,138 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #d9d9d9;
-  }
-  
- .container .shadow-lg {
-    position: relative;
-    bottom: 10em;
-  }
-  
-  .container .shadow-lg section {
-    transition: box-shadow 0.3s ease;
-  }
-  
-  .shadow-lg section:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
-  }
-  
- .success-section .text-center i {
-    background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
-    border-radius: 100%;
-    padding: 0.5em 0.6em;
-  }
-  
-  .about-section,
-  .overview-section,
-  .success-section,
-  .clients-section {
-    margin-bottom: 2rem;
-  }
-  
-  .about-section {
-    word-wrap: break-word;
-    font-family: "Catamaran, sans-serif";
-    line-height: 29px;
-    color: #f8f4f4;
-    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
-    padding: 2em 10em 15em 12em; 
-  }
-  
-  .success-section .text-center li {
-    font-weight: bold;
-  }
-  
-  .success-section .text-center p {
-    text-align: left;
-    font-weight: lighter;
-    font-family: 'Catamaran, sans-serif';
-    color: grey;
-  }
-  
-  #animatedText {
-    font-size: 46px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: capitalize;
-    width: 35ch;
-    white-space: nowrap;
-    overflow: hidden;
-  
-    animation: typing 5s steps(10) infinite;
-    animation-duration: 5s;
-    animation-timing-function: steps(10);
+  font-family: Arial, sans-serif;
+  background-color: #d9d9d9;
+}
+
+.about-us-container .shadow-lg {
+  position: relative;
+  bottom: 10em;
+}
+
+.about-us-container .shadow-lg section {
+  transition: box-shadow 0.3s ease;
+}
+
+.shadow-lg section:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.about-us-success-section .text-center i {
+  background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
+  border-radius: 100%;
+  padding: 0.5em 0.6em;
+}
+
+.about-us-section,
+.about-us-overview-section,
+.about-us-success-section,
+.about-us-clients-section {
+  margin-bottom: 2rem;
+}
+
+.about-us-section {
+  word-wrap: break-word;
+  font-family: "Catamaran, sans-serif";
+  line-height: 29px;
+  color: #f8f4f4;
+  background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+  padding: 2em 1em;
+}
+
+.about-us-success-section .text-center li {
+  font-weight: bold;
+}
+
+.about-us-success-section .text-center p {
+  text-align: left;
+  font-weight: lighter;
+  font-family: 'Catamaran, sans-serif';
+  color: grey;
+}
+
+#animatedText {
+  font-size: 46px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  width: 35ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(10) infinite;
+  animation-duration: 5s;
+  animation-timing-function: steps(10);
 }
 
 @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
+.about-us-description {
+  font-size: 20px;
+  line-height: 1.5;
+}
 
-  
-  
-  .description {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  
-  .icon {
-    font-size: 50px;
-    color: #007bff;
-  }
-  
-  .client-logo {
-    margin: 1rem;
-    width: 100px;
-    height: auto;
-  }
-  
-  .success-section.text-center {
-    text-align: center;
-  }
-  
-  .business-relationships {
-    background-color: #0c2340; /* Dark blue background */
-    color: white; /* White text */
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .business-relationships h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-    background-color: #0c2340 !important;
-  }
-  
-  .description__businessrelationships {
-    width: 100%;
-    padding: 20px;
-    font-weight: lighter !important;
-    font-size: small;
-  }
-  
-.container  .logos {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-.container  .logos img {
-    width: 100%;
-    height: 100%;
-    margin: 10px 0;
-  }
-  
+.about-us-icon {
+  font-size: 50px;
+  color: #007bff;
+}
+
+.about-us-client-logo {
+  margin: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.about-us-success-section.text-center {
+  text-align: center;
+}
+
+.about-us-business-relationships {
+  background-color: #0c2340; /* Dark blue background */
+  color: white; /* White text */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-us-business-relationships h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #0c2340 !important;
+}
+
+.about-us-description-businessrelationships {
+  flex: 1 1 60%;
+  padding: 20px;
+  font-weight: lighter !important;
+  font-size: small;
+}
+
+.about-us-logos {
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-logos img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.about-us-core-values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-core-values-list {
+  text-align: left;
+  padding-left: 20px;
+}

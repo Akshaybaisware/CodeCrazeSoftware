@@ -23,7 +23,7 @@
 .example-carousel-image__wrapper--getmock img,
 .example-carousel-image__wrapper--parkers img {
   width: 280px; 
-  height: 100px;
+  height: 180px;
 }
 
 .carousel-indicators .active {
