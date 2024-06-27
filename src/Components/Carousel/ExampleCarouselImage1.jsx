@@ -15,17 +15,17 @@ const ExampleCarouselImage = () => {
   };
 
   return (
-    <div className="image-container  ">
-      <div className={`image-wrapper shipyaari ${zoomedImage === 'shipyaari' ? 'zoomed' : ''}`} onClick={() => handleImageClick('shipyaari')}>
+    <div className="example-carousel-image__container">
+      <div className={`example-carousel-image__wrapper example-carousel-image__wrapper--shipyaari ${zoomedImage === 'shipyaari' ? 'example-carousel-image__wrapper--zoomed' : ''}`} onClick={() => handleImageClick('shipyaari')}>
         <Image src={shipyaari} alt="Shipyaari" fluid />
       </div>
-      <div className={`image-wrapper airrnp ${zoomedImage === 'airrnp' ? 'zoomed' : ''}`} onClick={() => handleImageClick('airrnp')}>
+      <div className={`example-carousel-image__wrapper example-carousel-image__wrapper--airrnp ${zoomedImage === 'airrnp' ? 'example-carousel-image__wrapper--zoomed' : ''}`} onClick={() => handleImageClick('airrnp')}>
         <Image src={airrnp} alt="Airrnp" fluid />
       </div>
-      <div className={`image-wrapper getmock ${zoomedImage === 'getmock' ? 'zoomed' : ''}`} onClick={() => handleImageClick('getmock')}>
+      <div className={`example-carousel-image__wrapper example-carousel-image__wrapper--getmock ${zoomedImage === 'getmock' ? 'example-carousel-image__wrapper--zoomed' : ''}`} onClick={() => handleImageClick('getmock')}>
         <Image src={getmock} alt="Getmock" fluid />
       </div>
-      <div className={`image-wrapper parkers ${zoomedImage === 'parkers' ? 'zoomed' : ''}`} onClick={() => handleImageClick('parkers')}>
+      <div className={`example-carousel-image__wrapper example-carousel-image__wrapper--parkers ${zoomedImage === 'parkers' ? 'example-carousel-image__wrapper--zoomed' : ''}`} onClick={() => handleImageClick('parkers')}>
         <Image src={parkers} alt="Parkers" fluid />
       </div>
     </div>

@@ -1,26 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
 
 
-.image-container {
-  position: relative;
-}
 
-.custom-image-height {
-  height: 50vh; 
-  object-fit: cover;
-  width: 100%;
-}
-.top-100 {
-  top: 146% !important;
-}
-
-.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
-  font-family: "bootstrap-icons";
-  font-weight: 600;
-  font-style: normal;
-}
-
-.text-overlay {
+.Carousel__Row .text-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,107 +15,107 @@
   color: white;
   text-align: center;
   padding: 20px;
+
   font-family: 'Catamaran', sans-serif;
   background: transparent;
 }
 
+
 .BackgroundImage {
   position: relative;
-  width: 100%; 
-  height: auto; 
-  max-width: 100%; 
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .BackgroundImage img {
-
-  width: 100%; 
-
+  width: 100%;
   background-attachment: fixed !important;
   background-position: center !important;
-  background-size:cover;
-  background-repeat:no-repeat;
-  
- 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
-.text-overlay i {
+.Carousel__Row .text-overlay i {
   font-size: 5rem;
 }
-.Picture-Container{
-  position: relative !important;
 
+.Picture-Container {
+  position: relative !important;
   bottom: 35rem !important;
 }
-.approach-item img{
-  width:100px !important;
 
+.approach-item img {
+  width: 100px !important;
   height: 100px !important;
 }
 
-
-.text-overlay p {
+.Carousel__Row .text-overlay p {
   font-size: 1rem;
 }
 
 .BackgroundImage .top-50 {
   top: 20% !important;
 }
-.row{
+
+.Carousel__Row .row {
   display: ruby !important;
 }
-.BackgroundImage .fs-bold{
+
+.BackgroundImage .fs-bold {
   font-weight: bold;
   font-family: 'Catamaran', sans-serif;
-
 }
-.BackgroundImage .fs-lighter{
+
+.BackgroundImage .fs-lighter {
   font-weight: lighter;
   color: grey;
   font-family: 'Catamaran', sans-serif;
-
-}
-.Paragraph{
- 
-    background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
-    width: 13vw !important;
-  
-  
 }
 
+.Paragraph {
+  background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
+  width: 13vw !important;
+}
 
-.Paragraph:hover{
-  color:black !important;
+.Paragraph:hover {
+  color: black !important;
   border-width: 0.1rem !important;
   border-style: solid !important;
   border-color: blue !important;
 }
-.content-container{
-  position: relative;
-  top: -30em ;
-  text-align: center;
 
+.content-container {
+  position: relative;
+  top: -110em;
+  text-align: center;
 }
 
-.content-container .fs-bold{
+.content-container .fs-bold {
   font-weight: bold;
   font-family: 'Catamaran', sans-serif;
-
 }
-.content-container  .fs-lighter{
+
+.content-container .fs-lighter {
   font-family: 'Catamaran', sans-serif;
   font-weight: lighter !important;
   color: grey;
   font-size: medium !important;
 }
-.img-thumbnail:hover{
-  color: red;
+
+.Our_Work .bg-dark {
+  position: absolute;
+  bottom: 93em;
+  width: 99%;
+  
+  overflow: hidden;
+  max-height: 23vh;
 }
-.Our_Work .bg-dark{
-position: absolute;
-bottom:105em;
-width: 99%;
+.Our_Work .content-container{
+  position: relative;
+  top: -26em;
 }
+
 .business-approach {
   text-align: center;
   padding: 20px;
@@ -220,145 +202,247 @@ width: 99%;
   margin-bottom: 40px;
 }
 
-.enquire-button {
-  padding: 10px 20px;
-  font-size: 1em;
-  color: #4a4e9c;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  align-self: start;
+
+.Home_custom_container .no-padding {
+  padding: 0;
 }
 
-.enquire-button:hover {
-  background-color: #ddd;
+.padding_fourth .background_sixth{
+  background-color: #4a4e9c !important;
 }
+
+
+
+
+
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .BackgroundImage .fs-bold {
     font-size: 1em;
   }
-  .Content-section{
-    position: absolute;
+  .Picture-Container .row{
 
+  --bs-gutter-x:-22em !important;
+  
   }
+  .Content-section {
+    position: absolute;
+  }
+
   .BackgroundImage .fs-4 {
     font-size: 0.8em !important;
   }
+
   .Our_Work .bg-dark {
     position: relative;
-    top: -10vh;
+    top: -13em;
   }
-  .content-container {
-    bottom: 40vh !important;
+
+  .Our_Work .content-container {
+    position: relative;
+    top: -17em;
   }
+
   .Carousel-Image {
     top: 11em;
   }
+
   .Carousel-Image .w-50 {
     width: 45% !important;
   }
+
   .text-overlay i {
     font-size: 4rem !important;
   }
+
   .text-overlay p {
     font-size: 1.1rem !important;
   }
+
   .text-overlay h4 {
     font-size: 1.8rem !important;
   }
-  .custom-image-height {
-    height: 30vh;
+  .Carousel-Image .text-black-50 {
+    font-size: 0.7em !important;
   }
-  .row > .col-md-6:nth-child(odd) {
-    order: 2;
+
+
+  .Home__tiles .custom-image-height {
+    width:  70vh;
+   
   }
-  .row > .col-md-6:nth-child(even) {
-    order: 1;
-  }
+
+  
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .BackgroundImage .fs-bold {
     font-size: 1em;
   }
-  .Content-section{
-    position: absolute;
+  .Picture-Container .row{
+
+    --bs-gutter-x:-18em !important;
     
+    }
+
+  .Content-section {
+    position: absolute;
   }
+
   .BackgroundImage .fs-4 {
     font-size: 0.8em !important;
   }
+
   .Our_Work .bg-dark {
     position: relative;
+    top: -10em;
+  }
 
-    top: -2vh ;
-    
-  }
   .content-container {
-    bottom: 35vh !important;
+    top: -15em !important;
   }
+
   .Carousel-Image {
-    top: 15em;
+    top: 17em;
   }
+
   .Carousel-Image .w-50 {
-    width: 35% !important;
+    width: 30% !important;
   }
+
   .Carousel-Image .text-black-50 {
-    font-size: 0.9em !important;
+    font-size: 0.5em !important;
   }
+
   .text-overlay i {
     font-size: 4rem !important;
   }
+
   .text-overlay p {
     font-size: 1.4rem !important;
   }
-  .custom-image-height {
-    height: 25vh;
-  }
+
+  
+
   .BackgroundText .top-50 {
     top: 100% !important;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575px) and (min-width: 500px) {
   .BackgroundImage .fs-bold {
-    font-size: 1em;
+    font-size: 0.8em;
   }
-  .BackgroundImage .fs-4 {
-    font-size: 0.6em !important;
+  .Picture-Container .row{
+
+    --bs-gutter-x:-25em !important;
+    
+  
+    }
+
+  .BackgroundImage .fs-lighter {
+    font-size: 0.8em !important;
   }
+
   .Our_Work .bg-dark {
     position: relative;
     top: -5em;
-   
   }
+
   .approach-item h3 {
-    font-size:1.0em;
+    font-size: 1em;
   }
+
   .content-container {
-    bottom: 30vh !important;
+    position: relative;
+    top: -10em !important;
   }
+
   .Carousel-Image {
-    top: 22em;
+    top: 20em;
   }
+
   .Carousel-Image .w-50 {
-    width: 30% !important;
+    width: 20% !important;
   }
+
   .Carousel-Image .text-black-50 {
-    font-size: 0.6em !important;
+    font-size: 0.5em !important;
   }
+
   .text-overlay i {
     font-size: 3rem !important;
   }
+
   .text-overlay p {
     font-size: 0.6rem !important;
   }
+
   .custom-image-height {
     height: 20vh;
   }
+
   .BackgroundText .top-50 {
     top: 100% !important;
+  }
+}
+
+@media (max-width: 499px) {
+  .BackgroundImage .fs-lighter {
+    font-size: 0.5em !important;
+  }
+  .Picture-Container .row{
+
+    --bs-gutter-x:-18em !important;
+    position: relative;
+    top: 2em;
+    
+  
+    }
+   
+
+  .Our_Work .bg-dark {
+    position: relative;
+    top: -5em !important;
+  }
+
+  .approach-item h3 {
+    font-size: 0.5em;
+  }
+
+  .content-container {
+    position: relative;
+    top: -10em !important;
+  }
+
+  .Carousel-Image {
+    position: relative;
+    top: 22em !important;
+  }
+
+  .Carousel-Image .w-50 {
+    width: 25% !important;
+  }
+
+  .Carousel-Image .text-black-50 {
+    font-size: 0.3em !important;
+  }
+
+  .BackgroundText .top-50 {
+    top: 100% !important;
+  }
+
+  .text-overlay i {
+    font-size: 1.5rem !important;
+  }
+
+  .text-overlay p {
+    font-size: 0.8rem !important;
+  }
+
+  .custom-image-height {
+    height: 20vh;
   }
 }

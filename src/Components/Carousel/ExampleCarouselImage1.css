@@ -1,48 +1,35 @@
-.image-container {
-    display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap; 
-  }
-  
-  .image-wrapper {
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    margin: 10px;
-    cursor: pointer;
-  }
-  
-  
-  
-  .image-wrapper.zoomed {
-    transform: scale(1.5); 
-    z-index: 1; 
-    position: relative; 
-  }
-  
+.example-carousel-image__container {
+  display: flex;
+  justify-content: space-around; /* Adjust as per your layout needs */
+  flex-wrap: wrap; /* Allow the images to wrap to the next line */
+}
 
-  .image-wrapper.shipyaari img {
-    width: 280px; 
-    height: 100px;
-  }  
-  .image-wrapper.airrnp img {
-    width: 280px; 
-    height: 100px;
-  }
-  
-  .image-wrapper.getmock img {
-    width: 280px; 
-    height: 100px;
-  }
-  
-  .carousel-indicators .active {
-    opacity: 0 !important;
-  }
-  .image-wrapper .parkers img {
-    width: 280px; 
-    height: 100px;
-  }
-  
-  .image-wrapper:hover {
-    transform: scale(1.1); /* Example zoom on hover */
-  }
-  
+.example-carousel-image__wrapper {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.example-carousel-image__wrapper--zoomed {
+  transform: scale(1.5); 
+  z-index: 1; 
+  position: relative; 
+}
+
+/* Specific styles for each image */
+.example-carousel-image__wrapper--shipyaari img,
+.example-carousel-image__wrapper--airrnp img,
+.example-carousel-image__wrapper--getmock img,
+.example-carousel-image__wrapper--parkers img {
+  width: 280px; 
+  height: 100px;
+}
+
+.carousel-indicators .active {
+  opacity: 0 !important;
+}
+
+.example-carousel-image__wrapper:hover {
+  transform: scale(1.1); /* Example zoom on hover */
+}

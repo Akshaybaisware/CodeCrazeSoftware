@@ -1,0 +1,112 @@
+.custom-body {
+  font-size: 0.8rem; /* Smaller base font size */
+}
+
+.custom-header h1,
+.custom-header h2,
+.custom-header h3,
+.custom-header h4,
+.custom-header h5,
+.custom-header h6 {
+  margin-bottom: 0.5rem; /* Smaller margin for headings */
+}
+
+.custom-paragraph p {
+  margin-bottom: 0.5rem; /* Smaller margin for paragraphs */
+}
+
+.custom-subtle-shadow {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25); /* Darker shadow with more vertical spread */
+}
+
+.custom-container {
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 1rem; /* Add padding */
+  margin-bottom: 50px;
+  position: relative; /* Ensure the container positions correctly */
+}
+
+.custom-container .custom-row > div {
+  padding: 0.5rem; /* Reduce padding for each column */
+}
+
+.custom-image {
+  border-radius: 50%; /* Circular border for image */
+}
+
+.custom-left-align-text {
+  text-align: left;
+}
+
+.custom-footer {
+  font-size: 0.75rem; /* Smaller font size for footer */
+}
+
+
+
+.page__feature1 {
+  background-color: #1f3c66;
+   text-align: center;
+  
+  background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%); /* Gradient background */
+  color: white; 
+  padding: 50px;
+ height: 300px;
+}
+
+
+
+@media (max-width: 768px) {
+  .custom-container {
+    padding: 0.75rem; /* Adjust padding for smaller screens */
+  }
+
+  .custom-header h1,
+  .custom-header h2,
+  .custom-header h3,
+  .custom-header h4,
+  .custom-header h5,
+  .custom-header h6 {
+    margin-bottom: 0.25rem; /* Adjust margin for smaller screens */
+  }
+
+  .custom-paragraph p {
+    margin-bottom: 0.25rem; /* Adjust margin for smaller screens */
+  }
+
+  .custom-container .custom-row > div {
+    padding: 0.25rem; /* Reduce padding for each column on smaller screens */
+  }
+
+  .custom-footer {
+    font-size: 0.7rem; /* Smaller font size for footer on smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-container {
+    padding: 0.5rem; /* Further adjust padding for very small screens */
+  }
+
+  .custom-header h1,
+  .custom-header h2,
+  .custom-header h3,
+  .custom-header h4,
+  .custom-header h5,
+  .custom-header h6 {
+    margin-bottom: 0.2rem; /* Further adjust margin for very small screens */
+  }
+
+  .custom-paragraph p {
+    margin-bottom: 0.2rem; /* Further adjust margin for very small screens */
+  }
+
+  .custom-container .custom-row > div {
+    padding: 0.2rem; /* Reduce padding for each column on very small screens */
+  }
+
+  .custom-footer {
+    font-size: 0.65rem; /* Smaller font size for footer on very small screens */
+  }
+}
