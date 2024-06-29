@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
 
-
-
 .Carousel__Row .text-overlay {
   position: absolute;
   top: 0;
@@ -15,11 +13,9 @@
   color: white;
   text-align: center;
   padding: 20px;
-
   font-family: 'Catamaran', sans-serif;
   background: transparent;
 }
-
 
 .BackgroundImage {
   position: relative;
@@ -28,16 +24,21 @@
   max-width: 100%;
 }
 
-.BackgroundImage img {
-  width: 100%;
+.BackgroundImage .Home__BackgroundImage {
+  max-width: 100%;
   background-attachment: fixed !important;
   background-position: center !important;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 80vh; 
 }
 
-.Carousel__Row .text-overlay i {
-  font-size: 5rem;
+.Home-Picture-Container .Home-Image {
+  max-width: 100%;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Picture-Container {
@@ -45,26 +46,30 @@
   bottom: 35rem !important;
 }
 
-.approach-item img {
-  width: 100px !important;
-  height: 100px !important;
+.Home__carousel .Home__Description {
+  position: relative;
+  top: -27em;
 }
 
-.Carousel__Row .text-overlay p {
-  font-size: 1rem;
+.Home__carousel .Home__Description .fs-1 {
+  font-size: 3em !important;
 }
 
 .BackgroundImage .top-50 {
   top: 20% !important;
 }
 
-.Carousel__Row .row {
-  display: ruby !important;
+.Home__carousel .Home__Description .fs-1 {
+  font-size: 4em !important;
 }
 
 .BackgroundImage .fs-bold {
   font-weight: bold;
   font-family: 'Catamaran', sans-serif;
+}
+
+.BackgroundImage .fs-1 {
+  font-size: 4em !important;
 }
 
 .BackgroundImage .fs-lighter {
@@ -73,132 +78,60 @@
   font-family: 'Catamaran', sans-serif;
 }
 
-.Paragraph {
+.Home__carousel .Homecarousel__image {
+  background-color: #343a40; 
+  padding: 20px;
+  position: relative;
+  top: -25em;
+}
+
+.Home__carousel .carousel-inner {
+  padding: 10px;
+}
+
+.Home__carousel img {
+  height: 150px; 
+  object-fit: cover; 
+}
+
+.BackgroundImage .Home-Picture-Container {
+  position: relative;
+  top: -36em;
+}
+
+.Home-Image {
+  width: 100%;
+  height: auto;
+}
+
+.Home-Paragraph {
   background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
   width: 13vw !important;
 }
 
-.Paragraph:hover {
+.Home-Paragraph:hover {
   color: black !important;
   border-width: 0.1rem !important;
   border-style: solid !important;
   border-color: blue !important;
 }
 
-.content-container {
+.Home__approachesection .text-center {
+  font-size: 0.9em !important;
+}
+
+.Home__approachesection .Our__business {
+  font-size: 4em !important;
+}
+
+.Home__approachesection .text-body-secondary {
+  color: grey !important;
+  font-size: 1.25em !important;
+}
+
+.Home__approachesection {
   position: relative;
-  top: -110em;
-  text-align: center;
-}
-
-.content-container .fs-bold {
-  font-weight: bold;
-  font-family: 'Catamaran', sans-serif;
-}
-
-.content-container .fs-lighter {
-  font-family: 'Catamaran', sans-serif;
-  font-weight: lighter !important;
-  color: grey;
-  font-size: medium !important;
-}
-
-.Our_Work .bg-dark {
-  position: absolute;
-  bottom: 93em;
-  width: 99%;
-  overflow: hidden;
-  max-height: 40vh;
-}
-.Our_Work .content-container{
-  position: relative;
-  top: -26em;
-}
-
-.business-approach {
-  text-align: center;
-  padding: 20px;
-}
-
-.business-approach h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.business-approach p {
-  margin-bottom: 30px;
-}
-
-.approach-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.approach-item {
-  width: 30%;
-  margin: 20px 0;
-  text-align: center;
-}
-
-.approach-item img {
-  width: 50px;
-  height: 50px;
-}
-
-.approach-item h3 {
-  font-size: 1.5em;
-  margin: 10px 0;
-}
-
-.approach-item p {
-  font-size: 1em;
-}
-
-.Content-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f2f5;
-  font-family: Arial, sans-serif;
-}
-
-.content {
-  display: flex;
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-section {
-  flex: 1;
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.text-section {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: normal;
-  background-color: #4a4e9c;
-  color: white;
-}
-
-.text-section h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.text-section p {
-  font-size: 1.2em;
-  margin-bottom: 40px;
+  bottom: 14em;
 }
 
 
@@ -206,250 +139,144 @@
   padding: 0;
 }
 
-.padding_fourth .background_sixth{
+.BackgroundImage .text-overlay {
+  position: absolute !important;
+  top: 10rem !important;
+}
+
+.padding_fourth {
+  position: relative;
+}
+
+.padding_fourth .heading_sixth {
+  font-size: 3.5em !important;
+}
+
+.padding_fourth .btn_apply_sixth {
+  width: 200px;
+  padding: 1em;
+}
+
+.padding_fourth .background_sixth {
   background-color: #4a4e9c !important;
 }
 
-
-
-
-
-
-
-
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .BackgroundImage .fs-bold {
     font-size: 1em;
   }
-  .Picture-Container .row{
-
-  --bs-gutter-x:-22em !important;
-  
+  .Home__approachesection {
+    
+    bottom: 12em !important;
   }
-  .Content-section {
-    position: absolute;
+ .Home__tiles .Home__tilesRow .custom-image-effect{
+    width: 50vw !important;
   }
-
+  .Home__carousel .Home__Description {
+    position: relative;
+    top: -23em;
+  }
   .BackgroundImage .fs-4 {
     font-size: 0.8em !important;
   }
-
-  .Our_Work .bg-dark {
+  .Home__carousel .Homecarousel__image {
+    background-color: #343a40;
+    padding: 20px;
     position: relative;
-    top: -13em;
-    overflow: hidden;
-    max-height: 60vh;
+    top: -23em;
   }
-
-  .Our_Work .content-container {
-    position: relative;
-    top: -17em;
-  }
-
-  .Carousel-Image {
-    top: 11em;
-  }
-
-  .Carousel-Image .w-50 {
-    width: 45% !important;
-  }
-
-  .text-overlay i {
-    font-size: 4rem !important;
-  }
-
-  .text-overlay p {
-    font-size: 1.1rem !important;
-  }
-
-  .text-overlay h4 {
-    font-size: 1.8rem !important;
-  }
-  .Carousel-Image .text-black-50 {
-    font-size: 0.7em !important;
-  }
-
-
-  .Home__tiles .custom-image-height {
-    width:  70vh;
-   
-  }
-
   
+
+  .BackgroundImage .Home-Picture-Container {
+    top: -38em;
+  }
+  .Home-Image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .BackgroundImage .fs-bold {
     font-size: 1em;
   }
-  .Picture-Container .row{
-
-    --bs-gutter-x:-18em !important;
-    
-    }
-
-  .Content-section {
-    position: absolute;
+  .Home__carousel .Home__Description {
+    position: relative;
+    top: -26em;
   }
-
+  .BackgroundImage .Home-Picture-Container {
+    top: -40em;
+  }
+  
+  .Home__carousel .Homecarousel__image {
+    top: -25em;
+  }
+  .Home-Picture-Container .Home-Image {
+    width: 45vh !important;
+  }
   .BackgroundImage .fs-4 {
     font-size: 0.8em !important;
   }
-
-  .Our_Work .bg-dark {
-    position: relative;
-    top: -10em;
-    overflow: hidden;
-    max-height: 30vh;
-  }
-
-  .content-container {
-    top: -15em !important;
-  }
-
-  .Carousel-Image {
-    top: 17em;
-  }
-
-  .Carousel-Image .w-50 {
-    width: 30% !important;
-  }
-
-  .Carousel-Image .text-black-50 {
-    font-size: 0.5em !important;
-  }
-
-  .text-overlay i {
-    font-size: 4rem !important;
-  }
-
-  .text-overlay p {
-    font-size: 1.4rem !important;
-  }
-
-  
-
   .BackgroundText .top-50 {
     top: 100% !important;
   }
+  .Home-Picture-Container {
+    top: -22em;
+  }
+  .Home-Image {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 
-@media (max-width: 575px) and (min-width: 500px) {
+@media (max-width: 575.98px) and (min-width: 500px) {
   .BackgroundImage .fs-bold {
     font-size: 0.8em;
   }
-  .Picture-Container .row{
-
-    --bs-gutter-x:-25em !important;
-    
-  
-    }
-
-  .BackgroundImage .fs-lighter {
-    font-size: 0.8em !important;
+  .Home__carousel .Homecarousel__image {
+    top: -23em;
   }
-
-  .Our_Work .bg-dark {
+  .Home__carousel .Home__Description {
     position: relative;
-    top: -5em;
-    overflow: hidden;
-    max-height: 30vh;
+    top: -23em;
   }
-
-  .approach-item h3 {
-    font-size: 1em;
+  .BackgroundImage .Home-Picture-Container {
+    top: -33em;
+    width: 40vh !important;
   }
-
-  .content-container {
-    position: relative;
-    top: -10em !important;
-  }
-
-  .Carousel-Image {
-    top: 20em;
-  }
-
-  .Carousel-Image .w-50 {
-    width: 20% !important;
-  }
-
-  .Carousel-Image .text-black-50 {
-    font-size: 0.5em !important;
-  }
-
-  .text-overlay i {
-    font-size: 3rem !important;
-  }
-
-  .text-overlay p {
-    font-size: 0.6rem !important;
-  }
-
-  .custom-image-height {
-    height: 20vh;
-  }
-
   .BackgroundText .top-50 {
     top: 100% !important;
   }
 }
 
-@media (max-width: 499px) {
+@media (max-width: 499.98px) {
   .BackgroundImage .fs-lighter {
     font-size: 0.5em !important;
   }
-  .Picture-Container .row{
-
-    --bs-gutter-x:-15em ;
+  .BackgroundImage .Home-Picture-Container {
+    top: -31em;
+    width: 40vh !important;
+  }
+  .Home__carousel .Homecarousel__image {
+    top: -25em;
+  }
+  .Home__carousel .Home__Description {
     position: relative;
-    top: 3em;
-    
-  
-    }
-   
-
-  .Our_Work .bg-dark {
-    position: relative;
-    top: -5em !important;
-    overflow: hidden;
-    max-height: 30vh;
+    top: -25em;
   }
-
-  .approach-item h3 {
-    font-size: 0.5em;
-  }
-
-  .content-container {
-    position: relative;
-    top: -10em !important;
-  }
-
-  .Carousel-Image {
-    position: relative;
-    top: 22em !important;
-  }
-
-  .Carousel-Image .w-50 {
-    width: 25% !important;
-  }
-
-  .Carousel-Image .text-black-50 {
-    font-size: 0.2em !important;
-  }
-
   .BackgroundText .top-50 {
     top: 100% !important;
   }
+}
 
-  .text-overlay i {
-    font-size: 1.5rem !important;
+@media (min-width: 1200px) {
+  .Home-Picture-Container {
+    top: -33em;
   }
-
-  .text-overlay p {
-    font-size: 0.8rem !important;
-  }
-
-  .custom-image-height {
-    height: 20vh;
+  .Home-Image {
+    width: 100%;
+    height: auto;
   }
 }
