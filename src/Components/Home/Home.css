@@ -169,9 +169,7 @@
     
     bottom: 12em !important;
   }
- .Home__tiles .Home__tilesRow .custom-image-effect{
-    width: 50vw !important;
-  }
+
   .Home__carousel .Home__Description {
     position: relative;
     top: -23em;
@@ -185,7 +183,9 @@
     position: relative;
     top: -23em;
   }
-  
+  .padding_fourth{
+    top:0em;
+  }
 
   .BackgroundImage .Home-Picture-Container {
     top: -38em;

@@ -78,16 +78,3 @@
   color: #ff4c4c;
 }
 
-@media (max-width: 991px) and (min-width: 556px) {
-  .footer {
-    position: relative;
-    top: 6em;  /* Adjusted for larger height */
-  }
-}
-
-@media (max-width: 556px) {
-  .footer {
-    position: relative;
-    top: 6em;  /* Adjusted for larger height */
-  }
-}
