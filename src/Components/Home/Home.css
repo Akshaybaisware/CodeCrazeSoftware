@@ -19,7 +19,7 @@
 
 .BackgroundImage {
   position: relative;
-  width: 100%;
+ 
   height: auto;
   max-width: 100%;
 }
@@ -30,7 +30,7 @@
   background-position: center !important;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 80vh; 
+  min-height: 150vh; 
 }
 
 .Home-Picture-Container .Home-Image {
@@ -48,19 +48,31 @@
 
 .Home__carousel .Home__Description {
   position: relative;
-  top: -27em;
+  bottom: 32em;
 }
 
 .Home__carousel .Home__Description .fs-1 {
   font-size: 3em !important;
 }
 
+.Home__tiles .icon-large {
+  font-size: 5rem; /* Adjust the size as needed */
+}
+.Home__approachesection .icon-large {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}
+
+
 .BackgroundImage .top-50 {
   top: 20% !important;
 }
+.Home__carousel{
+  margin-bottom:-460px !important;
+}
 
 .Home__carousel .Home__Description .fs-1 {
-  font-size: 4em !important;
+  font-size: 3em !important;
 }
 
 .BackgroundImage .fs-bold {
@@ -69,7 +81,7 @@
 }
 
 .BackgroundImage .fs-1 {
-  font-size: 4em !important;
+  font-size: 3em !important;
 }
 
 .BackgroundImage .fs-lighter {
@@ -82,7 +94,7 @@
   background-color: #343a40; 
   padding: 20px;
   position: relative;
-  top: -25em;
+  bottom: 33em;
 }
 
 .Home__carousel .carousel-inner {
@@ -96,7 +108,7 @@
 
 .BackgroundImage .Home-Picture-Container {
   position: relative;
-  top: -36em;
+  top: -48em;
 }
 
 .Home-Image {
@@ -121,7 +133,7 @@
 }
 
 .Home__approachesection .Our__business {
-  font-size: 4em !important;
+  font-size: 3em !important;
 }
 
 .Home__approachesection .text-body-secondary {
@@ -129,10 +141,7 @@
   font-size: 1.25em !important;
 }
 
-.Home__approachesection {
-  position: relative;
-  bottom: 14em;
-}
+
 
 
 .Home_custom_container .no-padding {
@@ -141,16 +150,31 @@
 
 .BackgroundImage .text-overlay {
   position: absolute !important;
-  top: 10rem !important;
+  top: 8rem !important;
 }
 
-.padding_fourth {
-  position: relative;
-}
 
 .padding_fourth .heading_sixth {
-  font-size: 3.5em !important;
+  font-size: 3.01em !important;
 }
+.Home__tileContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 0 15px;
+  width: 100%;
+}
+.Home__tileContent h3 {
+  font-size: 1.75rem; /* Increase font size for the headers */
+}
+.Home__tileContent p {
+  margin-top: 10px;
+  font-size: 1.25rem; /* Increase font size for the paragraphs */
+}
+
 
 .padding_fourth .btn_apply_sixth {
   width: 200px;
@@ -165,14 +189,19 @@
   .BackgroundImage .fs-bold {
     font-size: 1em;
   }
+  
+  .BackgroundImage .fs-4 {
+    font-size: 0.8em !important;
+  }
+
   .Home__approachesection {
     
-    bottom: 12em !important;
+    bottom: 2em !important;
   }
 
   .Home__carousel .Home__Description {
     position: relative;
-    top: -23em;
+    top: -28em;
   }
   .BackgroundImage .fs-4 {
     font-size: 0.8em !important;
@@ -181,11 +210,9 @@
     background-color: #343a40;
     padding: 20px;
     position: relative;
-    top: -23em;
+    top: -31em;
   }
-  .padding_fourth{
-    top:0em;
-  }
+ 
 
   .BackgroundImage .Home-Picture-Container {
     top: -38em;
@@ -201,20 +228,19 @@
   .BackgroundImage .fs-bold {
     font-size: 1em;
   }
+  
   .Home__carousel .Home__Description {
     position: relative;
-    top: -26em;
+    top: -29em;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -40em;
+    top: -36em;
   }
   
   .Home__carousel .Homecarousel__image {
-    top: -25em;
+    top: -31em;
   }
-  .Home-Picture-Container .Home-Image {
-    width: 45vh !important;
-  }
+  
   .BackgroundImage .fs-4 {
     font-size: 0.8em !important;
   }
@@ -225,7 +251,7 @@
     top: -22em;
   }
   .Home-Image {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
   }
@@ -236,16 +262,17 @@
     font-size: 0.8em;
   }
   .Home__carousel .Homecarousel__image {
-    top: -23em;
+    top: -31em;
   }
   .Home__carousel .Home__Description {
     position: relative;
-    top: -23em;
+    top: -31em;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -33em;
-    width: 40vh !important;
+    top: -35em;
+    
   }
+  
   .BackgroundText .top-50 {
     top: 100% !important;
   }
@@ -256,20 +283,42 @@
     font-size: 0.5em !important;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -31em;
-    width: 40vh !important;
+    top: -33em;
+    
   }
   .Home__carousel .Homecarousel__image {
-    top: -25em;
+    top: -30em;
   }
   .Home__carousel .Home__Description {
     position: relative;
-    top: -25em;
+    top: -27em;
+  }
+  .BackgroundImage .fs-1{
+    font-size:2em !important;
+  }
+  .BackgroundImage .fs-5{
+    font-size:1em !important;
   }
   .BackgroundText .top-50 {
     top: 100% !important;
   }
+  .Home__carousel .Home__Description .fs-1{
+    font-size:2em !important;
+
+  }
+  .Home__carousel .Home__Description .fs-5{
+    font-size:1em !important;
+
+  }
+  .Home__approachesection .Our__business{
+    font-size: 2em !important;
+  }
+  .Home__approachesection .text-body-secondary {
+    font-size: 1em !important;
+
+  }
 }
+
 
 @media (min-width: 1200px) {
   .Home-Picture-Container {

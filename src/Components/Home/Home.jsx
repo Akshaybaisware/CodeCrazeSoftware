@@ -101,10 +101,10 @@ function Home() {
     <Col xs={12} md={6} lg={4} className="m-0 p-0 order-md-1">
       <div style={{ position: 'relative' }}>
         <Image src={Picture5} fluid style={{ height: '400px', objectFit: 'cover' }} />
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white', textAlign: 'center' }}>
-          <i className="bi fs-1 bi-pause-fill"></i>
-          <h3 className="fw-bold fs-3">We design</h3>
-          <p className="fs-6 color-light">
+        <div className="Home__tileContent">
+          <i className="bi icon-large bi-pause-fill"></i>
+          <h3 className="fw-bold fs-2">We design</h3>
+          <p className="fs-5 color-light">
             Having experience in designing engaging UI, we assure you to
             cater optimal quality solutions that definitely boost business’
             performance incredibly.
@@ -114,12 +114,12 @@ function Home() {
     </Col>
     <Col xs={12} md={12} lg={4} className="m-0 p-0 order-md-3">
       <div className="text-center" style={{ position: 'relative' }}>
-        <Image src={Picture6} fluid style={{ height: '400px', objectFit: 'cover' }} className="" />
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white', textAlign: 'center' }}>
-          <i className="bi fs-1 bi-play"></i>
+        <Image src={Picture6} fluid style={{ height: '400px', objectFit: 'cover' }} />
+        <div className="Home__tileContent">
+          <i className="bi icon-large bi-play"></i>
           <h3 className="fw-bold fs-2">We develop</h3>
-          <p className="fs-6 color-light custom-p-tag">
-            CodeCrazeSoftware Solutions, we are bestowed with dexterity to
+          <p className="fs-5 color-light custom-p-tag">
+            At CodeCraze Software Solutions, we are bestowed with dexterity to
             develop all your minutest application development specifications
             acutely & exact to the described requirements.
           </p>
@@ -129,10 +129,10 @@ function Home() {
     <Col xs={12} md={6} lg={4} className="m-0 p-0 order-md-2">
       <div className="text-center" style={{ position: 'relative' }}>
         <Image src={Picture7} fluid style={{ height: '400px', objectFit: 'cover' }} />
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white', textAlign: 'center' }}>
-          <i className="bi fs-1 bi-stop-fill"></i>
+        <div className="Home__tileContent">
+          <i className="bi icon-large bi-stop-fill"></i>
           <h3 className="fw-bold fs-2">We test it</h3>
-          <p className="fs-6 color-light p-0">
+          <p className="fs-5 color-light p-0">
             Our application development team tests the developed solutions
             thoroughly from the root and ensures satisfactory solution
             delivery within stipulated time.
@@ -142,6 +142,8 @@ function Home() {
     </Col>
   </Row>
 </div>
+
+
 
 
 
@@ -230,8 +232,8 @@ function Home() {
     <Row className="d-none d-lg-flex">
       <Col xs={12} md={4}>
         <Image src={Picture8} className="Home-Image img-fluid" />
-        <p className="fs-5 fw-bold">Enterprise Solutions</p>
-        <p className="text-black-50">
+        <p className="fs-3 fw-bold">Enterprise Solutions</p>
+        <p className="text-black-50 fs-5  mb-4">
           We work with large enterprises as well as small & medium-sized
           enterprises. We transform the way small, medium & large
           enterprises conduct their business with customers / clients,
@@ -243,8 +245,8 @@ function Home() {
       </Col>
       <Col xs={12} md={4}>
         <Image src={Picture9} className="Home-Image img-fluid" />
-        <p className="fs-5 fw-bold">Agencies</p>
-        <p className="text-black-50">
+        <p className="fs-3 fw-bold">Agencies</p>
+        <p className="text-black-50 fs-5 mb-4">
           We work with consulting companies, independent software vendors
           (ISVs), software product development companies or agencies. We
           partner with agencies to work on a project end-to-end, or as an
@@ -256,8 +258,8 @@ function Home() {
       </Col>
       <Col xs={12} md={4}>
         <Image src={Picture10} className="Home-Image img-fluid" />
-        <p className="fs-5 fw-bold">Startups</p>
-        <p className="text-black-50">
+        <p className="fs-3 fw-bold">Startups</p>
+        <p className="text-black-50 fs-5 mb-4">
           We worked with more than 100+ global tech startups for their
           web/cloud/mobile/IOT needs. We empower and support startups with
           our digital expertise & experience at each stage whether you are
@@ -276,7 +278,7 @@ function Home() {
       <div className="Home__carousel ">
         <Container className="Home__Description text-center mb-5 ">
         <p className="fs-1 fw-bold ">Our Work</p>
-        <p className=" fs-5" >Yes, at CodeCraze Software, we're obsessed with quality. We rely on our portfolio to do business and<br/> always ensure that each of our web or mobile deliverable is unique and world class.
+        <p className=" fs-5 text-black-50 " >Yes, at CodeCraze Software, we're obsessed with quality. We rely on our portfolio to do business and<br/> always ensure that each of our web or mobile deliverable is unique and world class.
         </p>
         </Container>
       <Carousel data-bs-theme="dark" interval={3000} className="Homecarousel__image"> 
@@ -335,36 +337,33 @@ function Home() {
 
 
 
-      <Container className="Home__approachesection">
-      
-        <p className="text-center fs-1 fw-bold Our__business ">Our business approach.
-        </p>
-        <p className="text-body-secondary mb-5 text-center "> Every business is different and our approach towards clients makes us stand in crowd, making CodeCrazeSoftware solution  as their first choice for IT solutions.
-        </p>
-    
-        <Row className="mx-5 text-center">
-          {approaches.map((approach, index) => (
-            <Col key={index} xs={12} md={6} lg={4} className="mb-4">
-              <div className="approach-card p-3">
-                <img src={approach.icon} alt={approach.title} className="icon mb-3" />
-                <h3 className="fw-bold">{approach.title}</h3>
-                <p className="text-body-secondary " >{approach.description}</p>
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </Container>
+    <Container className="Home__approachesection">
+  <p className="text-center fs-1 fw-bold Our__business">Our business approach.</p>
+  <p className="text-body-secondary mb-5 text-center">Every business is different and our approach towards clients makes us stand in the crowd, making CodeCrazeSoftware solution their first choice for IT solutions.</p>
+
+  <Row className="mx-5 text-center">
+    {approaches.map((approach, index) => (
+      <Col key={index} xs={12} md={6} lg={4} className="mb-4">
+        <div className="approach-card p-3">
+          <img src={approach.icon} alt={approach.title} className="icon mb-3 icon-large" />
+          <h3 className="fw-bold">{approach.title}</h3>
+          <p className="text-body-secondary">{approach.description}</p>
+        </div>
+      </Col>
+    ))}
+  </Row>
+</Container>
 
    
     <Container fluid className="padding_fourth ">
       <Row >
         <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0">
-          <Image src={SideImage} alt="Sixth Section" className="sixth_image w-100 h-100" />
+          <Image src={SideImage} alt="Sixth Section" className="sixth_image w-100 " />
         </Col>
         <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 text-white d-flex align-items-center">
-          <div className="background_sixth p-5 w-100 h-100 d-flex flex-column justify-content-center">
-            <h2 className="heading_sixth fw-bold p-5 fs-2 mb-1">Engaging,<br/> purposeful, and<br/> creative<span className="extra">.</span></h2>
-            <p className="heading_sub_sixth mb-3 fs-5 p-5">
+          <div className="background_sixth p-5 w-100  d-flex flex-column justify-content-center">
+            <h2 className="heading_sixth fw-bold mb-3  fs-3">Engaging,<br/> purposeful, and<br/> creative<span className="extra">.</span></h2>
+            <p className="heading_sub_sixth mb-2 fs-5 ">
               Every business is unique and so are its needs. At CodeCrazeSoftware solution, we provide the best solutions for designing, development, and digital marketing.
             </p>
             <Button variant="light" className="mt-2 rounded-pill btn_apply_sixth">
