@@ -115,8 +115,11 @@
   width: 100%;
   height: auto;
 }
+.Home-Picture-Container .Home-Paragraph1{
+  background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
 
-.Home-Paragraph {
+}
+.Home-Picture-Container .Home-Paragraph {
   background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
   width: 13vw !important;
 }
@@ -283,7 +286,7 @@
     font-size: 0.5em !important;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -33em;
+    top: -38em;
     
   }
   .Home__carousel .Homecarousel__image {

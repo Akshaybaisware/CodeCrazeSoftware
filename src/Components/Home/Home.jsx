@@ -172,6 +172,9 @@ function Home() {
               enterprises conduct their business with customers / clients,
               vendors / suppliers, partners and employees in this digital age.
             </p>
+            <Button variant="secondary" className="Home-Paragraph1 mx-4 px-4  rounded-pill" size="lg">
+          More
+        </Button>
           </Carousel.Item>
           <Carousel.Item>
             <Image src={Picture9} className="d-block w-100 Home-Image" alt="Agencies" />
@@ -183,6 +186,9 @@ function Home() {
               end-to-end, or as an extended team to build their client's
               project successfully.
             </p>
+            <Button variant="secondary" className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
+          More
+        </Button>
           </Carousel.Item>
           <Carousel.Item>
             <Image src={Picture10} className="d-block w-100 Home-Image" alt="Startups" />
@@ -193,6 +199,9 @@ function Home() {
               with our digital expertise & experience at each stage whether
               you are at Seed stage OR Expansion stage.
             </p>
+            <Button variant="secondary" className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
+          More
+        </Button>
           </Carousel.Item>
         </Carousel>
       </Col>
