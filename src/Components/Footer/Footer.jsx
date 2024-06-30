@@ -10,10 +10,10 @@ const Footer = () => {
       <div className="container">
         <div className="row mb-4">
           <div className="col-md-6">
-            <h2 className="text-white">
+            <h2 className="text-white mb-5">
               Get in touch <span className="text-danger">!</span>
             </h2>
-            <p className="text-white">Your technical partner towards web success.</p>
+            <p className="text-white mb-5" >Your technical partner towards web success.</p>
             <button className="btn btn-outline-light">Contact Us</button>
           </div>
           <div className="col-md-6">
@@ -54,11 +54,11 @@ const Footer = () => {
               <FontAwesomeIcon icon={faMapMarkerAlt} /> Contact Information
             </h3>
             <p>
-              <FontAwesomeIcon icon={faEnvelope} /> Email: 
+              <FontAwesomeIcon icon={faEnvelope} /> Email:
               <a href="mailto:prafulanathile@gmail.com" className="text-danger"> prafulanathile@gmail.com</a>
             </p>
             <p>
-              <FontAwesomeIcon icon={faPhone} /> Phone: 
+              <FontAwesomeIcon icon={faPhone} /> Phone:
               <a href="tel:+919970850512" className="text-danger"> 9503007527/9403452788</a>
             </p>
             <p>
