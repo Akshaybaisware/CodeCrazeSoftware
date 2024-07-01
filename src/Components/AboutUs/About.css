@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+ 
   background-color: #d9d9d9;
 }
 
@@ -12,9 +14,7 @@ body {
   transition: box-shadow 0.3s ease;
 }
 
-.shadow-lg section:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
-}
+
 
 .about-us-success-section .text-center i {
   background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
@@ -26,26 +26,30 @@ body {
 .about-us-overview-section,
 .about-us-success-section,
 .about-us-clients-section {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
+.about-us-description-businessrelationships .mt-5{
+  font-size: 1.5em;
 
+}
 .about-us-section {
   word-wrap: break-word;
   font-family: "Catamaran, sans-serif";
   line-height: 29px;
   color: #f8f4f4;
   background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
-  padding: 2em 1em;
+  padding: 5em 5em;
 }
 
 .about-us-success-section .text-center li {
   font-weight: bold;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .about-us-success-section .text-center p {
   text-align: left;
   font-weight: lighter;
-  font-family: 'Catamaran, sans-serif';
+  
   color: grey;
 }
 
@@ -60,6 +64,7 @@ body {
   animation: typing 5s steps(10) infinite;
   animation-duration: 5s;
   animation-timing-function: steps(10);
+   font-family: 'Catamaran', sans-serif;
 }
 
 @keyframes typing {
@@ -70,6 +75,7 @@ body {
 .about-us-description {
   font-size: 20px;
   line-height: 1.5;
+
 }
 
 .about-us-icon {
@@ -98,7 +104,9 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
-
+.about-us-section .p-5{
+  padding: 6rem !important;
+}
 .about-us-content {
   display: flex;
   flex-wrap: wrap;
@@ -111,6 +119,7 @@ body {
   padding: 20px;
   font-weight: lighter !important;
   font-size: small;
+ 
 }
 
 .about-us-logos {
@@ -122,14 +131,18 @@ body {
 
 .about-us-logos img {
   width: 100%;
-  height: auto;
-  margin: 10px 0;
+  height: 200px;
+  margin: 0px 0;
 }
 
 .about-us-core-values {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+}
+.about-us-description-businessrelationships .mt-5{
+  margin-top: 7em !important;
 }
 
 .about-us-core-values-list {

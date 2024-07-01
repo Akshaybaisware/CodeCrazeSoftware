@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
 
 .OurExpertise-custom-body {
-  font-size: 1rem; /* Increased base font size */
+  font-size: 1rem;
   font-family: 'Catamaran', sans-serif;
 
 }
@@ -9,8 +9,8 @@
 
 
 .OurExpertise-custom-paragraph p {
-  font-size: 1.1rem; /* Increased font size for paragraphs */
-  margin-bottom: 1.5rem; /* Increased margin for paragraphs */
+  font-size: 1.1rem; 
+  margin-bottom: 1.5rem; 
   color: grey;
   font-family: 'Catamaran', sans-serif;
 }
@@ -88,36 +88,23 @@
   background: url('../../Images/third_background.jpg');
 }
 .OurExpertise-page-feature  #animatedText{
-    color: #fff;
-    text-transform: capitalize;
-    width: 35ch;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 46px;
-    animation: typing 5s steps(10) infinite;
-    -webkit-animation: typing 5s steps(10) infinite;
+  font-size: 46px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  width: 35ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(10) infinite;
+  animation-duration: 5s;
+  animation-timing-function: steps(10);
+   font-family: 'Catamaran', sans-serif;
 }
 
 @keyframes typing {
-  from {
-      width: 0;
-  }
-  to {
-      width: 35ch;
-  }
+  from { width: 0; }
+  to { width: 100%; }
 }
-
-@-webkit-keyframes typing {
-  from {
-      width: 0;
-  }
-  to {
-      width: 35ch;
-  }
-}
-
-
-
 .OurExpertise-page__feature1 {
   background-color: #1f3c66;
   text-align: center;
