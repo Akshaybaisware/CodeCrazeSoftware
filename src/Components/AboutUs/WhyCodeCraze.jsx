@@ -5,6 +5,8 @@ import {
   faThumbsUp, faLaptop, faMobileAlt, faGraduationCap, faUserShield, 
   faClipboardCheck, faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons';
+import { Container } from 'react-bootstrap';
+import "./WhyCodeCraze.css"
 
 const CompanyInfo = () => {
   const infoData = [
@@ -23,30 +25,49 @@ const CompanyInfo = () => {
   ];
 
   return (
-    <div className="container card_body p-5">
-      <div className="py-4">
-        <h3 className="mb-3 aboutheading">Who we are<span className="extra">.</span></h3>
-      </div>
-      <div className="row row_width">
-        {infoData.map((item, index) => (
-          <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-12">
-            <div className="card card_property_why" style={{ marginBottom: '20px', width: '100%', maxWidth: '250px' }}>
-              <div className="icon_why d-flex align-items-center justify-content-center" style={{ 
-                background: 'linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%)', 
-                borderRadius: '50%', 
-                padding: '20px',
-                width: 'fit-content'
-              }}>
-                <FontAwesomeIcon icon={item.icon} className="icon_why_inner" style={{ fontSize: '3rem', color: '#ffffff' }} />
-              </div>
-              <div className="text-center">
-                <h4 className="name">{item.title}</h4>
-                <p className="why_para">{item.description}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className='WhyCodeCraze p-0 m-0'> 
+      <div className='WhyCodeCraze__animatedText position-absolute w-100'>
+    <Container>
+        <p id="animatedText" className='fs-1 '>
+            Why CodeCrazeSoftware Solution Pvt Ltd.
+        </p>
+    </Container>
+</div>
+
+      <Container className="WhycodeCraze-container shadow-lg card_body p-4">
+        <div>
+          <h3 className="mb-3 fs-1 fw-bold WhycodeCraze-aboutheading">Who we are<span className="extra">.</span></h3>
+        </div>
+        <Container>
+          <Container>
+            <Container>
+              <Container>
+                <div className="row WhycodeCraze-row_width mt-3">
+                  {infoData.map((item, index) => (
+                    <div key={index} className="WhycodeCraze-info-card col-lg-3 col-sm-4 col-12 d-flex flex-column align-items-center p-2">
+                      <div className="card bg-light WhycodeCraze-card_property_why" style={{ marginBottom: '10px', width: '100%', maxWidth: '200px', height: '250px' }}>
+                        <div className="WhycodeCraze-icon_why d-flex align-items-center justify-content-center mx-auto" style={{ 
+                          background: 'linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%)', 
+                          borderRadius: '50%', 
+                          padding: '10px',
+                          margin: '20px 0',
+                          width: 'fit-content'
+                        }}>
+                          <FontAwesomeIcon icon={item.icon} className="WhycodeCraze-icon_why_inner" style={{ fontSize: '2rem', color: '#ffffff' }} />
+                        </div>
+                        <div className="text-center">
+                          <h4 className="WhycodeCraze-name mb-3">{item.title}</h4>
+                          <p className="WhycodeCraze-why_para text-secondary fs-5">{item.description}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </Container>
+            </Container>
+          </Container>
+        </Container>
+      </Container>
     </div>
   );
 };

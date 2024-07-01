@@ -49,7 +49,7 @@ body {
   color: grey;
 }
 
-#animatedText {
+.about-us-container #animatedText {
   font-size: 46px;
   font-weight: bold;
   color: #fff;

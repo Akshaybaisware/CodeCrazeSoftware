@@ -1,112 +1,179 @@
-.custom-body {
-  font-size: 0.8rem; /* Smaller base font size */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
+
+.OurExpertise-custom-body {
+  font-size: 1rem; /* Increased base font size */
+  font-family: 'Catamaran', sans-serif;
+
 }
 
-.custom-header h1,
-.custom-header h2,
-.custom-header h3,
-.custom-header h4,
-.custom-header h5,
-.custom-header h6 {
-  margin-bottom: 0.5rem; /* Smaller margin for headings */
+
+
+.OurExpertise-custom-paragraph p {
+  font-size: 1.1rem; /* Increased font size for paragraphs */
+  margin-bottom: 1.5rem; /* Increased margin for paragraphs */
+  color: grey;
+  font-family: 'Catamaran', sans-serif;
 }
 
-.custom-paragraph p {
-  margin-bottom: 0.5rem; /* Smaller margin for paragraphs */
-}
-
-.custom-subtle-shadow {
+.OurExpertise-custom-subtle-shadow {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25); /* Darker shadow with more vertical spread */
+  margin-top: 13em !important;
+  margin-bottom: 10em !important;
 }
 
-.custom-container {
+.OurExpertise-custom-container {
   max-width: 800px; /* Adjust the width as needed */
   margin: 0 auto; /* Center the container */
-  padding: 1rem; /* Add padding */
+  padding: 1.5rem; /* Add padding */
   margin-bottom: 50px;
   position: relative; /* Ensure the container positions correctly */
 }
 
-.custom-container .custom-row > div {
-  padding: 0.5rem; /* Reduce padding for each column */
+.OurExpertise-custom-container .OurExpertise-custom-row > div {
+  padding: 0.75rem; /* Increased padding for each column */
+}
+.OurExpertise-icon-gradient {
+  background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
+ border-radius: 50%;
+ padding: 0.5em;
+ position: relative;
+ top: -30px;
 }
 
-.custom-image {
+.OurExpertise-custom-paragraph {
+  position: relative;
+  padding-top: 20px; /* Add some padding to ensure the content doesn't overlap with the border */
+}
+
+.OurExpertise-custom-paragraph::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Height of the border */
+  background-color: var(--border-color); /* Default color */
+}
+
+.OurExpertise-expertise::before {
+  background-color: #ff5733; /* Example color for Expertise */
+}
+
+.OurExpertise-products::before {
+  background-color: #33ff57; /* Example color for Products */
+}
+
+.OurExpertise-dedicated-team::before {
+  background-color: #3357ff; /* Example color for Dedicated Development Team */
+}
+
+.OurExpertise-industries::before {
+  background-color: #f0ad4e; /* Example color for Industries */
+}
+
+.OurExpertise-custom-image {
   border-radius: 50%; /* Circular border for image */
 }
 
-.custom-left-align-text {
+.OurExpertise-custom-left-align-text {
   text-align: left;
 }
+.OurExpertise-icon-gradient {
+  color: rgb(244, 244, 247); /* Adjust the color gradient as needed */
+}
 
-.custom-footer {
-  font-size: 0.75rem; /* Smaller font size for footer */
+.OurExpertise-custom-footer {
+  font-size: 1.6rem; 
+  font-family: 'Catamaran', sans-serif;
+  background: url('../../Images/third_background.jpg');
+}
+.OurExpertise-page-feature  #animatedText{
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 46px;
+    animation: typing 5s steps(10) infinite;
+    -webkit-animation: typing 5s steps(10) infinite;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 35ch;
+  }
+}
+
+@-webkit-keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 35ch;
+  }
 }
 
 
 
-.page__feature1 {
+.OurExpertise-page__feature1 {
   background-color: #1f3c66;
-   text-align: center;
-  
+  text-align: center;
   background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%); /* Gradient background */
   color: white; 
   padding: 50px;
- height: 300px;
+  height: 300px;
+  font-family: 'Catamaran', sans-serif;
 }
 
-
-
 @media (max-width: 768px) {
-  .custom-container {
-    padding: 0.75rem; /* Adjust padding for smaller screens */
+  .OurExpertise-custom-container {
+    padding: 1rem; /* Adjust padding for smaller screens */
   }
 
-  .custom-header h1,
-  .custom-header h2,
-  .custom-header h3,
-  .custom-header h4,
-  .custom-header h5,
-  .custom-header h6 {
-    margin-bottom: 0.25rem; /* Adjust margin for smaller screens */
+  
+
+  .OurExpertise-custom-paragraph p {
+    font-size: 1.5rem; /* Increased font size for paragraphs */
+    margin-bottom: 1rem; /* Adjust margin for smaller screens */
   }
 
-  .custom-paragraph p {
-    margin-bottom: 0.25rem; /* Adjust margin for smaller screens */
+  .OurExpertise-custom-container .OurExpertise-custom-row > div {
+    padding: 0.5rem; /* Increase padding for each column on smaller screens */
   }
 
-  .custom-container .custom-row > div {
-    padding: 0.25rem; /* Reduce padding for each column on smaller screens */
-  }
-
-  .custom-footer {
-    font-size: 0.7rem; /* Smaller font size for footer on smaller screens */
+  .OurExpertise-custom-footer {
+    font-size: 1.2rem; /* Increased font size for footer on smaller screens */
   }
 }
 
 @media (max-width: 576px) {
-  .custom-container {
-    padding: 0.5rem; /* Further adjust padding for very small screens */
+  .OurExpertise-custom-container {
+    padding: 0.75rem; /* Further adjust padding for very small screens */
   }
 
-  .custom-header h1,
-  .custom-header h2,
-  .custom-header h3,
-  .custom-header h4,
-  .custom-header h5,
-  .custom-header h6 {
-    margin-bottom: 0.2rem; /* Further adjust margin for very small screens */
+  .OurExpertise-custom-header h1,
+  .OurExpertise-custom-header h2,
+  .OurExpertise-custom-header h3,
+  .OurExpertise-custom-header h4,
+  .OurExpertise-custom-header h5,
+  .OurExpertise-custom-header h6 {
+    font-size: 1.5rem; /* Further adjust font size for very small screens */
+    margin-bottom: 0.5rem; /* Further adjust margin for very small screens */
   }
 
-  .custom-paragraph p {
-    margin-bottom: 0.2rem; /* Further adjust margin for very small screens */
+  .OurExpertise-custom-paragraph p {
+    font-size: 1.2rem; /* Further adjust font size for very small screens */
+    margin-bottom: 0.5rem; /* Further adjust margin for very small screens */
   }
 
-  .custom-container .custom-row > div {
-    padding: 0.2rem; /* Reduce padding for each column on very small screens */
+  .OurExpertise-custom-container .OurExpertise-custom-row > div {
+    padding: 0.4rem; /* Increase padding for each column on very small screens */
   }
 
-  .custom-footer {
-    font-size: 0.65rem; /* Smaller font size for footer on very small screens */
+  .OurExpertise-custom-footer {
+    font-size: 1rem; /* Increased font size for footer on very small screens */
   }
 }
