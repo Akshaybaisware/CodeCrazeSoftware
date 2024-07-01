@@ -149,3 +149,69 @@ body {
   text-align: left;
   padding-left: 20px;
 }
+@media(max-width:991px){
+  .about-us-content .mt-5{
+    margin-top: -10px !important;
+
+  }
+}
+
+@media (min-width:990px) and (max-width:1112px){
+  .about-us-container #animatedText{
+    font-size: 2.5em;
+  }
+  .about-us-description{
+    font-size: 1.1em !important;
+
+  }
+
+}
+@media (min-width:759px) and (max-width:990px) {
+  .about-us-container #animatedText{
+    font-size: 1.8em;
+  }
+  .about-us-description{
+    font-size: 1em !important;
+
+  }
+
+}
+@media (min-width:550px) and (max-width:758px) {
+  .about-us-container #animatedText{
+    font-size: 1.5em;
+  }
+
+  .about-us-description{
+    font-size: 0.8em !important;
+
+  }
+}
+@media (min-width:550px) and (max-width:650px) {
+  .about-us-container #animatedText{
+    font-size: 1.2em;
+  }
+  .about-us-description{
+    font-size: 0.6em !important;
+
+  }
+}
+@media (min-width:468px) and (max-width :549px){
+  .about-us-container #animatedText{
+    font-size: 0.9em;
+  }
+  .about-us-description{
+    font-size: 0.5em !important;
+
+  }
+
+}
+@media (max-width :467px){
+  .about-us-container #animatedText{
+    font-size: 0.7em;
+  }
+  .about-us-description{
+    font-size: 0.4em !important;
+
+  }
+
+}

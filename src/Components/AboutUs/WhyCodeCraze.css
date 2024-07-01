@@ -67,7 +67,7 @@
   .WhycodeCraze-info-card .card:hover .WhycodeCraze-icon_why_inner {
     color: #ffffff;
   }
-  @media (min-width :576px ) and (max-width :767px){
+  @media (min-width :577px ) and (max-width :767px){
     .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
       font-size: 1.4em !important;
     }
