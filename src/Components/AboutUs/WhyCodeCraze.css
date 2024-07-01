@@ -67,14 +67,14 @@
   .WhycodeCraze-info-card .card:hover .WhycodeCraze-icon_why_inner {
     color: #ffffff;
   }
-  @media (min-width :488px ) and (max-width :767px){
+  @media (min-width :576px ) and (max-width :767px){
     .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
       font-size: 1.4em !important;
     }
 
   }
   
-@media (max-width: 488px) {
+@media (max-width: 4576px) {
   .WhycodeCraze-card_property_why {
     width: 100% !important;  /* Make the card take full width */
     max-width: 100% !important; /* Override the max-width */
