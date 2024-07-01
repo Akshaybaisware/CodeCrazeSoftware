@@ -74,7 +74,7 @@
 
   }
   
-@media (max-width: 4576px) {
+@media (max-width: 576px) {
   .WhycodeCraze-card_property_why {
     width: 100% !important;  /* Make the card take full width */
     max-width: 100% !important; /* Override the max-width */
