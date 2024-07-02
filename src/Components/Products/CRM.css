@@ -4,7 +4,7 @@
     line-height: 29px;
     color: #f8f4f4;
     background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
-    padding: 12em 5em;
+    padding: 10em 8em;
     
 
   }
@@ -244,13 +244,13 @@
   }
   @media (max-width :467px){
     .Crm-header .Crm-description{
-        font-size:10px !important;
+        font-size:14px !important;
     }
     .Crm-us-section #animatedText{
       font-size: 1em !important;
     }
     .Crm-us-section .Crm-us-description{
-      font-size: 0.6em !important;
+      font-size: 0.8em !important;
   
     }
     .Crm-us-section{

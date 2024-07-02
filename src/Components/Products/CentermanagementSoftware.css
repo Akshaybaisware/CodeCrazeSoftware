@@ -1,0 +1,240 @@
+.centermanagement-management-section {
+    word-wrap: break-word;
+    font-family: "Catamaran, sans-serif";
+    line-height: 29px;
+    color: #f8f4f4;
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 10em 8em;
+}
+
+.centermanagement-management-section #animatedText {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(10) infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(10);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5em !important;
+}
+
+.centermanagement-management-section .centermanagement-management-description {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.3em !important;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.centermanagement-management-container .bg-white {
+    position: relative;
+    top: -5em;
+}
+
+.centermanagement-management-description {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Catamaran, sans-serif";
+}
+
+.centermanagement-management-crm-services {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.centermanagement-management-header .centermanagement-management-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.centermanagement-management-header .centermanagement-management-header-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.centermanagement-management-services-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.centermanagement-management-services-column {
+    flex: 1;
+}
+
+.centermanagement-management-services-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.centermanagement-management-services-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.centermanagement-management-service-item {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid red; /* Change the color as needed */
+}
+
+.centermanagement-management-service-item1 {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(8, 0, 0); /* Change the color as needed */
+}
+
+.centermanagement-management-footer {
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 5em;
+    color: white;
+}
+
+.centermanagement-management-tick {
+    position: absolute;
+    left: 0;
+    color: black; /* Change the color as needed */
+}
+
+.centermanagement-management-image-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centermanagement-management-image {
+    border-radius: 8px;
+    height: auto;
+    max-width: 100% !important;
+}
+
+.centermanagement-management-footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.centermanagement-management-footer-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.centermanagement-management-button {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.centermanagement-management-button:hover {
+    background-color: #e91e63;
+}
+
+@media (min-width:990px) and (max-width:1112px) {
+    .centermanagement-management-header .centermanagement-management-header-description {
+        font-size: 14px !important;
+    }
+    .centermanagement-management-section #animatedText {
+        font-size: 3em !important;
+    }
+    .centermanagement-management-section .centermanagement-management-description {
+        font-size: 1.2em !important;
+    }
+}
+
+@media (min-width:759px) and (max-width:990px) {
+    .centermanagement-management-header .centermanagement-management-header-description {
+        font-size: 14px !important;
+    }
+    .centermanagement-management-section #animatedText {
+        font-size: 2em !important;
+    }
+    .centermanagement-management-section .centermanagement-management-description {
+        font-size: 1em !important;
+    }
+    .centermanagement-management-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width:550px) and (max-width:758px) {
+    .centermanagement-management-section {
+        padding: 7em 3em !important;
+    }
+    .centermanagement-management-header .centermanagement-management-header-description {
+        font-size: 12px !important;
+    }
+    .centermanagement-management-section #animatedText {
+        font-size: 1.5em !important; 
+    }
+    .centermanagement-management-section .centermanagement-management-description {
+        font-size: 0.8em !important;
+    }
+}
+
+@media (min-width:550px) and (max-width:650px) {
+    .centermanagement-management-header .centermanagement-management-header-description {
+        font-size: 10px !important;
+    }
+    .centermanagement-management-section #animatedText {
+        font-size: 1.2em;
+    }
+    .centermanagement-management-section .centermanagement-management-description {
+        font-size: 0.6em !important;
+    }
+    .centermanagement-management-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width:468px) and (max-width:549px) {
+    .centermanagement-management-header .centermanagement-management-header-description {
+        font-size: 8px !important;
+    }
+    .centermanagement-management-section #animatedText {
+        font-size: 1.2em !important;
+    }
+    .centermanagement-management-section .centermanagement-management-description {
+        font-size: 0.7em !important;
+    }
+    .centermanagement-management-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (max-width:467px) {
+    .centermanagement-management-header .centermanagement-management-header-description {
+        font-size: 10px !important;
+    }
+    .centermanagement-management-section #animatedText {
+        font-size: 1em !important;
+    }
+    .centermanagement-management-section .centermanagement-management-description {
+        font-size: 0.8em !important;
+    }
+    .centermanagement-management-section {
+        padding: 7em 3em !important;
+    }
+}

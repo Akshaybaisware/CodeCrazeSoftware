@@ -18,7 +18,7 @@ function NavBar() {
 
   return (
     <div>
-      <Navbar expand="lg" className="bg-dark-gradient">
+      <Navbar expand="lg" className="bg-dark-gradient" fixed="top">
         <Container fluid>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" className="ms-auto" onClick={handleShow} />
           <Navbar.Offcanvas

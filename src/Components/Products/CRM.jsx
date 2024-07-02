@@ -29,17 +29,17 @@ function CRM() {
   <div className="row flex-column flex-lg-row">
     <div className="col-lg-6 Crm-servicesColumn text-black fw-bold">
       <h2 className="Crm-servicesTitle">Our Services</h2>
-      <ul className="Crm-servicesList">
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Consulting & Planning</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Implementation & Deployment</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Customization, Integration & Enhancement</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Support & Maintenance</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Migration / Product Upgrade</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Consolidation & Integration</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Independent Validation & Verification</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> B2B, B2C, C2C & C2B Portals</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Custom Application & Module / Plugin Development</li>
-        <li className="Crm-serviceItem"><span className="Crm-tick">&#10003;</span> Legacy Applications Upgradation, Enhancement & Performance Tuning</li>
+      <ul className="Crm-servicesList my-5">
+        <li className="Crm-serviceItem my-3"><span className="Crm-tick">&#10003;</span> Consulting & Planning</li>
+        <li className="Crm-serviceItem1 my-3"><span className="Crm-tick">&#10003;</span> Implementation & Deployment</li>
+        <li className="Crm-serviceItem my-3"><span className="Crm-tick">&#10003;</span> Customization, Integration & Enhancement</li>
+        <li className="Crm-serviceItem1 my-3"><span className="Crm-tick">&#10003;</span> Support & Maintenance</li>
+        <li className="Crm-serviceItem my-3"><span className="Crm-tick">&#10003;</span> Migration / Product Upgrade</li>
+        <li className="Crm-serviceItem1 my-3"><span className="Crm-tick">&#10003;</span> Consolidation & Integration</li>
+        <li className="Crm-serviceItem my-3"><span className="Crm-tick">&#10003;</span> Independent Validation & Verification</li>
+        <li className="Crm-serviceItem1 my-3"><span className="Crm-tick">&#10003;</span> B2B, B2C, C2C & C2B Portals</li>
+        <li className="Crm-serviceItem my-3"><span className="Crm-tick">&#10003;</span> Custom Application & Module / Plugin Development</li>
+        <li className="Crm-serviceItem1 my-3"><span className="Crm-tick">&#10003;</span> Legacy Applications Upgradation, Enhancement & Performance Tuning</li>
       </ul>
     </div>
     <div className="col-lg-6 Crm-imageColumn">
@@ -49,7 +49,7 @@ function CRM() {
 </section>
 
 <footer className="Crm-footer">
-  <h2 className="Crm-footerTitle text-white mb-5">Looking for Customer Relationship Management services?</h2>
+  <h2 className="Crm-footerTitle text-white mb-5 fs-3">Looking for Customer Relationship Management services?</h2>
   <Button variant="outline-light" onClick={() => window.location.href='/contact'}>Talk to an Expert</Button>
 </footer>
 

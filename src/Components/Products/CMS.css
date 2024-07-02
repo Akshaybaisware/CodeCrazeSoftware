@@ -1,0 +1,233 @@
+.Cms-us-section {
+    word-wrap: break-word;
+    font-family: "Catamaran, sans-serif";
+    line-height: 29px;
+    color: #f8f4f4;
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 10em 8em;
+}
+
+.Cms-us-section #animatedText {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(10) infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(10);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5em !important;
+}
+.Cms-us-section .Cms-us-description {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.3em !important;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.Cms-us-container .bg-white {
+    position: relative;
+    top: -5em;
+}
+.Cms-us-description {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Catamaran, sans-serif";
+}
+
+.Cms-crmServices {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.Cms-header .Cms-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.Cms-header .Cms-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.Cms-servicesSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Cms-servicesColumn {
+    flex: 1;
+}
+
+.Cms-servicesTitle {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Cms-servicesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Cms-serviceItem {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid red; /* Change the color as needed */
+}
+.Cms-serviceItem1 {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(8, 0, 0); /* Change the color as needed */
+}
+.Cms-footer {
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 5em;
+    color: white;
+}
+
+.Cms-tick {
+    position: absolute;
+    left: 0;
+    color: black; /* Change the color as needed */
+}
+
+.Cms-imageColumn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cms-image {
+    border-radius: 8px;
+    height: auto ;
+    max-width: 100% !important; 
+}
+
+.Cms-footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Cms-footerTitle {
+    font-size: 20px;
+    color: #333;
+}
+
+.Cms-button {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Cms-button:hover {
+    background-color: #e91e63;
+}
+
+@media (min-width:990px) and (max-width:1112px) {
+    .Cms-header .Cms-description {
+        font-size: 14px !important;
+    }
+    .Cms-us-section #animatedText {
+        font-size: 3em !important;
+    }
+    .Cms-us-section .Cms-us-description {
+        font-size: 1.2em !important;
+    }
+}
+
+@media (min-width:759px) and (max-width:990px) {
+    .Cms-header .Cms-description {
+        font-size: 14px !important;
+    }
+    .Cms-us-section #animatedText {
+        font-size: 2em !important;
+    }
+    .Cms-us-section .Cms-us-description {
+        font-size: 1em !important;
+    }
+    .Cms-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width:550px) and (max-width:758px) {
+    .Cms-us-section {
+        padding: 7em 3em !important;
+    }
+    .Cms-header .Cms-description {
+        font-size: 12px !important;
+    }
+    .Cms-us-section #animatedText {
+        font-size: 1.5em !important; 
+    }
+    .Cms-us-section .Cms-us-description {
+        font-size: 0.8em !important;
+    }
+}
+@media (min-width:550px) and (max-width:650px) {
+    .Cms-header .Cms-description {
+        font-size: 10px !important;
+    }
+    .Cms-us-section #animatedText {
+        font-size: 1.2em;
+    }
+    .Cms-us-section .Cms-us-description {
+        font-size: 0.6em !important;
+    }
+    .Cms-us-section {
+        padding: 7em 3em !important;
+    }
+}
+@media (min-width:468px) and (max-width:549px) {
+    .Cms-header .Cms-description {
+        font-size: 8px !important;
+    }
+    .Cms-us-section #animatedText {
+        font-size: 1.2em !important;
+    }
+    .Cms-us-section .Cms-us-description {
+        font-size: 0.7em !important;
+    }
+    .Cms-us-section {
+        padding: 7em 3em !important;
+    }
+}
+@media (max-width:467px) {
+    .Cms-header .Cms-description {
+        font-size: 10px !important;
+    }
+    .Cms-us-section #animatedText {
+        font-size: 1em !important;
+    }
+    .Cms-us-section .Cms-us-description {
+        font-size: 0.8em !important;
+    }
+    .Cms-us-section {
+        padding: 7em 3em !important;
+    }
+}
