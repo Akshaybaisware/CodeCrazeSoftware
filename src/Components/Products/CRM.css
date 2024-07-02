@@ -157,7 +157,6 @@
   
   @media (min-width:990px) and (max-width:1112px){
 
-  
     .Crm-header .Crm-description{
         font-size:14px !important;
     }
@@ -168,11 +167,12 @@
       font-size: 1.2em !important;
   
     }
-  
+   
   }
 
 
   @media (min-width:759px) and (max-width:990px) {
+    
     .Crm-header .Crm-description{
         font-size:14px !important;
     }
@@ -184,9 +184,17 @@
       font-size: 1em !important;
   
     }
+    .Crm-us-section{
+      padding:7em 3em !important;
+
+  }
   
   }
   @media (min-width:550px) and (max-width:758px) {
+    .Crm-us-section{
+      padding:7em 3em !important;
+
+  }
     .Crm-header .Crm-description{
         font-size:12px !important;
     }
@@ -212,6 +220,10 @@
       font-size: 0.6em !important;
   
     }
+    .Crm-us-section{
+        padding:7em 3em !important;
+
+    }
   }
   @media (min-width:468px) and (max-width :549px){
     .Crm-header .Crm-description{
@@ -224,6 +236,10 @@
       font-size: 0.7em !important;
   
     }
+    .Crm-us-section{
+        padding:7em 3em !important;
+
+    }
   
   }
   @media (max-width :467px){
@@ -231,12 +247,17 @@
         font-size:10px !important;
     }
     .Crm-us-section #animatedText{
-      font-size: 0.8em !important;
+      font-size: 1em !important;
     }
     .Crm-us-section .Crm-us-description{
-      font-size: 0.4em !important;
+      font-size: 0.6em !important;
   
     }
+    .Crm-us-section{
+        padding:7em 3em !important;
+
+    }
+
   
   }
   
