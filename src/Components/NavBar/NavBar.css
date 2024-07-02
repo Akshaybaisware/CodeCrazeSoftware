@@ -1,6 +1,7 @@
 .bg-dark-gradient {
-    background: linear-gradient(to right, #000000, #434343);
+  background: linear-gradient(45deg, #343a40, #212529);
   }
+  
   
   .dropdown-toggle {
     color: white !important;

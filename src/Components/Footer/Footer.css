@@ -88,3 +88,20 @@
   height: 100%;
   border: 0;
 }
+
+@media(max-width:991px){
+  .footer h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px !important;
+    margin-bottom: 15px;
+  }
+  
+  .footer h3 {
+    color: white;
+    font-size: 20px !important;
+    margin-bottom: 15px;
+  }
+
+  
+}

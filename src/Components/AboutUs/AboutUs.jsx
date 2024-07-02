@@ -47,6 +47,7 @@ const AboutUs = () => {
               <i style={{position:"relative",top:"-0.6em"}} className="bi bi-lightbulb about-us-icon"></i>
               <h3 >Core Values</h3>
               <ul className='about-us-core-values-list'>
+                <p className='fs-5'>Prevoyance Solutions believe that the success is accomplished through</p>
                 <li>Commitment</li>
                 <li>Discipline</li>
                 <li>Integrity</li>
