@@ -2,7 +2,7 @@ import React from 'react';
 import './OnlineTest.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-import ERPImage from '../../Images/EPR.png';
+import ERPImage from '../../Images/online-test.png';
 import Accordion from 'react-bootstrap/Accordion';
 
 function OnlineTest() {
@@ -10,13 +10,13 @@ function OnlineTest() {
     <div className="container-fluid ERP-us-container m-0 p-0">
       <section className="ERP-us-section">
         <h1 id="animatedText">Online Test System</h1>
-        <p className="ERP-us-description my-5">
+        <p className="ERP-us-description my-3">
           Online Test Engine, as the name suggests, is a test engine where administrators can arrange online tests for their students. It is designed for educational institutes to hold all their exams online.
         </p>
       </section>
       <Container className="shadow-lg p-5 bg-white rounded">
         <header className="ERP-header">
-          <p className="fs-2 fw-bold my-2">What We Do In Enterprise Resource Planning</p>
+         
           <p className="ERP-description fs-5 mt-5">
             A student can appear for exams online and get evaluated immediately. Enrolling students, creating tests, assigning them to students, and maintaining result history are all handled, reducing paperwork.
           </p>
