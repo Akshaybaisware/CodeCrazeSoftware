@@ -4,11 +4,11 @@
     line-height: 29px;
     color: #f8f4f4;
     background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
-    padding: 10em 8em;
+    padding: 10em 7em;
   }
   
   .MobileApp-us-section #animatedText {
-    font-size: 46px;
+   
     font-weight: bold;
     color: #fff;
     text-transform: capitalize;
@@ -19,12 +19,13 @@
     animation-duration: 5s;
     animation-timing-function: steps(10);
     font-family: 'Catamaran', sans-serif;
-    font-size: 3.5em !important;
+    font-size: 3em !important;
   }
   
   .MobileApp-us-section .MobileApp-us-description {
     font-family: 'Catamaran', sans-serif;
     font-size: 1.5em !important;
+    line-height: 1.5;
   }
   
   @keyframes typing {
@@ -34,14 +35,9 @@
   
   .MobileApp-us-container .bg-white {
     position: relative;
-    top: -5em;
+    bottom: 6em;
   }
   
-  .MobileApp-us-description {
-    font-size: 20px;
-    line-height: 1.5;
-    font-family: "Catamaran, sans-serif";
-  }
   
   .MobileApp-crmServices {
     font-family: Arial, sans-serif;
@@ -151,6 +147,10 @@
     transition: background-color 0.3s ease;
   }
   
+  .MobileApp__Image .img__fluid{
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
   .MobileApp-button:hover {
     background-color: #e91e63;
   }

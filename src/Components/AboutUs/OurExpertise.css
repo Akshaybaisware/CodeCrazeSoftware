@@ -17,8 +17,8 @@
 
 .OurExpertise-custom-subtle-shadow {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25); /* Darker shadow with more vertical spread */
-  margin-top: 13em !important;
-  margin-bottom: 10em !important;
+  margin-top: 16em !important;
+  margin-bottom: 12em !important;
 }
 
 .OurExpertise-custom-container {
@@ -113,6 +113,7 @@
   padding: 50px;
   height: 300px;
   font-family: 'Catamaran', sans-serif;
+  padding: 10em 8em;
 }
 
 @media (max-width: 768px) {

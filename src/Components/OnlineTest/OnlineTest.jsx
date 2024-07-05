@@ -14,7 +14,7 @@ function OnlineTest() {
           Online Test Engine, as the name suggests, is a test engine where administrators can arrange online tests for their students. It is designed for educational institutes to hold all their exams online.
         </p>
       </section>
-      <Container className="shadow-lg p-5 bg-white rounded">
+      <Container className="shadow-lg  px-5 py-2 bg-white rounded">
         <header className="ERP-header">
          
           <p className="ERP-description fs-5 mt-5">

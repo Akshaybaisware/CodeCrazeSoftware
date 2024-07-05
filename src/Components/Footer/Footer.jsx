@@ -32,14 +32,31 @@ const Footer = () => {
         </div>
         <div className="row">
           <div className="col-md-6">
-            <h3 className="text-white">
+            <h3 className="text-white my-2">
               <FontAwesomeIcon icon={faLink} /> Quick Links
             </h3>
-            <ul className="list-unstyled">
-              <li><a href="#services" className="text-danger">Services</a></li>
-              <li><a href="#online-support" className="text-danger">Online Support</a></li>
-              <li><a href="#business-solution" className="text-danger">Business Solution</a></li>
-              <li><a href="#faqs" className="text-danger">FAQs</a></li>
+            <ul className="list-unstyled ">
+            <li>
+  <a href="#services" className="text-white my-2">
+    <i className="fas fa-concierge-bell"></i> Services
+  </a>
+</li>
+<li>
+  <a href="#online-support" className="text-white my-2">
+    <i className="fas fa-headset"></i> Online Support
+  </a>
+</li>
+<li>
+  <a href="#business-solution" className="text-white my-2">
+    <i className="fas fa-briefcase"></i> Business Solution
+  </a>
+</li>
+<li>
+  <a href="#faqs" className="text-white my-2">
+    <i className="fas fa-question-circle"></i> FAQs
+  </a>
+</li>
+
             </ul>
             <div className="social-links mt-4">
               <a href="#" className="text-white mx-2"><FontAwesomeIcon icon={faFacebookF} /></a>
@@ -51,25 +68,25 @@ const Footer = () => {
           </div>
           <div className="col-md-6">
             <h3 className="text-white">
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> Contact Information
+           Contact Information
             </h3>
-            <p>
-              <FontAwesomeIcon icon={faEnvelope} /> Email:
+            <p  className='text-white'>
+              <FontAwesomeIcon icon={faEnvelope} />  Email:
               <a href="mailto:prafulanathile@gmail.com" className="text-danger"> prafulanathile@gmail.com</a>
             </p>
-            <p>
+            <p className='text-white'>
               <FontAwesomeIcon icon={faPhone} /> Phone:
               <a href="tel:+919970850512" className="text-danger"> 9503007527/9403452788</a>
             </p>
-            <p>
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> 
-              17/1 Amar Plaza Salt Lake SMS, India Road, IT Park Rd, Nagpur - 440022, Third Floor, Beside Persistent.
+            <p className='text-white'>
+              <FontAwesomeIcon className='me-2' icon={faMapMarkerAlt} /> 
+              address Nagpur medical square
             </p>
           </div>
         </div>
         <div className="row mt-4">
           <div className="col text-center">
-            <p className="text-danger">&copy;CodeCrazeSoftware Solutions Pvt Ltd © 2023. All Rights Reserved.</p>
+            <p  > <span className="text-danger ">&copy; CodeCrazeSoftware Solutions Pvt Ltd </span> <span className='text-white'>© 2024. All Rights Reserved.</span> </p>
           </div>
         </div>
       </div>

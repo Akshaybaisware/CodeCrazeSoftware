@@ -30,7 +30,7 @@
   background-position: center !important;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 150vh; 
+  min-height: 132vh 
 }
 
 .Home-Picture-Container .Home-Image {
@@ -41,10 +41,6 @@
   background-repeat: no-repeat;
 }
 
-.Picture-Container {
-  position: relative !important;
-  bottom: 35rem !important;
-}
 
 .Home__carousel .Home__Description {
   position: relative;
@@ -108,7 +104,7 @@
 
 .BackgroundImage .Home-Picture-Container {
   position: relative;
-  top: -45em;
+  top: -42em;
 }
 
 .Home-Image {
@@ -237,7 +233,7 @@
     top: -29em;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -36em;
+    top: -46em;
   }
   
   .Home__carousel .Homecarousel__image {
@@ -272,7 +268,7 @@
     top: -31em;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -35em;
+    top: -45em;
     
   }
   
@@ -286,7 +282,7 @@
     font-size: 0.5em !important;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -38em;
+    bottom: -48em;
     
   }
   .Home__carousel .Homecarousel__image {

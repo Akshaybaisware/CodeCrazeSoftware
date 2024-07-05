@@ -2,26 +2,25 @@ import React from 'react';
 import './MobileApp.css';
 import { Container, Image } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import DesktopScreen from '../../Images/center_1.png'
 
 function MobileApp() {
   return (
     <div className="container-fluid MobileApp-us-container m-0 p-0">
-      <section className="MobileApp-us-section ">
-        <div className="row">
-          <div className="col-md-6">
-          <h1 id="animatedText">Mobile Application Development.</h1>
-            
-            <p className="MobileApp-us-description mt-2">
-              Mobility Solutions Are Helping Business Grow Irrespective Of The Location. We Work With Diverse Brands, Organizations, Start-Ups, And Individuals To Create Powerful Apps From Great Ideas. Prevoyance Solutions Is A Leading And Best Mobile Application Development Company In Nagpur Pune Mumbai And Pan India, Helping Companies Right From Startups, Small Businesses To Large Enterprises Design, Develop And Launch Custom Mobile.
-            </p>
-          </div>
-          <div className="col-md-6">
-           
-            <Image src="path_to_your_image.jpg" alt="Mobile Application" className="img-fluid" />
-           
-          </div>
-        </div>
-      </section>
+<section className="MobileApp-us-section">
+  <div className="row">
+    <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+      <h1 id="animatedText">Mobile Application Development</h1>
+      <p className="MobileApp-us-description mt-5">
+        Mobility solutions are helping businesses grow irrespective of location. We work with diverse brands, organizations, start-ups, and individuals to create powerful apps from great ideas. Prevoyance Solutions is a leading mobile application development company in Nagpur, Pune, Mumbai, and Pan India, helping companies from startups and small businesses to large enterprises design, develop, and launch custom mobile applications.
+      </p>
+    </div>
+    <div className="col-xl-5 col-lg-5 col-md-8 col-sm-12 col-12 MobileApp__Image">
+      <img src={DesktopScreen} alt="Mobile Application" className="img-fluid" />
+    </div>
+  </div>
+</section>
+
 
       <Container className='shadow-lg p-5 bg-white rounded'>
         <header className="MobileApp-header">
@@ -30,7 +29,7 @@ function MobileApp() {
           </p>
         </header>
         <div className="container text-white bg-dark p-5">
-          <p className="text-start mt-5 mb-4 fs-4 fw-bold">
+          <p className="text-start mt-2 mb-4 fs-4 fw-bold">
             We always aim to reach unique people with unique concepts and our team help them enhance their business through our IT services. We are successful because of our business values, which are
           </p>
           <div className="row mb-4">

@@ -1,7 +1,7 @@
 .WhycodeCraze-container{
     background-color: white;
     position: relative;
-    margin-top:14.1em;
+    margin-top:18.1em;
     margin-bottom:6.1em;
     
 }
@@ -19,7 +19,7 @@
   top: 0 !important; 
   left: 0;
   right: 0;
-  
+  padding: 10em 8em;
 }
 
 
