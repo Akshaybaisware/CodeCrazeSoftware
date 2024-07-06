@@ -143,22 +143,21 @@
     transition: background-color 0.3s ease;
 }
 
-.OnlineTest-button:hover {
-    background-color: #e91e63;
-}
-.accordion-item {
+
+
+.OnlineTest-serviceItem .accordion-item {
     border: none !important;
 }
 
-.accordion-button:not(.collapsed) {
+.OnlineTest-serviceItem .accordion-button:not(.collapsed) {
     box-shadow: none !important;
 }
 
-.accordion-button {
+.OnlineTest-serviceItem  .accordion-button {
     border: none !important;
 }
 
-.accordion-body {
+.OnlineTest-serviceItem .accordion-body {
     border: none !important;
     padding-left: 25px !important;
     padding-bottom: 10px !important;

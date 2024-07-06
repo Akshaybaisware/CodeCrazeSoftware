@@ -13,7 +13,7 @@ const Footer = () => {
             <h2 className="text-white mb-5">
               Get in touch <span className="text-danger">!</span>
             </h2>
-            <p className="text-white mb-5" >Your technical partner towards web success.</p>
+            <p className="text-white mb-5 fs-4" >Your technical partner towards web success.</p>
             <button className="btn btn-outline-light">Contact Us</button>
           </div>
           <div className="col-md-6">
@@ -38,7 +38,7 @@ const Footer = () => {
             <ul className="list-unstyled ">
             <li>
   <a href="#services" className="text-white my-2">
-    <i className="fas fa-concierge-bell"></i> Services
+    <i className="fas  fa-concierge-bell"></i> Services
   </a>
 </li>
 <li>
