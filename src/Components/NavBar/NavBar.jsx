@@ -17,8 +17,8 @@ function NavBar() {
   const handleShow = () => setShowOffcanvas(true);
 
   return (
-    <div>
-      <Navbar expand="lg" className="bg-dark-gradient" fixed="top">
+    <div className='NavBar__page'>
+      <Navbar expand="lg" className="bg-dark-gradient NavBarpage__Navbar" fixed="top">
         <Container fluid>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" className="ms-auto" onClick={handleShow} />
           <Navbar.Offcanvas
@@ -49,9 +49,6 @@ function NavBar() {
                   <NavDropdown.Item as={NavLink} to="/super-market-software" className="text-white text-wrap" onClick={handleClose}>Super Market Software</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/center-management-software" className="text-white text-wrap" onClick={handleClose}>Center Management Software</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={NavLink} to="/career" className="text-white" onClick={handleClose}>Career</Nav.Link>
-                <Nav.Link as={NavLink} to="/blog" className="text-white" onClick={handleClose}>Blog</Nav.Link>
-                <Nav.Link as={NavLink} to="/contact" className="text-white" onClick={handleClose}>Contact Us</Nav.Link>
                 <NavDropdown title={<span className="text-white">SERVICES</span>} id="offcanvasNavbarDropdown-expand-lg">
                   <NavDropdown.Item as={NavLink} to="/mobile-application-development" className="text-white text-wrap" onClick={handleClose}>Mobile Application Development</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/custom-application-development" className="text-white text-wrap" onClick={handleClose}>Custom Application Development</NavDropdown.Item>
@@ -59,6 +56,11 @@ function NavBar() {
                   <NavDropdown.Item as={NavLink} to="/software-testing" className="text-white" onClick={handleClose}>Software Testing</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/ui-ux" className="text-white" onClick={handleClose}>UI/UX</NavDropdown.Item>
                 </NavDropdown>
+                
+                <Nav.Link as={NavLink} to="/blog" className="text-white" onClick={handleClose}>Blog</Nav.Link>
+                <Nav.Link as={NavLink} to="/career" className="text-white" onClick={handleClose}>Career</Nav.Link>
+                <Nav.Link as={NavLink} to="/contact" className="text-white" onClick={handleClose}>Contact Us</Nav.Link>
+              
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

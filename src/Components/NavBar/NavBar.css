@@ -1,13 +1,13 @@
-.bg-dark-gradient {
+.NavBar__page .bg-dark-gradient {
   background: linear-gradient(45deg, #343a40, #212529);
   }
   
   
-  .dropdown-toggle {
+  .NavBar__page .dropdown-toggle {
     color: white !important;
   }
   
-  .navbar-toggler {
+  .NavBar__page .navbar-toggler {
     background-color: white !important;
   }
   
@@ -47,8 +47,11 @@
     .offcanvas-body {
       background: linear-gradient(to right, #000000, #434343);
     }
-    .text-white{
+   .NavBarpage__Navbar .text-white{
       font-size: 0.85em !important;
+    }
+    .offcanvas-header .btn-close{
+      background-color: white !important;
     }
    
   }
@@ -58,7 +61,7 @@
     .offcanvas-body {
       display: none;
     }
-
+    
     
   
     .offcanvas.show,

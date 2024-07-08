@@ -1,0 +1,119 @@
+.ReadMoreMobileDescription-us-section {
+    word-wrap: break-word;
+    font-family: "Catamaran, sans-serif";
+    line-height: 29px;
+    color: #f8f4f4;
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 10em 8em;
+}
+
+.ReadMoreMobileDescription-us-section #animatedText {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(10) infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(10);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5em !important;
+}
+
+.ReadMoreMobile__section {
+    position: relative;
+    bottom:  5em !important;
+}
+.ReadMoreMobile-us-section .ReadMoreMobile-us-description {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.3em !important;
+}
+.ReadMorecustom-footer {
+    background-color: rgba(0, 0, 0, 0.2); /* Default background color */
+    transition: background-color 0.3s; /* Smooth transition for the background color change */
+}
+
+.ReadMorecustom-footer:hover {
+    background-color: rgba(255, 255, 255, 1) !important; /* Solid white on hover */
+    border-radius: 5px !important;
+    transition: background-color 0.3s !important;
+    cursor: pointer !important;
+    border-bottom: 1px solid blue;
+    
+
+
+  }
+
+  .Ecommerce_list li::marker {
+    color: blue;
+  }
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+
+@media (min-width:990px) and (max-width:1112px) {
+   
+    .ReadMoreMobileDescription-us-section #animatedText {
+        font-size: 3em !important;
+    }
+   
+}
+
+@media (min-width:759px) and (max-width:990px) {
+   
+    .ReadMoreMobileDescription-us-section #animatedText {
+        font-size: 2em !important;
+    }
+    
+    .ReadMoreMobileDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width:550px) and (max-width:758px) {
+    .ReadMoreMobileDescription-us-section{
+        padding: 7em 3em !important;
+    }
+   
+    .ReadMoreMobileDescription-us-section #animatedText {
+        font-size: 1.5em !important; 
+    }
+  
+}
+
+@media (min-width:550px) and (max-width:650px) {
+   
+    .ReadMoreMobileDescription-us-section #animatedText {
+        font-size: 1.2em;
+    }
+   
+    .ReadMoreMobileDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width:468px) and (max-width:549px) {
+    
+    .ReadMoreMobileDescription-us-section #animatedText {
+        font-size: 1.2em !important;
+    }
+    
+    .ReadMoreMobileDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (max-width:467px) {
+  
+    .ReadMoreMobileDescription-us-section #animatedText {
+        font-size: 1em !important;
+    }
+  
+    .ReadMoreMobileDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}

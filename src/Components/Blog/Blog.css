@@ -1,0 +1,227 @@
+.BlogDescription-us-section {
+    word-wrap: break-word !important;
+    font-family: "Catamaran", sans-serif !important;
+    line-height: 29px !important;
+    color: #f8f4f4 !important;
+    background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%) !important;
+    padding: 10em 8em !important;
+}
+
+.BlogDescription-us-section #animatedText {
+    
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(10) infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(10);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5em !important;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+.BlogCard {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .BlogCard-img {
+    width: 100% !important;
+    height: 250px !important; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the box while maintaining aspect ratio */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .BlogCard-content {
+    padding: 15px;
+  }
+  
+  .BlogCard h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  .BlogCard p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .BlogCard:hover {
+    transform: translateY(-5px);
+  }
+  
+
+.BlogDescription__section {
+    position: relative;
+    bottom: 5em;
+}
+
+.BlogDescription-us-section .BlogDescription-us-description {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.3em !important;
+}
+
+.BlogCard {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.BlogCard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.BlogCard-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.BlogCard-content {
+    padding: 15px;
+}
+
+.BlogDescription-container {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.BlogDescription__section {
+    margin-top: 20px;
+}
+
+.BlogDescription-servicesSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BlogDescription-servicesColumn {
+    padding: 15px;
+}
+
+.BlogCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 990px) and (max-width: 1112px) {
+    .BlogDescription-header .BlogDescription-description {
+        font-size: 14px !important;
+    }
+
+    .BlogDescription-us-section #animatedText {
+        font-size: 3em !important;
+    }
+
+    .BlogDescription-us-section .BlogDescription-us-description {
+        font-size: 1.2em !important;
+    }
+}
+
+@media (min-width: 759px) and (max-width: 990px) {
+    .BlogDescription-header .BlogDescription-description {
+        font-size: 14px !important;
+    }
+
+    .BlogDescription-us-section #animatedText {
+        font-size: 2em !important;
+    }
+
+    .BlogDescription-us-section .BlogDescription-us-description {
+        font-size: 1em !important;
+    }
+
+    .BlogDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 758px) {
+    .BlogDescription-us-section {
+        padding: 7em 3em !important;
+    }
+
+    .BlogDescription-header .BlogDescription-description {
+        font-size: 12px !important;
+    }
+
+    .BlogDescription-us-section #animatedText {
+        font-size: 1.5em !important;
+    }
+
+    .BlogDescription-us-section .BlogDescription-us-description {
+        font-size: 0.8em !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+    .BlogDescription-header .BlogDescription-description {
+        font-size: 10px !important;
+    }
+
+    .BlogDescription-us-section #animatedText {
+        font-size: 1.2em;
+    }
+
+    .BlogDescription-us-section .BlogDescription-us-description {
+        font-size: 0.6em !important;
+    }
+
+    .BlogDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width: 468px) and (max-width: 549px) {
+    .BlogDescription-header .BlogDescription-description {
+        font-size: 8px !important;
+    }
+
+    .BlogDescription-us-section #animatedText {
+        font-size: 1.5em !important;
+    }
+
+    .BlogDescription-us-section .BlogDescription-us-description {
+        font-size: 0.7em !important;
+    }
+
+    .BlogDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (max-width: 467px) {
+    .BlogDescription-header .JBlogDescription-description {
+        font-size: 10px !important;
+    }
+
+    .BlogDescription-us-section #animatedText {
+        font-size: 2em !important;
+    }
+
+    .BlogDescription-us-section .BlogDescription-us-description {
+        font-size: 0.8em !important;
+    }
+
+    .BlogDescription-us-section {
+        padding: 7em 3em !important;
+    }
+}

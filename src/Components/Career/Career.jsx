@@ -28,8 +28,19 @@ import tailwindcss from '../../Images/ICON/tailwindcss.png';
 import vuejs from '../../Images/ICON/vue-js.png';
 import jquery from '../../Images/ICON/jquery.png';
 import expressjs80 from '../../Images/ICON/expressjs80.png';
+import { useNavigate } from 'react-router-dom';
+
 
 const OurExpertise = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+  
+    navigate('/jobdescription');
+};
+
+
+
+
   return (
     <div className="career-page-feature p-0 m-0">
       <div className="career-page__feature1 position-absolute w-100 m-0">
@@ -175,7 +186,7 @@ const OurExpertise = () => {
       <div className="mb-3">
         <strong>Skills:</strong> Design and build Android mobile applications · Collaborate with cross-functional teams to analyze, design, and ship new features · Fully responsible for mobile app development · Implement new technologies to maximize application performance.
       </div>
-      <button className="btn rounded-pill" style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
+      <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
 
     </div>
       </div>

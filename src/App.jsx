@@ -27,6 +27,14 @@ import SoftwareTesting from "./Components/Services/SoftwareTesting";
 import UiUx from "./Components/Services/UiUx";
 import WhyCodeCraze from "./Components/AboutUs/WhyCodeCraze";
 import OnlineTest from "./Components/OnlineTest/OnlineTest";
+import JobDescription from "./Components/JobDescription/JobDescription";
+import CarrerApply from "./Components/CarrerApply/CarrerApply";
+import Readmoremobileapp from "./Components/ReadMore/Readmoremobileapp"
+import Readmoresoftwaretesting from "./Components/ReadMore/Readmoresoftwaretesting"
+import Ecommerce from "./Components/ReadMore/Ecommerce"
+import Angular from "./Components/ReadMore/Angular"
+import Readmoresalesforce from './Components/ReadMore/Readmoresalesforce'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -54,7 +62,13 @@ const router = createBrowserRouter(
       <Route path="website-programming-development" element={<Website />} />
       <Route path="software-testing" element={<SoftwareTesting />} />
       <Route path="ui-ux" element={<UiUx />} />
-    
+    <Route path ="jobdescription" element={<JobDescription/>} />
+    <Route path ="/carrerapply" element={<CarrerApply/>} />
+    <Route path ="/readmoremobileapp" element={<Readmoremobileapp/>}/>
+    <Route path ="/readmoresoftwaretesting" element={< Readmoresoftwaretesting />}/>
+    <Route path="/readmoreecommerce"  element={< Ecommerce/>} />
+    <Route path="/readmoreangular"  element={< Angular/>} />
+    <Route path="/readmoresalesforce" element={<Readmoresalesforce/>}/>
     </Route>
   )
 );
