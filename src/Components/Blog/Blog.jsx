@@ -54,13 +54,14 @@ const Card = ({ title, description, buttonText, imgSrc, navigateTo }) => {
   };
 
   return (
-    <div className="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
+  
+    <div className="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 ">
       <div className="BlogCard">
         <img src={imgSrc} alt={title} className="BlogCard-img" />
         <div className="BlogCard-content">
           <h3>{title}</h3>
           <p>{description}</p>
-          <Button variant="primary" onClick={handleClick}>{buttonText}</Button>
+          <Button className='Blog__Button' onClick={handleClick}>{buttonText}</Button>
         </div>
       </div>
     </div>
@@ -69,7 +70,7 @@ const Card = ({ title, description, buttonText, imgSrc, navigateTo }) => {
 
 function BlogDescription() {
   return (
-    <div className="container-fluid BlogDescription-container m-0 p-0">
+    <div className="container-fluid BlogDescription-container m-0 p-0 bg-light">
       <section className="BlogDescription-us-section">
         <h1 id="animatedText">Blog.</h1>
       </section>

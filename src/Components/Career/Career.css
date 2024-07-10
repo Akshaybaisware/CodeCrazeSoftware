@@ -4,7 +4,12 @@
   font-size: 1rem;
   font-family: 'Catamaran', sans-serif;
 }
+.Carrer__Webtechnology:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+  transition: 0.3s !important;
 
+  cursor: pointer !important;
+}
 .career-custom-paragraph p {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;

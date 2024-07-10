@@ -19,7 +19,8 @@
 }
 
 .footer p,
-.footer a {
+.footer li {
+  cursor: pointer;
  
   font-size: 0.8em;
 }

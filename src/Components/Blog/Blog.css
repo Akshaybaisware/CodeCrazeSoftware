@@ -121,6 +121,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.Blog__Button{
+    background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%) !important;
+
+}
 
 @media (min-width: 990px) and (max-width: 1112px) {
     .BlogDescription-header .BlogDescription-description {

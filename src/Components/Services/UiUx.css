@@ -1,0 +1,20 @@
+.Uiux-uiux-page-feature_mobile {
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    background-color: #1f3c66;
+    padding: 200px 0 80px;
+    position: relative;
+}
+.uiux-breadcrumbs__txt{
+color: #fff;
+text-transform: capitalize;
+width: 35ch;
+white-space: nowrap;
+overflow: hidden;
+animation: typing 5s steps(10) infinite;
+-webkit-animation: typing 5s steps(10) infinite;
+font-size: 46px;
+}
+.Uiux-bg-all{
+    position: relative;
+    bottom: 9em;
+}

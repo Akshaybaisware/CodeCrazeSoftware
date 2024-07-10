@@ -5,7 +5,7 @@ import { Container,Button } from 'react-bootstrap';
 const CareerApplyFormComponent = () => {
   
   return (
-    <div className="container-fluid CareerApply-container m-0 p-0">
+    <div  className="container-fluid CareerApply-container  m-0 p-0">
       <section className="CareerApply-us-section">
         <h1 id="animatedText">Contact Us.</h1>
       </section>

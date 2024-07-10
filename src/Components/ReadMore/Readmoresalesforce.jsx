@@ -10,11 +10,11 @@ function EcommerceSolution() {
       </section>
       <Container className='shadow-lg ReadMoreMobile__section p-5 bg-white rounded'>
         <header className="ReadMoreMobile-header my-3">
-          <p className='fs-2 fw-bold'>Salesforce: A Comprehensive Guide.</p>
+          <p className='fs-4 fw-bold'>Salesforce: A Comprehensive Guide.</p>
         </header>
 
         <nav className="ReadMoreMobile-navigation my-4">
-          <ul className="fs-5 fw-bold">
+          <ul className="fs-6 fw-bold">
             <li><a href="#what-is-salesforce">What is Salesforce?</a></li>
             <li><a href="#importance">Importance</a></li>
             <li><a href="#job-opportunities">Job opportunities in Salesforce</a></li>
@@ -27,16 +27,25 @@ function EcommerceSolution() {
           <div>
             <div className="ReadMoreMobile-servicesColumn my-4 text-black fw-bold">
               <h2 id="what-is-salesforce">What is Salesforce?</h2>
-              <p className="fs-5 fw-normal text-light-emphasis">
-                Salesforce is a management of customer relationships, which is cloud based platform. It enables business to manage customer data, sales operations, and marketing campaigns. It provides customers with a platform to develop their own applications without following the tough steps that they used to follow in legacy systems. Once the application is created, it can be uploaded onto the cloud, so that end users can view them. It helps marketing, sales, commerce, service, and IT teams work as one from anywhere.
+              <p className="fs-6 fw-normal text-light-emphasis">
+                Salesforce is a management of customer relationships, which is cloud based platform. It enables business to manage customer data sales operation and marketing campaign it provides customer with a platform to develop their own application without following the tough step that they have used to follow in legacy system. It enables business to manage customer data sales operation and marketing campaign it provides customer with a platform to develop their own application without following the tough step that they have used to follow in the legacy system. Once the application is created it can be uploaded on to the cloud, so that and users can view them. It help are marketing, sales, commerce, service and IT team work as one from anywhere.
                 <br />
                 It is also called CRM (Customer Relationship Management), which is a technology for managing all company relationships and interactions with potential customers. The goal is to improve business interactions. A CRM system helps companies stay connected to customers, streamline processes, and improve profitability. You can access Salesforce through a web browser, mobile app, or desktop application. Salesforce stores data in a single database schema.
               </p>
+              
+              <h2 id="importance">Salesforce servic</h2>
+              <p className="fs-6 fw-normal text-light-emphasis">
+                <ul className="fs-6 fw-normal text-light-emphasis Ecommerce_list">
+                  <li>SAAS(Salesforce As A Service)- You can directly obtained the build in software and made use of it.</li>
+                  <li>PAAS (Platform As A Service)- it offers you the same work and platform to build your apps and websites.</li>
+                  <li>IAAS(Infrastructure As A Service)- it place or vital role in sales force development, although not very widely used.</li>
+                </ul>
+              </p>
 
               <h2 id="importance">Importance of Salesforce</h2>
-              <p className="fs-5 fw-normal text-light-emphasis">
+              <p className="fs-6 fw-normal text-light-emphasis">
                 It allows growing the business with its flexibility for business service and process.
-                <ul className="fs-5 fw-normal text-light-emphasis blue-bullets">
+                <ul className="fs-6 fw-normal text-light-emphasis Ecommerce_list">
                   <li>EFFECTIVE: Easily customized to meet the requirements of any organization.</li>
                   <li>EASY: Easy to use; users can save a lot of time.</li>
                   <li>FAST: It is quick in comparison to traditional CRM.</li>
@@ -44,12 +53,30 @@ function EcommerceSolution() {
                   <li>Analyze growth and decline of business tracking performance.</li>
                 </ul>
               </p>
+              <h3>BENEFITS OF SALESFORCE</h3>
+              <ul className="fs-6 fw-normal text-light-emphasis Ecommerce_list">
+                <li>Better Time Management.</li>
+                <li>Ultimate Accessibility.</li>
+                <li>Increased Revenue.</li>
+                <li>Greater Customer Satisfaction.</li>
+                <li>Simple Account Planning.</li>
+                <li>Trusted Reporting.</li>
+                <li>Improved Team Collaboration.</li>
+              </ul>
+              <h3>SALESFORCE CLOUD SERVICES</h3>
+              <ul className="fs-6 fw-normal text-light-emphasis Ecommerce_list">
+                <li className='my-1'><strong>SALESFORCE CLOUD:</strong> The most essential and popular product of Salesforce, used to manage company’s sales.</li>
+                <li className='my-1'><strong>MARKETING CLOUD:</strong> Crucial for business operations, enabling campaign management and email marketing.</li>
+                <li className='my-1'><strong>ANALYTICS CLOUD:</strong> Allows users to create visually appealing dashboards to analyze business trends.</li>
+                <li className='my-1'><strong>SALESFORCE APP CLOUD:</strong> Enables development of custom apps that run on the Salesforce platform.</li>
+                <li className='my-1'><strong>SALESFORCE SERVICE CLOUD:</strong> Supports customer service teams in managing customer interactions and support.</li>
+              </ul>
 
               <h2 id="job-opportunities">Job Opportunities in Salesforce</h2>
-              <p className="fs-5 fw-normal text-light-emphasis">
+              <p className="fs-6 fw-normal text-light-emphasis">
                 As already mentioned above, it offers diverse Salesforce jobs and growth trajectories to its employees. Some of the major ones have been discussed below:
               </p>
-              <ul className="fs-5 fw-normal text-light-emphasis blue-bullets">
+              <ul className="fs-6 fw-normal text-light-emphasis Ecommerce_list">
                 <li>Salesforce Administrator</li>
                 <li>Salesforce Business Analyst</li>
                 <li>Salesforce Developer</li>
@@ -58,29 +85,29 @@ function EcommerceSolution() {
                 <li>Salesforce Solution Architect</li>
               </ul>
 
-              <p className="fs-5 fw-normal text-light-emphasis">
+              <p className="fs-6 fw-normal text-light-emphasis">
                 Job opportunities posted: According to IDC, the Salesforce Economy will provide over 548,400 new direct jobs in India from 2019 through 2024.
               </p>
 
               <h2 id="statistical-data">Statistical Data</h2>
-              <p className="fs-5 fw-normal text-light-emphasis">
+              <p className="fs-6 fw-normal text-light-emphasis">
                 [Include relevant statistical data here.]
               </p>
 
               <h2 id="emerging-career">Value in Emerging Career</h2>
-              <p className="fs-5 fw-normal text-light-emphasis">
+              <p className="fs-6 fw-normal text-light-emphasis">
                 A Salesforce Developer: Salesforce development role needs someone who is good at Salesforce admin and also can do coding and object-oriented programming. Apex is the coding language in the Salesforce, however, you don’t need to be an expert.
                 <br />
                 Enhancement of Your Career Growth: It is highly advisable to learn advanced Salesforce development for a high increase in salary but it also comes with higher responsibility depending on your organization's goals and project scope.
               </p>
 
               <h2>Industries Making Salesforce a Core Performer</h2>
-              <p className="fs-5 fw-normal text-light-emphasis">
+              <p className="fs-6 fw-normal text-light-emphasis">
                 There are many organizations who are investing in Salesforce to shift from IT to cloud and CRM is performing greatly in every sector.
               </p>
 
               <h2>A Salesforce Career Gives Candidates High Potential</h2>
-              <p className="fs-5 fw-normal text-light-emphasis">
+              <p className="fs-6 fw-normal text-light-emphasis">
                 A Salesforce employee has a high earning potential not only in the present but also in the future. Working in any of the Salesforce roles helps the candidate to gain a strong skill set. Hence he/she can aim for higher salaries after gaining experience.
                 <br />
                 Salesforce jobs are some of the most secure and fastest-growing jobs in the world.

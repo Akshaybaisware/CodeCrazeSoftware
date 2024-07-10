@@ -59,9 +59,9 @@ const OurExpertise = () => {
           </h1>
         </header>
         <section className="row mb-4 career-custom-row">
-          <h3 className='my-5 text-center '>Web Technology</h3>
-  <Container>
-
+       
+  <Container className='border border-dark Carrer__Webtechnology'>
+  <h3 className='my-5 text-center fw-bold '>Web Technology</h3>
     <Row>
       <Col className="d-flex justify-content-center">
         <Image className="small-image" src={MicrosoftAsp} />

@@ -1,10 +1,23 @@
 import React from 'react';
+
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedinIn, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone, faMapMarkerAlt, faLink } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate =useNavigate();
+  const ClickforTheNextpage=()=>{
+    navigate('./contact')
+    
+
+  }
+  const ClickforTheServicePage=()=>{
+    navigate('./mobile-application-development')
+    
+
+  }
   return (
     <footer className="footer bg-dark text-white py-5">
       <div className="container">
@@ -14,7 +27,7 @@ const Footer = () => {
               Get in touch <span className="text-danger">!</span>
             </h2>
             <p className="text-white mb-5 fs-4" >Your technical partner towards web success.</p>
-            <button className="btn btn-outline-light">Contact Us</button>
+            <button onClick={ClickforTheNextpage} className="btn btn-outline-light">Contact Us</button>
           </div>
           <div className="col-md-6">
             <div className="map-container">
@@ -36,25 +49,29 @@ const Footer = () => {
               <FontAwesomeIcon icon={faLink} /> Quick Links
             </h3>
             <ul className="list-unstyled ">
-            <li>
-  <a href="#services" className="text-white my-2">
+        
+              
+            <li onClick={ClickforTheServicePage} className="text-white my-2">
+          
+   
     <i className="fas  fa-concierge-bell"></i> Services
-  </a>
+
 </li>
-<li>
-  <a href="#online-support" className="text-white my-2">
+
+<li  onClick={ClickforTheNextpage} className="text-white my-2" >
+ 
     <i className="fas fa-headset"></i> Online Support
-  </a>
+ 
 </li>
-<li>
-  <a href="#business-solution" className="text-white my-2">
+<li  className="text-white my-2" style={{cursor:"pointer"}}>
+
     <i className="fas fa-briefcase"></i> Business Solution
-  </a>
+
 </li>
-<li>
-  <a href="#faqs" className="text-white my-2">
+<li className="text-white my-2">
+   
     <i className="fas fa-question-circle"></i> FAQs
-  </a>
+ 
 </li>
 
             </ul>

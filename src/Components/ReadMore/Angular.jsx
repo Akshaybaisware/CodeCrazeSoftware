@@ -5,7 +5,7 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 
 function Angular() {
   return (
-    <div className="container-fluid ReadMoreMobileDescription-container m-0 p-0">
+    <div className="container-fluid ReadMoreMobileDescription-container bg-light m-0 p-0">
       <section className="ReadMoreMobileDescription-us-section">
         <h1 id="animatedText">Blogs.</h1>
       </section>

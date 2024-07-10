@@ -6,7 +6,7 @@ import DesktopScreen from '../../Images/center_1.png';
 
 function MobileApp() {
   return (
-    <div className="container-fluid MobileApp-us-container m-0 p-0">
+    <div className="container-fluid MobileApp-us-container m-0 p-0 bg-light">
       <section className="MobileApp-us-section">
         <Container className="row text-left">
           <div className="col-xl-7  col-lg-7 col-md-12 col-sm-12 col-12">
@@ -85,7 +85,7 @@ function MobileApp() {
         </Container>
 
         <footer className="MobileApp-footer">
-          <h2 className="MobileApp-footerTitle text-white mb-5 fs-3">Looking for Customer Relationship Management services?</h2>
+          <h2 className="MobileApp-footerTitle text-white mb-3 fs-3">Looking for Customer Relationship Management services?</h2>
           <Button variant="outline-light" onClick={() => window.location.href='/contact'}>Talk to an Expert</Button>
         </footer>
       </Container>

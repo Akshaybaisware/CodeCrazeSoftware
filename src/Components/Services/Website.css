@@ -1,0 +1,136 @@
+/* General Styles */
+.container-fluid {
+    padding: 0;
+  }
+  
+  .Website-card_body {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 9em;
+  }
+  
+  .Website-aboutheading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .Website-extra {
+    color: #007bff;
+  }
+  
+  .Website-why_para {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Section: Web Feature Mobile */
+  .Website-web-feature_mobile {
+    background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%);
+    background-color: #1f3c66;
+    padding: 100px 0 80px;
+    position: relative;
+  }
+  
+  .Website-webbreadcrumbs__txt {
+    color: #fff;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 3.5em;
+    width: 0;
+    animation: typing 10s steps(70) forwards;
+    display: inline-block;
+  }
+  
+  @keyframes typing {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .Website-img_banner_section {
+    margin: 0 auto;
+  }
+  
+  .Website-webbreadcrumb {
+    background-color: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 0;
+    z-index: 3;
+  }
+  
+  .Website-webwhy_para {
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  /* Section: Clients Area */
+  .Website-clients-area {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .Website-para_left_about {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .Website-para_left_about i {
+    color: #28a745;
+    margin-right: 10px;
+  }
+  
+  /* Section: New Section */
+  .Website-new_section {
+    margin-top: 50px;
+    background: #374b9b;
+    color:white;
+  }
+  
+  .Website-heading_new_top {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .Website-why_para_web {
+    font-size: 1rem;
+    color: #faf4f4;
+  }
+  
+  /* Section: Row End */
+  .Website-row_end {
+    margin-top: 20px;
+  }
+  
+  .Website-head_end {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Button Styles */
+  .Website-btn-border {
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .Website-btn-border:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

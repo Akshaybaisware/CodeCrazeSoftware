@@ -6,7 +6,7 @@
 
   function Centermanagement() {
     return (
-      <div className="container-fluid centermanagement-management-container m-0 p-0">
+      <div  className="container-fluid centermanagement-management-container m-0 p-0">
         <section className="centermanagement-management-section">
           <h1 id="animatedText">Center Management System. </h1>
           <p className="centermanagement-management-description mt-5">

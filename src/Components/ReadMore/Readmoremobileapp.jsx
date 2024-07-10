@@ -1,13 +1,9 @@
 import React from 'react';
 import './ReadMore.css';
-import { Container,  } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { MDBFooter } from 'mdb-react-ui-kit';
 
-
-
 function ReadMoreMobile() {
- 
-
   return (
     <div className="container-fluid ReadMoreMobileDescription-container m-0 p-0">
       <section className="ReadMoreMobileDescription-us-section">
@@ -15,108 +11,122 @@ function ReadMoreMobile() {
       </section>
       <Container className='shadow-lg ReadMoreMobile__section p-5 bg-white rounded'>
         <header className="ReadMoreMobile-header my-3">
-          <p className='fs-2 fw-bold'>e-COMMERCE Design Trends.</p>
+          <p className='fs-2 fw-bold'>Role of Mobile Apps in Construction Industry.</p>
         </header>
 
         <section className="ReadMoreMobile-servicesSection">
-          <div >
+          <div>
             <div className="ReadMoreMobile-servicesColumn my-4 text-black fw-bold">
-              <h4 className='text-black'>Learn the tools for testing accessibility</h4>
               <p className="fs-5 fw-normal text-black-50">
-              It is necessary to manually verify accessibility in the current state of the web. Start by becoming familiar with the built-in screen reader on your computer.
-Additionally, we can spot-check for certain problems like missing alt text, labels, and colour contrast using automated tools like Lighthouse, axe, and linting.
-
-
-              
+                One of the important roles of mobile apps in the construction industry is to simplify the sharing of information about daily reports made on the job with various stakeholders. This facilitates communication among project stakeholders and provides access to information for various people.
               </p>
             </div>
-            <div>
-                <div className='my-4'>
-              <h4 className="text-black">Define unique page titles</h4>
-              <p className="fs-5 text-black-50">If those with poor vision like colour blindness can't read your material, then even if your design may appear cool, it isn't. To make sure you agree to the colour contrast ratio requirements of the Web Content Accessibility Guidelines (WCAG 2.0), use the Material theming guides and inspection tools.      
-</p>
-</div>
-<div className='my-4'>
-<h4 className="text-black">Ensure adequate color contrast</h4>
-              <p className="fs-5 text-black-50">If those with poor vision like colour blindness can't read your material, then even if your design may appear cool, it isn't. To make sure you agree to the colour contrast ratio requirements of the Web Content Accessibility Guidelines (WCAG 2.0), use the Material theming guides and inspection tools.
-
-</p>
-</div>
-<div className='my-4'>
-<h4 className="text-black">Ensure adequate color contrast</h4>
-              <p className="fs-5 text-black-50">If those with poor vision like colour blindness can't read your material, then even if your design may appear cool, it isn't. To make sure you agree to the colour contrast ratio requirements of the Web Content Accessibility Guidelines (WCAG 2.0), use the Material theming guides and inspection tools.
-
-</p>
-</div>
-<div className='my-4'>
-<h4 className="text-black">Use Semantic HTML</h4>
-              <p className="fs-5 text-black-50">If those with poor vision like colour blindness can't read your material, then even if your design may appear cool, it isn't. To make sure you agree to the colour contrast ratio requirements of the Web Content Accessibility Guidelines (WCAG 2.0), use the Material theming guides and inspection tools.
-
-</p>
-</div>
-<div className='my-4'>
-
-<h4 className="text-black">Create selectable controls with Angular Material</h4>
-              <p className="fs-5 text-black-50">If those with poor vision like colour blindness can't read your material, then even if your design may appear cool, it isn't. To make sure you agree to the colour contrast ratio requirements of the Web Content Accessibility Guidelines (WCAG 2.0), use the Material theming guides and inspection tools.
-
-</p>
-</div>
-<div className='my-4'>
-<h4 className="text-black">Provide control labels with ARIA</h4>
-              <p className="fs-5 text-black-50">If those with poor vision like colour blindness can't read your material, then even if your design may appear cool, it isn't. To make sure you agree to the colour contrast ratio requirements of the Web Content Accessibility Guidelines (WCAG 2.0), use the Material theming guides and inspection tools.
-
-</p>
-</div>
-<div className='my-4'>
-
-<h4 className="text-black">Add the power of angular/cdk/a11y</h4>
-              <p className="fs-5 text-black-50">Add the a11y module from the Angular CDK to help with trickier Angular-specific problems. Developers can use a number of techniques to increase accessibility by importing the module package, including:</p>
-              <li className="my-4" style={{ fontSize: '1.2em' }}>
-    <span><b>ListKeyManager:</b></span> controls the selected item in a list of options depending on keyboard input.
-</li>
-<li className="my-4" style={{ fontSize: '1.2em' }}>
-    <span><b>FocusTrap:</b></span> For elements like modal dialogues, where attention needs to be limited, use the tab key focus within the element.
-</li>
-<li className="my-4" style={{ fontSize: '1.2em' }}>
-    <span><b>Interactive Checker:</b></span> Check an element's interaction with InteractivityChecker, which records the disabled, visible, tabbable, and focusable states for accessibility needs.
-</li>
-<li className="my-4" style={{ fontSize: '1.2em' }}>
-    <span><b>LiveAnnouncer Tool:</b></span> Screen-reader users can use the LiveAnnouncer tool to broadcast messages using an aria-live region.
-</li>
-<li className="my-4" style={{ fontSize: '1.2em' }}>
-    <span><b>FocusMonitor:</b></span> used to keep an eye out for changes in an element's focus state.
-</li>
-<li className="my-4" style={{ fontSize: '1.2em' }}>
-    <span><b>Styling utilities:</b></span> Sass mixins that create styles for easily accessible element hiding, focusing on users with high contrast needs, and more.
-</li>
-
-              </div>
-
-<h4 className="text-black">Control focus with FocusTrap</h4>
-              <p className="fs-5 text-black-50">Tab-key focus is captured inside an element by FocusTrap' s cdkTrapFocus directive in Angular. This is meant to be used to make components like modal dialogues, where emphasis needs to be limited, more accessible.</p>
-<h4 className="text-black">Announce changes LiveAnnouncer</h4>
-              <p className="fs-5 text-black-50">When something on the website changes, screen readers must be notified of the change. Imagine trying to submit a form or finish a transaction without being aware that an error has appeared and prevented it. That is annoying!
-To make sure screen readers are informed of notifications and real-time page changes, an aria-live region is utilised with LiveAnnouncer to announce messages for users of screen readers.
-
-</p>
-<h4 className="text-black">Enable HighContrast mode</h4>
-              <p className="fs-5 text-black-50">In order to respect the user's preferences and significantly boost contrast, use the cdk-high-contrast mixin that is available in angular/cdk/a11y to add an outline to your buttons when using High Contrast mode.
-              
-
-</p>
- <MDBFooter bgColor='light' className='text-center text-lg-left ReadMorecustom-footer'>
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-      <h2>Conclusions</h2>
-      <p className='fs-4'>And FinallyThis are the Ten steps to start making apps that are more accessible. Put your Angular expertise to the test by going to the codelab!
-
-</p>
-      
-      </div>
-    </MDBFooter>
+            <div className='my-4'>
+              <p className="fs-5 text-black-50">
+                Prevoyance Solutions is a leading mobile app development company, specializing in building Android and iOS apps for clients. Our expertise allows us to create superior construction company or industry apps that consolidate all necessary information in one accessible place. With a strong presence in Nagpur, Pune, Mumbai, and across India, we are recognized for delivering excellence in app development.
+              </p>
+            </div>
+            <div className='my-4'>
+              <p className="fs-5 text-black-50">
+                The field of mobile app development is highly attractive due to the variety of devices developers can create apps for. Beyond smartphones and tablets, the expansion into devices like televisions, connected cars, gaming consoles, and VR devices is expected to grow rapidly. This dynamic market continues to evolve, and our team is adept at building robust building construction ERP or software apps for Android and iOS across Nagpur, Pune, Mumbai, and Pan India.
+              </p>
+            </div>
+            <div className='my-4'>
+              <p className="fs-5 text-black-50">
+                Construction projects require significant coordination of people and resources despite rapid industry growth. Mobile apps play a crucial role in managing team members, milestones, schedules, equipment, inventories, and more.
+              </p>
+            </div>
+            <div className='my-4'>
+              <p className="fs-5 text-black-50">
+                Smartphone applications have simplified communication between project teams and stakeholders. Real-time communication facilitates remote meetings in various locations, enabling prompt decision-making without disrupting daily operations.
+              </p>
             </div>
           </div>
         </section>
-       
+
+        <MDBFooter className='text-center text-lg-left ReadMorecustom-footer'>
+  <div className='text-center p-3 my-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+    <h2>Here are the Top Software Testing Trends that one should anticipate in 2022.</h2>
+    <div className='container text-center'>
+      <div className='row'>
+        <div className='col'>
+          <ul style={{ fontSize: '1rem', listStyle: 'none', padding: 0 }}>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Site inspections.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Safety incident reporting.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Punch lists.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Timesheets and materials tracking.
+            </li>
+          </ul>
+        </div>
+        <div className='col'>
+          <ul style={{ fontSize: '1rem', listStyle: 'none', padding: 0 }}>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Minimize delays in the process.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Seamless communication with stakeholders.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Increased efficiency & Focus on Core Tasks.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Improve accountability of field staff.
+            </li>
+          </ul>
+        </div>
+        <div className='col'>
+          <ul style={{ fontSize: '1rem', listStyle: 'none', padding: 0 }}>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Equipment Management.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Contract Management.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Performance Management.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Document Management.
+            </li>
+          </ul>
+        </div>
+        <div className='col'>
+          <ul style={{ fontSize: '1rem', listStyle: 'none', padding: 0 }}>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Safety Tracking.
+            </li>
+            <li className='my-2' style={{ display: 'flex', alignItems: 'center' }}>
+              <i className="fas fa-check me-2 my-2" style={{ color: 'white', backgroundColor: 'black', borderRadius: '50%', padding: '0.3rem' }}></i>
+              Quality Control.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</MDBFooter>
+
+
       </Container>
     </div>
   )
