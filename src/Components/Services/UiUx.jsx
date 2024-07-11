@@ -35,7 +35,7 @@ function UiUx() {
         <div className="container Uiux-card_body p-5">
           <div className="row mb-5">
             <h4>Interaction Design</h4>
-            <div className="col-lg-7 col-md-7 col-sm-12 col-12 d-flex align-items-center">
+            <div className="col-lg-7 col-md-7 col-sm-12 col-12 d-flex align-items-center ">
               <p className="Uiux-aboutus">
                 UX and UI are the two most important aspects of any design process. One drives the
                 other and as they say UI is incomplete without UX and vice-versa. We offer beautiful interaction
@@ -47,7 +47,7 @@ function UiUx() {
               </p>
             </div>
             <div className="col-lg-5 col-md-5 col-sm-12 col-12">
-              <div className="Uiux-geeks">
+              <div className="Uiux-geeks ">
                 <img src={ux_1} alt="" className="w-100 Uiux-slick_img" />
               </div>
             </div>

@@ -1,27 +1,28 @@
 .custom-app-breadcrumbs-txt {
-    color: #fff;
+    font-weight: bold;
     text-transform: capitalize;
-    width: 45ch; /* Adjust the width as needed */
-    white-space: nowrap;
     overflow: hidden;
-    font-size: 40px; /* Adjusted font size */
-    animation: typing 10s steps(45, end) infinite;
-    -webkit-animation: typing 10s steps(45, end) infinite;
+    white-space: nowrap;
+    font-size: 3.5em !important;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    animation: typing 5s steps(30, end) infinite;
+    transform: translateX(0); /* Adjust as needed */
+    z-index: 2; /* Ensure the text is above the image */
+    color: white; /* Adjust text color for better visibility */
+   
+    width: 0; /* Initial width */
 }
 
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
-}
-
-@-webkit-keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
+  }
+  
 .custom-app-page-feature-mobile {
     background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%);
-    padding: 100px 0 80px;
+    padding: 300px 0 80px;
     position: relative;
 }
 
@@ -86,8 +87,8 @@
 .custom-app-geek {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
 }
 
 .custom-app-custom-heading-new {
@@ -111,6 +112,59 @@
     font-size: 24px;
 }
 
-.custom-app-extra {
+.Red{
     color: #ff4081;
 }
+
+@media (min-width: 990px) and (max-width: 1112px) {
+  
+   .custom-app-breadcrumbs-txt {
+  
+        font-size: 2em !important;
+        top: 6em !important;
+        right: 5em !important;
+  
+    }
+   
+  }
+  
+  @media (min-width: 759px) and (max-width: 990px) {
+   
+    .custom-app-page-feature-mobile .custom-app-breadcrumbs-txt {
+        font-size: 2.3em !important;
+        position: relative;
+        top: -1em !important;
+       
+    }
+    
+  }
+  
+  @media (min-width: 500px) and (max-width: 759px) {
+    
+   
+    .custom-app-page-feature-mobile .custom-app-breadcrumbs-txt {
+        font-size: 1.5em !important;
+        position: relative;
+        top: -1em !important;
+       
+    }
+  .custom-app-breadcrumb .custom-app-why-para{
+    font-size: 0.8em !important;
+
+  }
+  
+    
+  }
+  @media (max-width: 499px) {
+    .custom-app-page-feature-mobile .custom-app-breadcrumbs-txt {
+        font-size: 1.5em !important;
+        position: relative;
+        top: -1em !important;
+       
+    }
+    .custom-app-breadcrumb .custom-app-why-para{
+        font-size: 0.8em !important;
+    
+      }
+   
+  }

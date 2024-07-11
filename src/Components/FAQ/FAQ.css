@@ -1,0 +1,113 @@
+.FAQ-us-section {
+    word-wrap: break-word;
+    font-family: "Catamaran, sans-serif";
+    line-height: 29px;
+    color: #f8f4f4;
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 10em 8em;
+}
+
+.FAQ-us-section #animatedText {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(10) infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(10);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5em !important;
+}
+
+.FAQ__section {
+    position: relative;
+    bottom:  5em;
+}
+
+.FAQ-us-section .FAQ-us-description {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.3em !important;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+
+
+.FAQ-content {
+    font-size: 1.2em !important; /* Increased font size */
+}
+
+@media (min-width:990px) and (max-width:1112px) {
+    .FAQ-header .FAQ-description {
+        font-size: 16px !important; /* Increased font size */
+    }
+    .FAQ-us-section .FAQ-us-description {
+        font-size: 1.4em !important; /* Increased font size */
+    }
+}
+
+@media (min-width:759px) and (max-width:990px) {
+    .FAQ-header .FAQ-description {
+        font-size: 16px !important; /* Increased font size */
+    }
+    .FAQ-us-section .FAQ-us-description {
+        font-size: 1.2em !important; /* Increased font size */
+    }
+    .FAQ-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width:550px) and (max-width:758px) {
+    .FAQ-us-section {
+        padding: 7em 3em !important;
+    }
+    .FAQ-header .FAQ-description {
+        font-size: 14px !important; /* Increased font size */
+    }
+    .FAQ-us-section .FAQ-us-description {
+        font-size: 1.0em !important; /* Increased font size */
+    }
+}
+
+@media (min-width:550px) and (max-width:650px) {
+    .FAQ-header .FAQ-description {
+        font-size: 12px !important; /* Increased font size */
+    }
+    .FAQ-us-section .FAQ-us-description {
+        font-size: 0.8em !important; /* Increased font size */
+    }
+    .FAQ-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width:468px) and (max-width:549px) {
+    .FAQ-header .FAQ-description {
+        font-size: 10px !important; /* Increased font size */
+    }
+    .FAQ-us-section .FAQ-us-description {
+        font-size: 0.8em !important; /* Increased font size */
+    }
+    .FAQ-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (max-width:467px) {
+    .FAQ-header .FAQ-description {
+        font-size: 12px !important; /* Increased font size */
+    }
+    .FAQ-us-section .FAQ-us-description {
+        font-size: 1.0em !important; /* Increased font size */
+    }
+    .FAQ-us-section {
+        padding: 7em 3em !important;
+    }
+}

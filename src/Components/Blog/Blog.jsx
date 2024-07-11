@@ -72,7 +72,7 @@ function BlogDescription() {
   return (
     <div className="container-fluid BlogDescription-container m-0 p-0 bg-light">
       <section className="BlogDescription-us-section">
-        <h1 id="animatedText">Blog.</h1>
+        <h1 id="animatedText">Blog <span className="Red">.</span></h1>
       </section>
       <Container className="shadow-lg BlogDescription__section p-5 bg-white rounded">
         <section className="BlogDescription-servicesSection">

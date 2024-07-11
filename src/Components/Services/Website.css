@@ -29,34 +29,35 @@
   .Website-web-feature_mobile {
     background: linear-gradient(225.35deg, #d23b7d 0%, #1c4ea1 100%);
     background-color: #1f3c66;
-    padding: 100px 0 80px;
+    padding: 200px 0 80px;
     position: relative;
   }
   
   .Website-webbreadcrumbs__txt {
-    color: #fff;
+    font-weight: bold;
     text-transform: capitalize;
-    white-space: nowrap;
     overflow: hidden;
-    font-size: 3.5em;
-    width: 0;
-    animation: typing 10s steps(70) forwards;
-    display: inline-block;
+    white-space: nowrap;
+    font-size: 3em !important;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    animation: typing 5s steps(30, end) infinite;
+    transform: translateX(0); /* Adjust as needed */
+    z-index: 2; /* Ensure the text is above the image */
+    color: white; /* Adjust text color for better visibility */
+   
+    width: 0; /* Initial width */
   }
   
   @keyframes typing {
-    0% {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    from { width: 0; }
+    to { width: 100%; }
   }
   
   .Website-img_banner_section {
-    margin: 0 auto;
+    position: relative;
+  z-index: 1;
   }
   
   .Website-webbreadcrumb {
@@ -70,7 +71,8 @@
   
   .Website-webwhy_para {
     color: #fff;
-    margin-top: 2rem;
+  position: relative;
+  top: 2em;
   }
   
   /* Section: Clients Area */
@@ -133,4 +135,64 @@
     background-color: #007bff;
     color: #fff;
   }
+  @media (max-width:991px) and (min-width:700px){
+    .Website-web-feature_mobile .Website-webwhy_para{
+ 
+        top: -2em;
+    }
+    .Website-web-feature_mobile .row{
+      position: relative;
+      bottom: 5em;
+      left: 2em
+    }
+    .Website-web-feature_mobile .Website-webbreadcrumbs__txt{
+      position: relative;
+      font-size: 2em !important;
+      top: 2em;
+
+    }
+}
+@media (max-width:700px) and (min-width:500px){
+  .Website-web-feature_mobile .Website-webwhy_para{
+ 
+    top: -2em;
+    
+}
+.Website-web-feature_mobile .row{
+  position: relative;
+  bottom: 5em;
+  right: 0.8em;
+  font-size: 0.8em;
+
+}
+.Website-web-feature_mobile .Website-webbreadcrumbs__txt{
+  position: relative;
+  font-size: 2em !important;
+  top: 2em;
+
+}
+
+}
+@media (max-width:499px){
+  .Website-web-feature_mobile .Website-webwhy_para{
+ 
+    top: -1em;
+    font-size: 1em !important;
+    
+}
+.Website-web-feature_mobile .row{
+  position: relative;
+  bottom: 8em;
+ 
+  
+
+}
+.Website-web-feature_mobile .Website-webbreadcrumbs__txt{
+  position: relative;
+  font-size: 1.2em !important;
+  top: 4em;
+
+}
+
+}
   

@@ -10,9 +10,15 @@ const Footer = () => {
   const navigate =useNavigate();
   const ClickforTheNextpage=()=>{
     navigate('./contact')
+
     
 
   }
+  
+
+    const ClickForFAQ = () => {
+      navigate('/faq');
+    };
   const ClickforTheServicePage=()=>{
     navigate('./mobile-application-development')
     
@@ -68,7 +74,7 @@ const Footer = () => {
     <i className="fas fa-briefcase"></i> Business Solution
 
 </li>
-<li className="text-white my-2">
+<li onClick={ClickForFAQ} className="text-white my-2">
    
     <i className="fas fa-question-circle"></i> FAQs
  
@@ -89,7 +95,7 @@ const Footer = () => {
             </h3>
             <p  className='text-white'>
               <FontAwesomeIcon icon={faEnvelope} />  Email:
-              <a href="mailto:prafulanathile@gmail.com" className="text-danger"> prafulanathile@gmail.com</a>
+              <a href="mailto:prafulanathile@gmail.com" className="text-danger"> CodeSoftwareSolution@gmail.com</a>
             </p>
             <p className='text-white'>
               <FontAwesomeIcon icon={faPhone} /> Phone:

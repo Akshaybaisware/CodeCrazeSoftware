@@ -4,39 +4,49 @@
   line-height: 29px;
   color: #f8f4f4;
   background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
-  padding: 10em  6em;
+  padding: 15em 6em;
+  position: relative;
 }
-.MobileApp__Description .MobileApp__windows p{
-  margin-right: 7em !important;
-}
+
 .MobileApp-us-section #animatedText {
   font-weight: bold;
-  color: #fff;
   text-transform: capitalize;
-  width: 35ch;
-  white-space: nowrap;
   overflow: hidden;
-  animation: typing 5s steps(10) infinite;
-  font-size: 2.8em !important;
+  white-space: nowrap;
+  font-size: 3.5em !important;
+  position: absolute;
+  top:22%;
+  left: 8%;
+  animation: typing 5s steps(30, end) infinite;
+  transform: translateX(0); /* Adjust as needed */
+  z-index: 2; /* Ensure the text is above the image */
+  color: white; /* Adjust text color for better visibility */
+ 
+  width: 0; /* Initial width */
 }
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.MobileApp__Image img {
+  position: relative;
+  z-index: 1;
+}
+
+.MobileApp__Description .MobileApp__windows p {
+  margin-right: 7em !important;
+}
+
+
 
 .MobileApp-us-section .MobileApp-us-description {
   font-size: 1.2em !important;
   line-height: 1.5;
 }
-
-@keyframes typing {
-  from {
-      width: 0;
-  }
-  to {
-      width: 35ch;
-  }
-}
-
 .MobileApp-us-container .bg-white {
   position: relative;
-  bottom: 10em;
+  bottom: 14em;
 }
 
 .MobileApp-crmServices {
@@ -137,6 +147,47 @@
   font-size: 20px;
   color: #333;
 }
+.services-card {
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 100% !important; /* Ensure the card takes the full height */
+  width: 100% !important;
+}
+
+.services-card::before {
+  content: '';
+  position: absolute;
+  bottom: -75px; /* Initial position out of view */
+  right: -75px; /* Initial position out of view */
+  width: 150px;
+  height: 150px;
+  background-color: #0071dc;
+  border-radius: 50%;
+  opacity: 0.1;
+  transition: bottom 0.7s, right 0.7s;
+  z-index: 0; /* Ensure it stays behind the content */
+}
+
+.services-card:hover::before {
+  bottom: 0;
+  right: 0;
+  opacity: 0.3; /* Optional: change opacity on hover */
+  transition: bottom 0.7s, right 0.7s;
+}
+
+.services-card-small {
+  width: 320px !important; /* Adjusted value for smaller width */
+  min-height: 400px !important; /* Increased height */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 .MobileApp-button {
   color: white;
@@ -158,14 +209,17 @@
 }
 
 @media (min-width: 990px) and (max-width: 1112px) {
-  .MobileApp-header .MobileApp-description {
-      font-size: 14px !important;
-  }
+  
   .MobileApp-us-section #animatedText {
-      font-size: 2.5em !important;
+
+      font-size: 2em !important;
+      top: 6em !important;
+      right: 5em !important;
+
   }
   .MobileApp-us-section .MobileApp-us-description {
       font-size: 1.2em !important;
+     
   }
 }
 
@@ -175,13 +229,21 @@
   }
   .MobileApp-us-section #animatedText {
       font-size: 2em !important;
+      position: relative;
+      top: 0em;
+     
   }
   .MobileApp-us-section .MobileApp-us-description {
       font-size: 1em !important;
+     
+  }
+  .MobileApp-us-section .row{
+    position: relative !important;
+    left: 5em !important;
   }
 }
 
-@media (min-width: 1px) and (max-width: 759px) {
+@media (min-width: 500px) and (max-width: 759px) {
   .MobileApp-header .MobileApp-description {
       font-size: 14px !important;
   }
@@ -189,7 +251,9 @@
       padding: 5em 4em;
   }
   .MobileApp-us-section #animatedText {
-      font-size: 1em !important;
+      font-size: 1.5em !important;
+      position: relative;
+      top: 0em;
   }
   .MobileApp-us-section .MobileApp-us-description {
       font-size: 0.8em !important;
@@ -200,4 +264,21 @@
   .MobileApp-footer {
       padding: 2em;
   }
+
+
+  
+}
+@media (max-width: 499px) {
+  .MobileApp-us-section #animatedText{
+    
+    top: -1.5em !important;
+    font-size: 1.2em !important;
+
+  }
+  .MobileApp-us-section .row{
+    position: relative !important;
+    bottom: 5em;
+    right: 3em;
+    
+}
 }

@@ -12,12 +12,12 @@ function Website() {
           <div className="row">
             <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
               <div className="Website-text-container">
-                <h1 className="Website-webbreadcrumbs__txt">
+                <h1 className="Website-webbreadcrumbs__txt  ">
                   Website Programming &amp; Development<span className="Website-extra">.</span>
                 </h1>
               </div>
               <div className="Website-webbreadcrumb text-left">
-                <p className="Website-webwhy_para text-white mt-2">
+                <p className="Website-webwhy_para text-white mt-5 fs-5">
                   In a competitive edge, a full-featured website is a basic need for business promotion. We have a large pool of resources for developing multi-functional web portals. Our custom web application development company offers a lineup of services for front-end &amp; back-end development.
                 </p>
               </div>

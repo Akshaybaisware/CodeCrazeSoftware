@@ -27,37 +27,37 @@ const AboutUs = () => {
         </section>
 
         <section className="about-us-success-section">
-          <h2 className='mb-5'>Key Aspects of CodeCraze Software Solutions</h2>
-          <Row>
-            <Col md={4} className="text-center">
-              <i className="bi bi-bullseye about-us-icon"></i>
-              <h3 className='mt-5 mb-2'>Mission</h3>
-              <p className='text-left fs-5'>
-                CodeCraze Software Solutions aims to provide services globally and emerge as a leader in the international market. We emphasize strong human relations and prioritize customer satisfaction at every business level.
-              </p>
-            </Col>
-            <Col md={4} className="text-center">
-              <i className="bi bi-graph-up about-us-icon"></i>
-              <h3 className='mb-2 mt-5'>Capabilities</h3>
-              <p className='text-left fs-5'>
-                At CodeCraze Software Solutions, we understand that every business is unique, driven by different goals and needs. Whether you seek revenue growth, cost reduction, or operational efficiency, we provide tailored solutions to meet your specific business objectives.
-              </p>
-            </Col>
-            <Col md={4} className="text-center about-us-core-values">
-              <i style={{position:"relative",top:"-0.6em"}} className="bi bi-lightbulb about-us-icon"></i>
-              <h3 >Core Values</h3>
-              <ul className='about-us-core-values-list'>
-                <p className='fs-5'>Prevoyance Solutions believe that the success is accomplished through</p>
-                <li>Commitment</li>
-                <li>Discipline</li>
-                <li>Integrity</li>
-                <li>Innovation</li>
-                <li>Teamwork</li>
-                <li>Professionalism</li>
-              </ul>
-            </Col>
-          </Row>
-        </section>
+      <h2 className='mb-5'>Key Aspects of CodeCraze Software Solutions</h2>
+      <Row>
+        <Col md={4} className="text-center about_us_col hover-3d-shadow">
+          <i className="bi bi-bullseye about-us-icon"></i>
+          <h3 className='mt-5 mb-2'>Mission</h3>
+          <p className='text-left fs-5'>
+            CodeCraze Software Solutions aims to provide services globally and emerge as a leader in the international market. We emphasize strong human relations and prioritize customer satisfaction at every business level.
+          </p>
+        </Col>
+        <Col md={4} className="text-center about_us_col hover-3d-shadow">
+          <i className="bi bi-graph-up about-us-icon"></i>
+          <h3 className='mb-2 mt-5'>Capabilities</h3>
+          <p className='text-left fs-5'>
+            At CodeCraze Software Solutions, we understand that every business is unique, driven by different goals and needs. Whether you seek revenue growth, cost reduction, or operational efficiency, we provide tailored solutions to meet your specific business objectives.
+          </p>
+        </Col>
+        <Col md={4} className="text-center about_us_core_values hover-3d-shadow">
+          <i style={{position:"relative",top:"-0.6em"}} className="bi bi-lightbulb about-us-icon"></i>
+          <h3>Core Values</h3>
+          <ul className='about-us-core-values-list'>
+            <p className='fs-5'>Prevoyance Solutions believe that the success is accomplished through</p>
+            <li>Commitment</li>
+            <li>Discipline</li>
+            <li>Integrity</li>
+            <li>Innovation</li>
+            <li>Teamwork</li>
+            <li>Professionalism</li>
+          </ul>
+        </Col>
+      </Row>
+    </section>
         <section className="about-us-clients-section">
   <div className="about-us-business-relationships">
     <h2>Establishing Long-term Business Relationships with Clients.</h2>

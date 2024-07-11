@@ -20,9 +20,9 @@ const CareerApplyFormComponent = () => {
               <h5 className="contact-us-card-title card-title">Contact Info</h5>
               <h2 className="contact-us-card-text card-text">Let's Connect With Us</h2>
               <p>THIS COULD BE THE BEGINNING OF THE BEAUTIFUL RELATIONSHIP</p>
-              <p className="contact-us-icon-background"><i className="fas fa-phone-alt"></i> Phone Number<br/>+91 9970850512</p>
-              <p className="contact-us-icon-background text-"><i className="fas fa-map-marker-alt"></i> Visit Us Office:<br/><span className='text-warning'>17/1 Amar Plaza Salt Lake SMS, India Road, IT Park Rd, Nagpur - 440022, Third Floor, Beside Persistent.</span></p>
-              <p className="contact-us-icon-background"><i className="fas fa-envelope"></i> Mail Us:<br/>prafullanathile@gmail.com</p>
+              <p className="contact-us-icon-background"><i className="fas fa-phone-alt"></i> Phone Number<br/>9503007527/9403452788</p>
+              <p className="contact-us-icon-background text-"><i className="fas fa-map-marker-alt"></i> Visit Us Office:<br/><span className='text-warning'> address Nagpur medical square .</span></p>
+              <p className="contact-us-icon-background"><i className="fas fa-envelope"></i> Mail Us:<br/>CodeSoftwareSolution@gmail.com</p>
             </div>
           </div>
         </div>

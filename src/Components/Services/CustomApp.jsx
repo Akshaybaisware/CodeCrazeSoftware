@@ -16,7 +16,7 @@ function CustomApp() {
           <div className="row">
             <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
               <h1 className="custom-app-breadcrumbs-txt">
-                Custom Application Development<span className="custom-app-extra">.</span>
+                Custom Application Development<span className="Red">.</span>
               </h1>
               <div className="custom-app-breadcrumb">
                 <p className="custom-app-why-para text-white mt-2">
@@ -78,10 +78,12 @@ function CustomApp() {
               </div>
               <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 custom-app-padding-custom mt-5">
                 <div className="custom-app-geek">
-                  <img src={Img5} alt="Easy to use" width="20%" />
+                  <img src={Img5} alt="Easy to use"  width="20%" />
                   <h4 className="custom-app-custom-heading-new">It’s easy to use</h4>
                   <p className="custom-app-para-custom mt-3">
-                    Understanding a new program is always difficult, but it becomes even more time-consuming and confusing when it wasn’t purpose-built for your business. Custom applications can negate this by using a friendly language that describes the needs of its users, opening it up to every stakeholder rather than only professionals.
+                  Understanding a new program is always difficult, but it becomes even more time- consuming and confusing when it wasn’t purpose-built for your business. Every person would need to be trained in it, and when it comes to software that contains more high- level information — for example, a database — it would be extremely arduous to coach someone who has no experience in the field to use it. Take a salesperson who wants to reach the data contained in a database — they may need help from your data specialists for a long time before they can use it themselves. Custom applications can negate this by using a friendly language that describes the needs of its users, opening it up to every stakeholder rather than only professionals.
+
+
                   </p>
                 </div>
               </div>
@@ -90,7 +92,9 @@ function CustomApp() {
                   <img src={Img5} alt="Automated" width="20%" />
                   <h4 className="custom-app-custom-heading-new">It’s automated</h4>
                   <p className="custom-app-para-custom mt-3">
-                    Custom application development can ensure that manual and repetitive tasks are being automated, saving you time and freeing up your employees to deal with the important things that only humans can do.
+                  We briefly mentioned workflows before, but it’s such a huge part of business efficiency that it has to be stressed. With custom application development, you can ensure that manual and repetitive tasks are being automated, saving you time and freeing up your employees to deal with the important things that only humans can do. Whether it’s sending emails or automatically moving data, custom software can remove the boring chores and make your business more effective.
+
+
                   </p>
                 </div>
               </div>

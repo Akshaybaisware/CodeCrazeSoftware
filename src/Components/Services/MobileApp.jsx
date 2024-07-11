@@ -8,14 +8,14 @@ function MobileApp() {
   return (
     <div className="container-fluid MobileApp-us-container m-0 p-0 bg-light">
       <section className="MobileApp-us-section">
-        <Container className="row text-left">
-          <div className="col-xl-7  col-lg-7 col-md-12 col-sm-12 col-12">
+        <Container className="row text-left ">
+          <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
             <h1 id="animatedText">Mobile Application Development</h1>
-            <p className="MobileApp-us-description mt-4">
+            <p className="MobileApp-us-description mt-4 ">
               Mobility solutions are helping businesses grow irrespective of location. We work with diverse brands, organizations, start-ups, and individuals to create powerful apps from great ideas. Prevoyance Solutions is a leading mobile application development company in Nagpur, Pune, Mumbai, and Pan India, helping companies from startups and small businesses to large enterprises design, develop, and launch custom mobile applications.
             </p>
           </div>
-          <div className="col-xl-5  col-lg-5 col-md-8 col-sm-12 col-12  MobileApp__Image">
+          <div className="col-xl-5 col-lg-5 col-md-8 col-sm-12 col-12 MobileApp__Image">
             <img src={DesktopScreen} alt="Mobile Application" className="img-fluid" />
           </div>
         </Container>
@@ -55,27 +55,27 @@ function MobileApp() {
 
         <Container className="MobileApp__Description">
           <Row>
-            <Col>
+            <Col className="services-card">
               <p className="fs-4 fw-bold">iPhone</p>
               <p className="fs-5 text-black-50">
                 Our iOS development team has vast experience in sculpting your ideas into a masterpiece business app. We develop apps that run smoothly on devices, with incredible UX/UI designs that can achieve business objectives.
               </p>
             </Col>
-            <Col>
+            <Col className="services-card">
               <p className="fs-4 fw-bold">Android</p>
               <p className="fs-5 text-black-50">
                 Android application development is important for any business as most users across the globe use Android OS. At least 800 million individuals use Android apps worldwide, thus having a result-focused Android app development tactic is a way to business success.
               </p>
             </Col>
-            <Col>
+            <Col className="services-card">
               <p className="fs-4 fw-bold">HTML5</p>
               <p className="fs-5 text-black-50">
                 Our HTML5 development team has vast experience in sculpting your ideas into a masterpiece business app. We develop apps that run smoothly on devices, with incredible UX/UI designs that can achieve business objectives.
               </p>
             </Col>
           </Row>
-          <Row className="MobileApp__windows">
-            <Col md={{ span: 6, offset: 4 }}>
+          <Row>
+            <Col md={{ span: 6, offset: 4.5 }} className="services-card services-card-small">
               <p className="fs-4 fw-bold">Windows</p>
               <p className="fs-5 text-black-50 me-5">
                 Windows is a group of several proprietary graphical operating system families developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry, such as Windows NT for consumers, Windows Server for servers, and Windows IoT for embedded systems.

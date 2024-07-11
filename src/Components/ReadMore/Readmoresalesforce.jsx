@@ -1,12 +1,17 @@
 import React from 'react';
 import './ReadMore.css';
-import { Container } from 'react-bootstrap';
+import { Container,Image } from 'react-bootstrap';
+import Saleforce_blog1 from '../../Images/saleforceblog1.png'
+import Saleforce_blog2 from '../../Images/saleforceblog2.png'
+import Saleforce_blog3 from '../../Images/salesforceskill.webp'
+import salesforcesalesrevenue from '../../Images/salesforce-sales-revenue.png'
+
 
 function EcommerceSolution() {
   return (
     <div className="container-fluid ReadMoreMobileDescription-container m-0 p-0">
       <section className="ReadMoreMobileDescription-us-section">
-        <h1 id="animatedText">Blogs.</h1>
+        <h1 id="animatedText">Blogs <span className='Red'>.</span></h1>
       </section>
       <Container className='shadow-lg ReadMoreMobile__section p-5 bg-white rounded'>
         <header className="ReadMoreMobile-header my-3">
@@ -15,7 +20,7 @@ function EcommerceSolution() {
 
         <nav className="ReadMoreMobile-navigation my-4">
           <ul className="fs-6 fw-bold">
-            <li><a href="#what-is-salesforce">What is Salesforce?</a></li>
+            <li><a href="#what-is-salesforce">What is Salesforce  <span className='Red'>?</span></a></li>
             <li><a href="#importance">Importance</a></li>
             <li><a href="#job-opportunities">Job opportunities in Salesforce</a></li>
             <li><a href="#statistical-data">Statistical data</a></li>
@@ -91,7 +96,7 @@ function EcommerceSolution() {
 
               <h2 id="statistical-data">Statistical Data</h2>
               <p className="fs-6 fw-normal text-light-emphasis">
-                [Include relevant statistical data here.]
+               <Image src={salesforcesalesrevenue} width={"500vh"}></Image>
               </p>
 
               <h2 id="emerging-career">Value in Emerging Career</h2>
@@ -103,8 +108,44 @@ function EcommerceSolution() {
 
               <h2>Industries Making Salesforce a Core Performer</h2>
               <p className="fs-6 fw-normal text-light-emphasis">
+              Tab-key focus is captured inside an element by FocusTrap's cdkTrapFocus directive in Angular. This is meant to be used to make components like modal dialogues, where emphasis needs to be limited, more accessible.
+
+.
+              </p>
+              <div>
+              <h2>Announce changes with LiveAnnouncer
+              </h2>
+              <p className="fs-6 fw-normal text-light-emphasis">
+              When something on the website changes, screen readers must be notified of the change. Imagine trying to submit a form or finish a transaction wit hout being aware that an error has appeared and prevented it. That is annoying!
+To make sure screen readers are informed of notifications and real-time page changes, an aria-live region is utilised with LiveAnnouncer to announce messages for users of screen readers.
+
+
+
+.
+              </p>
+              <Image src={Saleforce_blog1}></Image>
+              <p>Job opportunities posted : According to IDC, the Salesforce Economy will provide over 548,400 new direct jobs in India from 2019 through 2024.
+
+</p>
+              </div>
+              <div>
+              <h2>Announce changes with LiveAnnouncer</h2>
+              <p className="fs-6 fw-normal text-light-emphasis">
                 There are many organizations who are investing in Salesforce to shift from IT to cloud and CRM is performing greatly in every sector.
               </p>
+              <Image src={Saleforce_blog2}></Image>
+              </div>
+      
+       <div>    
+<h2>ENHANCEMENT OF YOUR CAREER GROWTH:- it is highly advisable to learn
+</h2>
+<Image src={ Saleforce_blog3 }></Image>
+</div>           <h2>Control focus with FocusTrap
+              </h2>
+              <p className="fs-6 fw-normal text-light-emphasis">
+                There are many organizations who are investing in Salesforce to shift from IT to cloud and CRM is performing greatly in every sector.
+              </p>
+
 
               <h2>A Salesforce Career Gives Candidates High Potential</h2>
               <p className="fs-6 fw-normal text-light-emphasis">

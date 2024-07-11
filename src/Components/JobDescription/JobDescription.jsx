@@ -1,6 +1,6 @@
 import React from 'react';
 import './JobDescription.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container,  } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 

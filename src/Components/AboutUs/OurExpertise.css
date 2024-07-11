@@ -135,6 +135,9 @@
   .OurExpertise-custom-footer {
     font-size: 1.2rem; /* Increased font size for footer on smaller screens */
   }
+  .OurExpertise-custom-subtle-shadow{
+    bottom: 0em !important;
+  }
 }
 
 @media (max-width: 576px) {

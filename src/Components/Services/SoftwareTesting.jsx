@@ -12,7 +12,7 @@ function SoftwareTesting() {
           <div className="row">
             <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
               <h1 className="Website_softwaretesting_breadcrumbs__txt">
-                Software Testing<span className="SoftwareTesting_extra">.</span>
+                Software Testing<span className="Red">.</span>
               </h1>
               <div className="SoftwareTesting_breadcrumb">
                 <p className="SoftwareTesting_why_para mt-2 text-white fs-5">
@@ -102,7 +102,7 @@ function SoftwareTesting() {
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-3 col-sm-12 col-12 mx-5 position-absolute top-70 start-50">
-                  <img src={SoftwaretestingClient} alt="" className="w-100" />
+                  <img src={SoftwaretestingClient} alt="" className="SoftwareTesting-Image" />
                 </div>
               </div>
             </div>

@@ -42,7 +42,12 @@
     color: white !important;
   }
  
+  @media (min-width: 990px) and (max-width: 1112px) {
   
+    .NavBarpage__Navbar .text-white{
+      font-size: 0.9em !important;
+    }
+  }
   @media (max-width: 991px) {
     .offcanvas-body {
       background: linear-gradient(to right, #000000, #434343);

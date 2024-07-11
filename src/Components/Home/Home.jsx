@@ -10,9 +10,9 @@ import airrnp from '../../Images/airrnp.jpg';
 import getmock from '../../Images/getmock.jpg';
 import parkers from '../../Images/parkres.jpg';
 
-import Picture1 from "../../Images/TehnologyImage1.jpeg";
+import Picture1 from "../../Images/TechnologyImage1.jfif";
 import Picture2 from "../../Images/TechnologyImage2.jpg";
-import Picture3 from "../../Images/TechnologyImage3.jpg";
+import Picture3 from "../../Images/TechnologyImage3.png";
 import Picture4 from "../../Images/TechnologyImage4.jpg";
 import Picture5 from "../../Images/second-section-1.jpg";
 import Picture6 from "../../Images/second-section-2.jpg";
@@ -24,8 +24,10 @@ import SideImage from "../../Images/sixth_section.jpg";
 import BackgroundImage from "../../Images/third_background.jpg";
 
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate =useNavigate();
   const approaches = [
     {
       icon: "src/Images/gradient-icon-circle-1.png",
@@ -59,6 +61,12 @@ function Home() {
     },
   ];
 
+  const ClickForMore = () => {
+    
+    navigate('/enterprice');
+  }
+  
+
   return (
     <div className="p-0 m-0 Home" >
       <Carousel>
@@ -67,7 +75,7 @@ function Home() {
             className="d-block w-100"
             src={Picture1}
             alt="First slide"
-            style={{ maxHeight: "90vh" }}
+            style={{ maxHeight: "100vh" }}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -75,7 +83,7 @@ function Home() {
             className="d-block w-100"
             src={Picture2}
             alt="Second slide"
-            style={{ maxHeight: "90vh" }}
+            style={{ maxHeight: "100vh" }}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -83,7 +91,7 @@ function Home() {
             className="d-block w-100"
             src={Picture3}
             alt="Third slide"
-            style={{ maxHeight: "90vh" }}
+            style={{ maxHeight: "100vh" }}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -91,7 +99,7 @@ function Home() {
             className="d-block w-100"
             src={Picture4}
             alt="Fourth slide"
-            style={{ maxHeight: "90vh" }}
+            style={{ maxHeight: "100vh" }}
           />
         </Carousel.Item>
       </Carousel>
@@ -172,7 +180,7 @@ function Home() {
               enterprises conduct their business with customers / clients,
               vendors / suppliers, partners and employees in this digital age.
             </p>
-            <Button variant="secondary" className="Home-Paragraph1 mx-4 px-4  rounded-pill" size="lg">
+            <Button onClick={ClickForMore}  variant="secondary" className="Home-Paragraph1 mx-4 px-4  rounded-pill"  size="lg">
           More
         </Button>
           </Carousel.Item>
@@ -186,7 +194,7 @@ function Home() {
               end-to-end, or as an extended team to build their client's
               project successfully.
             </p>
-            <Button variant="secondary" className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
+            <Button variant="secondary"  className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
           </Carousel.Item>
@@ -218,7 +226,7 @@ function Home() {
           enterprises conduct their business with customers / clients,
           vendors / suppliers, partners and employees in this digital age.
         </p>
-        <Button variant="secondary" className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+        <Button variant="secondary" onClick={ClickForMore}  className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
       </Col>
@@ -248,7 +256,7 @@ function Home() {
           enterprises conduct their business with customers / clients,
           vendors / suppliers, partners and employees in this digital age.
         </p>
-        <Button variant="secondary" className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+        <Button variant="secondary" onClick={ClickForMore} className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
       </Col>
@@ -261,7 +269,7 @@ function Home() {
           partner with agencies to work on a project end-to-end, or as an
           extended team to build their client's project successfully.
         </p>
-        <Button variant="secondary" className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+        <Button variant="secondary"  className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
       </Col>
@@ -371,11 +379,11 @@ function Home() {
         </Col>
         <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 text-white d-flex align-items-center">
           <div className="background_sixth p-5 w-100  d-flex flex-column justify-content-center">
-            <h2 className="heading_sixth fw-bold mb-3  fs-3">Engaging,<br/> purposeful, and<br/> creative<span className="extra">.</span></h2>
+            <h2 className="heading_sixth fw-bold mb-2  fs-4">Engaging,<br/> purposeful, and<br/> creative<span className="extra">.</span></h2>
             <p className="heading_sub_sixth mb-2 fs-5 ">
               Every business is unique and so are its needs. At CodeCrazeSoftware solution, we provide the best solutions for designing, development, and digital marketing.
             </p>
-            <Button variant="light" className="mt-2 rounded-pill btn_apply_sixth">
+            <Button variant="light"  onClick={() => window.location.href='/contact'} className="mt-3 rounded-pill btn_apply_sixth">
               Enquire Us
             </Button>
           </div>

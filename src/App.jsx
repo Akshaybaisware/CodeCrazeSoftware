@@ -34,7 +34,8 @@ import Readmoresoftwaretesting from "./Components/ReadMore/Readmoresoftwaretesti
 import Ecommerce from "./Components/ReadMore/Ecommerce"
 import Angular from "./Components/ReadMore/Angular"
 import Readmoresalesforce from './Components/ReadMore/Readmoresalesforce'
-import Services from './Components/Services/CustomApp'
+import FAQ from './Components/FAQ/FAQ'
+import Enterprice from './Components/Home/MoreButton/Enterprice'
 
 
 const router = createBrowserRouter(
@@ -70,7 +71,8 @@ const router = createBrowserRouter(
     <Route path="/readmoreecommerce"  element={< Ecommerce/>} />
     <Route path="/readmoreangular"  element={< Angular/>} />
     <Route path="/readmoresalesforce" element={<Readmoresalesforce/>}/>
-    
+    <Route path="/faq" element={<FAQ/>}/>
+    <Route path="/enterprice" element={<Enterprice/>}/>
     
 
     </Route>

@@ -53,6 +53,16 @@ body {
   color: grey;
 }
 
+.about_us_col, .about_us_core_values {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-3d-shadow:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 .about-us-container #animatedText {
   font-size: 46px;
   font-weight: bold;
