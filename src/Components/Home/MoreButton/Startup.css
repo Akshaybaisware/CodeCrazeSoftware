@@ -1,0 +1,68 @@
+
+
+.Startup-us-section{
+    word-wrap: break-word;
+    font-family: "Catamaran, sans-serif";
+    line-height: 29px;
+    color: #f8f4f4;
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 10em 8em;
+}
+
+.Startup-us-section #animatedText {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(10) infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(10);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5em !important;
+}
+.Startup-Agencies__section {
+    position: relative;
+    bottom:  5em;
+}
+
+
+.Startup-single-team .img img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Startup-single-team .img:hover img {
+    transform: scale(1.1) !important;
+  }
+  
+  .btn-red-border {
+    border: 2px solid red !important;
+  }
+    
+  
+  .Startup-single-team .img:hover img {
+    transform: scale(1.1);
+  }
+  
+  #Startup-related-sec ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #Startup-related-sec ul li {
+    margin: 0 10px;
+  }
+  
+
+  
+  #Startup-related-sec ul li a:hover {
+    background-color: #f1f1f1;
+  }
+  

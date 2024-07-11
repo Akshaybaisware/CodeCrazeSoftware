@@ -36,7 +36,8 @@ import Angular from "./Components/ReadMore/Angular"
 import Readmoresalesforce from './Components/ReadMore/Readmoresalesforce'
 import FAQ from './Components/FAQ/FAQ'
 import Enterprice from './Components/Home/MoreButton/Enterprice'
-
+import Agency from './Components/Home/MoreButton/Agencies'
+import Startup from './Components/Home/MoreButton/Startup'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -73,6 +74,8 @@ const router = createBrowserRouter(
     <Route path="/readmoresalesforce" element={<Readmoresalesforce/>}/>
     <Route path="/faq" element={<FAQ/>}/>
     <Route path="/enterprice" element={<Enterprice/>}/>
+    <Route path="/agency" element={<Agency/>}/>
+    <Route path="/startup" element={<Startup/>}/>
     
 
     </Route>

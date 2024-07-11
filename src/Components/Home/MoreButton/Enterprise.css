@@ -6,6 +6,16 @@
     background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
     padding: 10em 8em;
 }
+.Enterprise-icon-color {
+    background-color: blue;
+    padding-left: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+
+    padding-right: 10px;/* Adjust the padding as needed */
+    border-radius: 50%; /* To make the background a circle */
+    color: white; /* To ensure the icon color contrasts well with the blue background */
+  }
 
 .Enterprise-us-section #animatedText {
     font-size: 46px;
@@ -40,49 +50,52 @@
 }
 
 
-.Enterprise-servicesSection {
-    padding: 20px;
-  }
-  
-  .Enterprise-servicesSection .row {
-    margin-bottom: 20px;
-  }
-  
-  .Enterprise-servicesSection h4 {
-    border-bottom: 2px solid red;
-  }
-  
-  .Enterprise-servicesList ul {
-    padding-left: 0;
-  }
-  
-  .Enterprise-servicesList li {
+/* Removing list item dots and setting icon background color to blue */
+ul.list-unstyled {
     list-style-type: none;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+    padding: 0;
   }
   
-  .Enterprise-servicesList li i {
-    margin-right: 10px;
+  .blue-icon {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
   }
   
-  .Enterprise-servicesList li:nth-child(odd) {
-    border-left: 5px solid red;
+  .red-border {
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   
-  .Enterprise-servicesList li:nth-child(even) {
-    border-left: 5px solid blue;
+  .yellow-border {
+    border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   
-  .Enterprise-picture .card {
-    margin-bottom: 20px;
+  .blue-border {
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .Enterprise-icon-bg {
+    background-color: rgba(0, 123, 255, 0.1); /* Adjust the color and opacity as needed */
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .enterprise-picture .card-body{
+    background-image: url('../../../Images/enterprise.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .Enterprise-small-font {
+    font-size: 14px; /* Adjust the font size as needed */
   }
   
-  .Enterprise-contactSection {
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-top: 2px solid purple;
-  }  
+  
   
 @media (min-width:990px) and (max-width:1112px) {
     .Enterprise-header .Enterprise-description {

@@ -1,0 +1,265 @@
+.Agencies-us-section {
+    word-wrap: break-word;
+    font-family: "Catamaran, sans-serif";
+    line-height: 29px;
+    color: #f8f4f4;
+    background: linear-gradient(225.35deg, #d23b7d 0, #1c4ea1 100%);
+    padding: 10em 8em;
+}
+
+/* Agencies.css */
+/* Agencies.css */
+.Agencies-h2-single-case-study .Agencies-img1, 
+.Agencies-h2-single-case-study .Agencies-img2, 
+.Agencies-h2-single-case-study .Agencies-img3, 
+.Agencies-h2-single-case-study .Agencies-img4 {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Increased max-width */
+    margin: auto;
+}
+
+/* This ensures that the images will be larger */
+.Agencies-img1, 
+.Agencies-img2, 
+.Agencies-img3, 
+.Agencies-img4 {
+    position: relative;
+    overflow: hidden;
+    width: 800px; /* Increased width */
+    height: 600px; /* Increased height */
+    display: block;
+}
+
+/* Other existing CSS rules */
+
+.Agencies-h2-single-case-study {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Agencies-content{
+    position: relative;
+    top: 8em;
+    font-weight: bold;
+   color: white;
+}
+.Agencies-img1, 
+.Agencies-img2, 
+.Agencies-img3, 
+.Agencies-img4 {
+    position: relative; /* Ensure positioning context for z-index */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box shadow */
+    z-index: 1; /* Default z-index */
+    cursor: pointer;
+}
+
+/* Hover effect */
+.Agencies-img1:hover, 
+.Agencies-img2:hover, 
+.Agencies-img3:hover, 
+.Agencies-img4:hover {
+    transform: scale(1.05); /* Slightly scale up the image */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adjust the values to your preference */
+    z-index: 10; /* Bring the image to the front */
+}
+
+.Agencies-h2-single-case-study:hover .Agencies-content {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.Agencies-img1 {
+    background: url('../../../Images/case-1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 30vh !important;
+}
+
+.Agencies-img2 {
+    background: url('../../../Images/case-2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 30vh !important;
+}
+
+.Agencies-img3 {
+    background: url('../../../Images/case-3.jpg') no-repeat center center;
+    background-size: cover;
+    height: 30vh !important;
+}
+
+.Agencies-img4 {
+    background: url('../../../Images/case-2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 30vh !important;
+}
+
+/* Other existing CSS rules */
+
+.Agencies-icon-color {
+    background-color: blue;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px; /* Adjust the padding as needed */
+    border-radius: 50%; /* To make the background a circle */
+    color: white; /* To ensure the icon color contrasts well with the blue background */
+}
+
+.Agencies-us-section #animatedText {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(10) infinite;
+    animation-duration: 5s;
+    animation-timing-function: steps(10);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5em !important;
+}
+
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.Agencies__section {
+    position: relative;
+    bottom: 5em;
+}
+
+/* Adding bottom border with gradient color */
+.Agencies-bordered-text {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.Agencies-bordered-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, red, blue);
+}
+
+/* Removing list item dots and setting icon background color to blue */
+ul.Agencies-list-unstyled {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Agencies-blue-icon {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.Agencies-red-border {
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.Agencies-yellow-border {
+    border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.Agencies-blue-border {
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.Agencies-icon-bg {
+    background-color: rgba(0, 123, 255, 0.1); /* Adjust the color and opacity as needed */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.Agencies-agency-picture .card-body {
+    background-image: url('../../../Images/enterprise.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+.Agencies-small-font {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+@media (min-width: 990px) and (max-width: 1112px) {
+    .Agencies-header .Agencies-description {
+        font-size: 16px !important; /* Increased font size */
+    }
+    .Agencies-us-section .Agencies-us-description {
+        font-size: 1.4em !important; /* Increased font size */
+    }
+}
+
+@media (min-width: 759px) and (max-width: 990px) {
+    .Agencies-header .Agencies-description {
+        font-size: 16px !important; /* Increased font size */
+    }
+    .Agencies-us-section .Agencies-us-description {
+        font-size: 1.2em !important; /* Increased font size */
+    }
+    .Agencies-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 758px) {
+    .Agencies-us-section {
+        padding: 7em 3em !important;
+    }
+    .Agencies-header .Agencies-description {
+        font-size: 14px !important; /* Increased font size */
+    }
+    .Agencies-us-section .Agencies-us-description {
+        font-size: 1.0em !important; /* Increased font size */
+    }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+    .Agencies-header .Agencies-description {
+        font-size: 12px !important; /* Increased font size */
+    }
+    .Agencies-us-section .Agencies-us-description {
+        font-size: 0.8em !important; /* Increased font size */
+    }
+    .Agencies-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (min-width: 468px) and (max-width: 549px) {
+    .Agencies-header .Agencies-description {
+        font-size: 10px !important; /* Increased font size */
+    }
+    .Agencies-us-section .Agencies-us-description {
+        font-size: 0.8em !important; /* Increased font size */
+    }
+    .Agencies-us-section {
+        padding: 7em 3em !important;
+    }
+}
+
+@media (max-width: 467px) {
+    .Agencies-header .Agencies-description {
+        font-size: 12px !important; /* Increased font size */
+    }
+    .Agencies-us-section .Agencies-us-description {
+        font-size: 1.0em !important; /* Increased font size */
+    }
+    .Agencies-us-section {
+        padding: 7em 3em !important;
+    }
+}

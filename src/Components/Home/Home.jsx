@@ -65,6 +65,14 @@ function Home() {
     
     navigate('/enterprice');
   }
+  const ClickForMore1 = () => {
+    
+    navigate('/agency');
+  }
+  const ClickForMore2 = () => {
+    
+    navigate('/startup');
+  }
   
 
   return (
@@ -194,7 +202,7 @@ function Home() {
               end-to-end, or as an extended team to build their client's
               project successfully.
             </p>
-            <Button variant="secondary"  className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
+            <Button variant="secondary" onClick={ClickForMore1}  className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
           </Carousel.Item>
@@ -207,46 +215,78 @@ function Home() {
               with our digital expertise & experience at each stage whether
               you are at Seed stage OR Expansion stage.
             </p>
-            <Button variant="secondary" className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
+            <Button variant="secondary"  onClick={ClickForMore2}  className="Home-Paragraph1 mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
           </Carousel.Item>
         </Carousel>
       </Col>
     </Row>
-
-    
-    <Row className="d-none d-md-flex d-lg-none">
-      <Col xs={12} md={6}>
-        <Image src={Picture8} className="Home-Image img-fluid" />
-        <p className="fs-5 fw-bold">Enterprise Solutions</p>
-        <p className="text-black-50">
-          We work with large enterprises as well as small & medium-sized
-          enterprises. We transform the way small, medium & large
-          enterprises conduct their business with customers / clients,
-          vendors / suppliers, partners and employees in this digital age.
-        </p>
-        <Button variant="secondary" onClick={ClickForMore}  className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
-          More
-        </Button>
-      </Col>
-      <Col xs={12} md={6}>
-        <Image src={Picture9} className="Home-Image img-fluid" />
-        <p className="fs-5 fw-bold">Agencies</p>
-        <p className="text-black-50">
-          We work with consulting companies, independent software vendors
-          (ISVs), software product development companies or agencies. We
-          partner with agencies to work on a project end-to-end, or as an
-          extended team to build their client's project successfully.
-        </p>
-        <Button variant="secondary" className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
-          More
-        </Button>
-      </Col>
-    </Row>
+    <Carousel>
+      <Carousel.Item>
+        <Row className="d-none d-lg-none d-md-flex">
+          <Col xs={12} md={6}>
+            <Image src={Picture8} className="Home-Image img-fluid" />
+            <p className="fs-3 fw-bold">Enterprise Solutions</p>
+            <p className="text-black-50 fs-5 mb-4">
+              We work with large enterprises as well as small & medium-sized
+              enterprises. We transform the way small, medium & large
+              enterprises conduct their business with customers / clients,
+              vendors / suppliers, partners and employees in this digital age.
+            </p>
+            <Button variant="secondary" onClick={ClickForMore} className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+              More
+            </Button>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src={Picture9} className="Home-Image img-fluid" />
+            <p className="fs-3 fw-bold">Agencies</p>
+            <p className="text-black-50 fs-5 mb-4">
+              We work with consulting companies, independent software vendors
+              (ISVs), software product development companies or agencies. We
+              partner with agencies to work on a project end-to-end, or as an
+              extended team to build their client's project successfully.
+            </p>
+            <Button variant="secondary" onClick={ClickForMore1} className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+              More
+            </Button>
+          </Col>
+        </Row>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Row className="d-none d-lg-none d-md-flex">
+          <Col xs={12} md={6}>
+            <Image src={Picture9} className="Home-Image img-fluid" />
+            <p className="fs-3 fw-bold">Agencies</p>
+            <p className="text-black-50 fs-5 mb-4">
+              We work with consulting companies, independent software vendors
+              (ISVs), software product development companies or agencies. We
+              partner with agencies to work on a project end-to-end, or as an
+              extended team to build their client's project successfully.
+            </p>
+            <Button variant="secondary" onClick={ClickForMore1} className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+              More
+            </Button>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src={Picture10} className="Home-Image img-fluid" />
+            <p className="fs-3 fw-bold">Startups</p>
+            <p className="text-black-50 fs-5 mb-4">
+              We worked with more than 100+ global tech startups for their
+              web/cloud/mobile/IOT needs. We empower and support startups with
+              our digital expertise & experience at each stage whether you are
+              at Seed stage OR Expansion stage.
+            </p>
+            <Button variant="secondary"  onClick={ClickForMore2}  className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+              More
+            </Button>
+          </Col>
+        </Row>
+      </Carousel.Item>
+    </Carousel>
 
   
-    <Row className="d-none d-lg-flex">
+    <Row className="d-none d-lg-flex ">
       <Col xs={12} md={4}>
         <Image src={Picture8} className="Home-Image img-fluid" />
         <p className="fs-3 fw-bold">Enterprise Solutions</p>
@@ -269,7 +309,7 @@ function Home() {
           partner with agencies to work on a project end-to-end, or as an
           extended team to build their client's project successfully.
         </p>
-        <Button variant="secondary"  className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+        <Button variant="secondary" onClick={ClickForMore1} className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
       </Col>
@@ -282,7 +322,7 @@ function Home() {
           our digital expertise & experience at each stage whether you are
           at Seed stage OR Expansion stage.
         </p>
-        <Button variant="secondary" className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
+        <Button variant="secondary" onClick={ClickForMore2} className="Home-Paragraph mx-4 px-4 rounded-pill" size="lg">
           More
         </Button>
       </Col>
