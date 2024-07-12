@@ -10,7 +10,7 @@ function MobileApp() {
       <section className="MobileApp-us-section">
         <Container className="row text-left ">
           <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
-            <h1 id="animatedText">Mobile Application Development</h1>
+            <h1 id="animatedText">Mobile Application Development<span className='Red'>.</span></h1>
             <p className="MobileApp-us-description mt-4 ">
               Mobility solutions are helping businesses grow irrespective of location. We work with diverse brands, organizations, start-ups, and individuals to create powerful apps from great ideas. Prevoyance Solutions is a leading mobile application development company in Nagpur, Pune, Mumbai, and Pan India, helping companies from startups and small businesses to large enterprises design, develop, and launch custom mobile applications.
             </p>

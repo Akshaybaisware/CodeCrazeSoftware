@@ -10,6 +10,8 @@ const Footer = () => {
   const navigate =useNavigate();
   const ClickforTheNextpage=()=>{
     navigate('./contact')
+    window.scrollTo(0, 0); // Scroll to top
+
 
     
 
@@ -18,9 +20,13 @@ const Footer = () => {
 
     const ClickForFAQ = () => {
       navigate('/faq');
+      window.scrollTo(0, 0); // Scroll to top
+
     };
   const ClickforTheServicePage=()=>{
     navigate('./mobile-application-development')
+    window.scrollTo(0, 0); // Scroll to top
+
     
 
   }
