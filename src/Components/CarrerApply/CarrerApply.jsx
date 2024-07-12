@@ -6,7 +6,7 @@ const CareerApplyFormComponent = () => {
   return (
     <div className="container-fluid CareerApply-container m-0 p-0">
       <section className="CareerApply-us-section">
-        <h1 id="animatedText">Android developer.</h1>
+        <h1 id="animatedText">Android developer<span className='Red'>.</span></h1>
       </section>
       <Container className='shadow-lg CareerApply__section p-5 bg-white rounded'>
        

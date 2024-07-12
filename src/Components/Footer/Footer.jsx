@@ -60,7 +60,7 @@ const Footer = () => {
             <h3 className="text-white my-2">
               <FontAwesomeIcon icon={faLink} /> Quick Links
             </h3>
-            <ul className="list-unstyled ">
+            <ul className="Footer-list-unstyled ">
         
               
             <li onClick={ClickforTheServicePage} className="text-white my-2">

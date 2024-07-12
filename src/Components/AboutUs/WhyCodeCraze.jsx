@@ -25,7 +25,7 @@ const CompanyInfo = () => {
   ];
 
   return (
-    <div className='WhyCodeCraze p-0 m-0'> 
+    <div className='WhyCodeCraze p-0 m-0 bg-light'> 
       <div className='WhyCodeCraze__animatedText position-absolute w-100'>
     <Container>
         <p id="animatedText" className='fs-1  '>

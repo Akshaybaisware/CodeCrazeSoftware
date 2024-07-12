@@ -8,7 +8,7 @@ import parkes from "../../Images/parkres.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="container-fluid about-us-container m-0 p-0">
+    <div className="container-fluid about-us-container m-0 p-0 bg-light">
       <section className="about-us-section ">
         <h1 id="animatedText">About CodeCrazeSoftware Solution Pvt Ltd <span className='Red'>.</span></h1>
         <p className="about-us-description mt-5 ">

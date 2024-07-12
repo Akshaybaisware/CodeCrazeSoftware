@@ -53,36 +53,35 @@ function MobileApp() {
           </p>
         </div>
 
-        <Container className="MobileApp__Description">
-          <Row>
-            <Col className="services-card">
-              <p className="fs-4 fw-bold">iPhone</p>
-              <p className="fs-5 text-black-50">
+       <div className="MobileApp__Description m-0 p-0 bubble">
+    <Row className='my-4'>
+        <Col xl={12} xs={12} md={8} className="services-card">
+            <p className="fs-4 fw-bold">iPhone</p>
+            <p className="fs-5 text-black-50">
                 Our iOS development team has vast experience in sculpting your ideas into a masterpiece business app. We develop apps that run smoothly on devices, with incredible UX/UI designs that can achieve business objectives.
-              </p>
-            </Col>
-            <Col className="services-card">
-              <p className="fs-4 fw-bold">Android</p>
-              <p className="fs-5 text-black-50">
+            </p>
+        </Col>
+        <Col xl={12} xs={12} md={8} className="services-card">
+            <p className="fs-4 fw-bold">Android</p>
+            <p className="fs-5 text-black-50">
                 Android application development is important for any business as most users across the globe use Android OS. At least 800 million individuals use Android apps worldwide, thus having a result-focused Android app development tactic is a way to business success.
-              </p>
-            </Col>
-            <Col className="services-card">
-              <p className="fs-4 fw-bold">HTML5</p>
-              <p className="fs-5 text-black-50">
+            </p>
+        </Col>
+        <Col xl={12} xs={12} md={8} className="services-card">
+            <p className="fs-4 fw-bold">HTML5</p>
+            <p className="fs-5 text-black-50">
                 Our HTML5 development team has vast experience in sculpting your ideas into a masterpiece business app. We develop apps that run smoothly on devices, with incredible UX/UI designs that can achieve business objectives.
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={{ span: 6, offset: 4.5 }} className="services-card services-card-small">
-              <p className="fs-4 fw-bold">Windows</p>
-              <p className="fs-5 text-black-50 me-5">
+            </p>
+        </Col>
+        <Col xl={12} xs={12} md={8} className="services-card services-card-small">
+            <p className="fs-4 fw-bold">Windows</p>
+            <p className="fs-5 text-black-50 me-5">
                 Windows is a group of several proprietary graphical operating system families developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry, such as Windows NT for consumers, Windows Server for servers, and Windows IoT for embedded systems.
-              </p>
-            </Col>
-          </Row>
-        </Container>
+            </p>
+        </Col>
+    </Row>
+</div>
+
 
         <footer className="MobileApp-footer">
           <h2 className="MobileApp-footerTitle text-white mb-3 fs-3">Looking for Customer Relationship Management services?</h2>

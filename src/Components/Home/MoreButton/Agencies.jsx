@@ -71,19 +71,20 @@ function Agencies() {
             </div>
           </div>
           
+       
           <div className="row">
             <div className="col-lg-6 Agencies-agency-services-list">
               <ul className="fw-normal Agencies-list-unstyled">
-                <li className="Agencies-red-border"><i className="fas fa-cogs"></i> Enterprise Business Solutions / Automation</li>
-                <li className="Agencies-blue-border"><i className="fas fa-network-wired"></i> Enterprise System Integration</li>
-                <li className="Agencies-red-border"><i className="fas fa-mobile-alt"></i> Enterprise Mobility</li>
+                <li className="Agencies-red-border"><i className="fas fa-cogs blue-icon p-3"></i> Enterprise Business Solutions / Automation</li>
+                <li className="Agencies-blue-border"><i className="fas fa-network-wired blue-icon p-3"></i> Enterprise System Integration</li>
+                <li className="Agencies-red-border"><i className="fas fa-mobile-alt blue-icon p-3"></i> Enterprise Mobility</li>
               </ul>
             </div>
             <div className="col-lg-6 Agencies-agency-services-list">
               <ul className="fw-normal Agencies-list-unstyled">
-                <li className="Agencies-blue-border"><i className="fas fa-database"></i> Enterprise Content Management System (CMS)</li>
-                <li className="Agencies-red-border"><i className="fas fa-code"></i> Enterprise Application Development & Maintenance (ADM)</li>
-                <li className="Agencies-blue-border"><i className="fas fa-sync-alt"></i> Technology Migration / Re-engineering</li>
+                <li className="Agencies-blue-border"><i className="fas fa-database blue-icon p-3"></i> Enterprise Content Management System (CMS)</li>
+                <li className="Agencies-red-border"><i className="fas fa-code blue-icon p-3"></i> Enterprise Application Development & Maintenance (ADM)</li>
+                <li className="Agencies-blue-border"><i className="fas fa-sync-alt blue-icon p-3"></i> Technology Migration / Re-engineering</li>
               </ul>
             </div>
           </div>

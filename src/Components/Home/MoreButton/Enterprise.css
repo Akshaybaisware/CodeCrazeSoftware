@@ -7,14 +7,14 @@
     padding: 10em 8em;
 }
 .Enterprise-icon-color {
-    background-color: blue;
+    background-color: rgb(1, 1, 37);
     padding-left: 10px;
     padding-top: 10px; 
     padding-bottom: 10px; 
 
     padding-right: 10px;/* Adjust the padding as needed */
     border-radius: 50%; /* To make the background a circle */
-    color: white; /* To ensure the icon color contrasts well with the blue background */
+    color: white !important; /* To ensure the icon color contrasts well with the blue background */
   }
 
 .Enterprise-us-section #animatedText {

@@ -18,3 +18,11 @@ font-size: 46px;
     position: relative;
     bottom: 9em;
 }
+.Uiux-aboutus{
+    font-size: 1.03em !important;
+}
+.Uiux-slick_img:hover {
+    transform: scale(1.1) !important;
+    cursor: pointer;
+    transition: transform 0.3s !important; /* You can adjust the duration as needed */
+}

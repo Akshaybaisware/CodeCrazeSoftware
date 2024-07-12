@@ -3,6 +3,7 @@
   color: white;
   padding: 60px 0;
   font-size: 20px;
+  background: url("../../Images/footer.jpg");
 }
 
 .footer h2 {
@@ -70,8 +71,10 @@
 }
 
 
-.footer .list-unstyled{
+.footer .Footer-list-unstyled{
   font-size: 1em;
+  list-style-type: none;
+    padding: 0;
  
 }
 .map-container {
@@ -89,9 +92,12 @@
   height: 100%;
   border: 0;
 }
-.list-unstyled li i{
+.Footer-list-unstyled li i{
   color: #ff4c4c;
+  list-style-type: none !important;
+  padding: 0;
 }
+
 
 @media(max-width:991px){
   .footer h2 {

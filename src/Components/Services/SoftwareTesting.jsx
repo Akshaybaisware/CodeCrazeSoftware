@@ -18,7 +18,7 @@ function SoftwareTesting() {
                 <p className="SoftwareTesting_why_para mt-2 text-white fs-5">
                   Software Testing is one of the most vital stages in the software development life cycle. Testing of apps, devices, websites, and systems is an integral part of any company. It provides insights into the performance of the software. Software testing is a method for identifying gaps between provided input and desired output.
                 </p>
-                <p className='text-white fs-5'>
+                <p className='text-white fs-5 '>
                   If you are looking for the best Software Testing company in Nagpur, Pune, Mumbai, India, then Yes Prevoyance Solutions is the right place. We are ranked among the top Software Testing Companies in Nagpur, Pune, Mumbai, and across India.
                 </p>
               </div>
@@ -34,20 +34,20 @@ function SoftwareTesting() {
         <div className="container card_body p-5">
           <div className="row d-flex justify-content-center">
             <div className="col-12">
-              <p className="SoftwareTesting_why_para">
+              <p className="SoftwareTesting_why_para text-secondary fs-5">
                 CodeCrazeSoftwareSolutions offers assistance with software testing. CodeCrazeSoftwareSolutions supports every testing requirement at any stage of the software development cycle. To identify the flaws and mistakes committed during the development stages, software testing is actually necessary.CodeCrazeSoftwareSolution provides the best Software Testing service in Nagpur and it is the best company in Software company all over in Nagpur Pune Mumbai India.
               </p>
             </div>
           </div>
 
-          <div className="row d-flex align-items-center mb-5">
+          <div className="row d-flex align-items-center text-secondary fs-5 mb-5">
             <div className="col-lg-8 col-md-9 col-sm-12 col-12">
               <h3 className="SoftwareTesting_heading_custom_content">Software Testing Services<span className="SoftwareTesting_extra">.</span></h3>
               <p className="SoftwareTesting_aboutus mt-2">
                 Testing is required to provide services to clients like the delivery of high-quality products or software applications that need less maintenance and, as a result, produce outcomes that are more accurate, dependable, and consistent.
               </p>
               <h3 className="SoftwareTesting_heading_custom_content">How We can Help You<span className="SoftwareTesting_extra">?</span></h3>
-              <p className="SoftwareTesting_aboutus mt-2">
+              <p className="SoftwareTesting_aboutus mt-2 " >
                 Our approach to software testing can help clients take advantage of critical information which could be used to:
               </p>
               <div className="row">
@@ -57,7 +57,7 @@ function SoftwareTesting() {
                       <i className="fas fa-bullseye me-3"></i>
                     </div>
                     <div className="col-11">
-                      <span>Redefine the application / software development process</span>
+                      <span className='fs-6'>Redefine the application / software development process</span>
                     </div>
                   </div>
                   <div className="SoftwareTesting_para_left_about mt-1 row">
@@ -65,7 +65,7 @@ function SoftwareTesting() {
                       <i className="fas fa-bullseye me-3"></i>
                     </div>
                     <div className="col-11">
-                      <span>Verify the accuracy of logic.</span>
+                      <span className='fs-6'>Verify the accuracy of logic.</span>
                     </div>
                   </div>
                   <div className="SoftwareTesting_para_left_about mt-1 row">
@@ -73,7 +73,7 @@ function SoftwareTesting() {
                       <i className="fas fa-bullseye me-3"></i>
                     </div>
                     <div className="col-11">
-                      <span>Identify areas of weakness and enhancements</span>
+                      <span className='fs-6'>Identify areas of weakness and enhancements</span>
                     </div>
                   </div>
                   <div className="SoftwareTesting_para_left_about mt-1 row">
@@ -81,7 +81,7 @@ function SoftwareTesting() {
                       <i className="fas fa-bullseye me-3"></i>
                     </div>
                     <div className="col-11">
-                      <span>Ensure that business requirements of the system have been met</span>
+                      <span className='fs-6'>Ensure that business requirements of the system have been met</span>
                     </div>
                   </div>
                   <div className="SoftwareTesting_para_left_about mt-1 row">
@@ -89,7 +89,7 @@ function SoftwareTesting() {
                       <i className="fas fa-bullseye me-3"></i>
                     </div>
                     <div className="col-11">
-                      <span>Verify the expected performance.</span>
+                      <span className='fs-6'>Verify the expected performance.</span>
                     </div>
                   </div>
                   <div className="SoftwareTesting_para_left_about mt-1 row">
@@ -97,7 +97,7 @@ function SoftwareTesting() {
                       <i className="fas fa-bullseye me-3"></i>
                     </div>
                     <div className="col-11">
-                      <span>Reduce rework that is needed to fix buggy software</span>
+                      <span className='fs-6'>Reduce rework that is needed to fix buggy software</span>
                     </div>
                   </div>
                 </div>

@@ -14,11 +14,11 @@ function JobDescription() {
   return (
     <div className="container-fluid JobDescription-container m-0 p-0">
       <section className="JobDescription-us-section">
-        <h1 id="animatedText">Job Description.</h1>
+        <h1 id="animatedText">Job Description<span className='Red'>.</span></h1>
       </section>
       <Container className='shadow-lg JobDescription__section p-5 bg-white rounded'>
         <header className="JobDescription-header">
-          <p className='fs-2 fw-bold'>Android developer.</p>
+          <p className='fs-2 fw-bold'>Android developer </p>
         </header>
 
         <section className="JobDescription-servicesSection">

@@ -31,12 +31,12 @@ function UiUx() {
           </div>
         </div>
       </section>
-      <Container className="container-fluid bg-white shadow shadow-lg Uiux-bg-all">
+      <Container className="container-fluid bg-white shadow shadow-lg text-secondary Uiux-bg-all">
         <div className="container Uiux-card_body p-5">
           <div className="row mb-5">
-            <h4>Interaction Design</h4>
+            <h3>Interaction Design</h3>
             <div className="col-lg-7 col-md-7 col-sm-12 col-12 d-flex align-items-center ">
-              <p className="Uiux-aboutus">
+              <p className="Uiux-aboutus ">
                 UX and UI are the two most important aspects of any design process. One drives the
                 other and as they say UI is incomplete without UX and vice-versa. We offer beautiful interaction
                 processes that are driven by the most modern technologies to offer a great interactive experience
@@ -69,7 +69,7 @@ function UiUx() {
               </p>
             </div>
             <div className="Uiux-border_our_1 mt-3 mb-3"></div>
-            <h4>Mobile UX</h4>
+            <h3>Mobile UX</h3>
             <div className="col-lg-7 col-md-7 col-sm-12 col-12 d-flex align-items-center">
               <p className="Uiux-aboutus">
                 Designing pleasurable Mobile UX experiences for people A great mobile UX is the key

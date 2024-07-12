@@ -77,7 +77,7 @@ function Home() {
 
   return (
     <div className="p-0 m-0 Home" >
-      <Carousel>
+      <Carousel className="mt-5">
         <Carousel.Item>
           <img
             className="d-block w-100 Home__Image"
@@ -86,6 +86,7 @@ function Home() {
             style={{ minHeight: "80vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+             
              }}
           />
         </Carousel.Item>
@@ -97,6 +98,7 @@ function Home() {
             style={{ minHeight: "80vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              
              }}
           />
         </Carousel.Item>
@@ -108,6 +110,7 @@ function Home() {
             style={{ minHeight: "80vh",   backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              
              }}
           />
         </Carousel.Item>
@@ -119,6 +122,7 @@ function Home() {
             style={{ minHeight: "80vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              
              }}
           />
         </Carousel.Item>
@@ -429,10 +433,10 @@ function Home() {
 <Container fluid className="padding_fourth p-0 m-0">
   <Row className="m-0">
     <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0">
-      <Image src={SideImage} alt="Sixth Section" className="sixth_image" style={{ width: '100%', height: '70vh' }} />
+      <Image src={SideImage} alt="Sixth Section" className="sixth_image" style={{ width: '100%', height: '77vh' }} />
     </Col>
     <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0 text-white d-flex align-items-center">
-      <div className="background_sixth p-5 w-100 d-flex flex-column justify-content-center" style={{ height: '70vh' }}>
+      <div className="background_sixth p-5 w-100 d-flex flex-column justify-content-center" style={{ height: '77vh' }}>
         <h2 className="heading_sixth fw-bold mb-4 fs-4">
           Engaging,<br /> purposeful, and<br /> creative<span className="extra">.</span>
         </h2>

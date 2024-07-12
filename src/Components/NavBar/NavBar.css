@@ -6,6 +6,9 @@
   .NavBar__page .dropdown-toggle {
     color: white !important;
   }
+  .NavBarpage__Navbar .text-white{
+    font-size: 1.1em;
+  }
   
   .NavBar__page .navbar-toggler {
     background-color: white !important;

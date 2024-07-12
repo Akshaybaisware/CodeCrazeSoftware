@@ -150,41 +150,36 @@
 .services-card {
   position: relative;
   padding: 20px;
-  margin: 20px;
+  margin-top: 20px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  height: 100% !important; /* Ensure the card takes the full height */
-  width: 100% !important;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+ 
 }
 
 .services-card::before {
   content: '';
   position: absolute;
-  bottom: -75px; /* Initial position out of view */
-  right: -75px; /* Initial position out of view */
+  bottom: -75px;
+  right: -75px; 
   width: 150px;
   height: 150px;
   background-color: #0071dc;
   border-radius: 50%;
   opacity: 0.1;
   transition: bottom 0.7s, right 0.7s;
-  z-index: 0; /* Ensure it stays behind the content */
+  z-index: 0; 
 }
 
 .services-card:hover::before {
   bottom: 0;
   right: 0;
-  opacity: 0.3; /* Optional: change opacity on hover */
+  opacity: 0.3; 
   transition: bottom 0.7s, right 0.7s;
-}
-
-.services-card-small {
-  width: 320px !important; /* Adjusted value for smaller width */
-  min-height: 400px !important; /* Increased height */
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -234,18 +229,20 @@
      
   }
   .MobileApp-us-section{
-    padding:10em 4em !important;
+    padding:10em 7em !important;
   }
   
   .MobileApp-us-section .MobileApp-us-description {
       font-size: 1em !important;
+      position: relative;
+      right: 2em;
     
       
      
   }
   .MobileApp-us-section .row{
     position: relative !important;
-    left: 5em !important;
+    left: 3em !important;
   }
 }
 
