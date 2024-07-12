@@ -96,21 +96,21 @@ function Agencies() {
                 </div>
               </section>
              
-              <div className="row justify-content-center Agencies-related-services">
+              <div className="row justify-content-center Agencies-related-services my-5">
                 <div className="col-md-2 text-center">
-                  <button className="btn btn-outline-primary"><i className="fas fa-lightbulb"></i> Business / Tech Consulting</button>
+                  <button className="btn btn-outline-danger rounded-pill py-3"><i className="fas fa-lightbulb"></i> Business / Tech Consulting</button>
                 </div>
                 <div className="col-md-2 text-center">
-                  <button className="btn btn-outline-primary"><i className="fas fa-drafting-compass"></i> Product Prototyping</button>
+                  <button className="btn  btn-outline-danger rounded-pill py-3"><i className="fas fa-drafting-compass"></i> Product Prototyping</button>
                 </div>
                 <div className="col-md-2 text-center">
-                  <button className="btn btn-outline-primary"><i className="fas fa-handshake"></i> Managed Services</button>
+                  <button className="btn btn-outline-danger rounded-pill py-3"><i className="fas fa-handshake"></i> Managed Services</button>
                 </div>
                 <div className="col-md-2 text-center">
-                  <button className="btn btn-outline-primary"><i className="fas fa-check-circle"></i> Quality Assurance & Testing</button>
+                  <button className="btn  btn-outline-danger rounded-pill py-3"><i className="fas fa-check-circle"></i> Quality Assurance & Testing</button>
                 </div>
                 <div className="col-md-2 text-center">
-                  <button className="btn btn-outline-primary"><i className="fas fa-cogs"></i> Product Engineering</button>
+                  <button className="btn  btn-outline-danger rounded-pill py-3"><i className="fas fa-cogs"></i> Product Engineering</button>
                 </div>
               </div>
             </div>

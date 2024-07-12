@@ -10,10 +10,10 @@ import airrnp from '../../Images/airrnp.jpg';
 import getmock from '../../Images/getmock.jpg';
 import parkers from '../../Images/parkres.jpg';
 
-import Picture1 from "../../Images/TechnologyImage1.jfif";
-import Picture2 from "../../Images/TechnologyImage2.jpg";
+import Picture1 from "../../Images/TechnologyImage1.png";
+import Picture2 from "../../Images/TechnologyImage2.png";
 import Picture3 from "../../Images/TechnologyImage3.png";
-import Picture4 from "../../Images/TechnologyImage4.jpg";
+import Picture4 from "../../Images/TechnologyImage4.png";
 import Picture5 from "../../Images/second-section-1.jpg";
 import Picture6 from "../../Images/second-section-2.jpg";
 import Picture7 from "../../Images/second-section-3.jpg";
@@ -80,34 +80,46 @@ function Home() {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 Home__Image"
             src={Picture1}
             alt="First slide"
-            style={{ maxHeight: "100vh" }}
+            style={{ minHeight: "80vh",  backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+             }}
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 Home__Image"
             src={Picture2}
             alt="Second slide"
-            style={{ maxHeight: "100vh" }}
+            style={{ minHeight: "80vh",  backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+             }}
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 Home__Image"
             src={Picture3}
             alt="Third slide"
-            style={{ maxHeight: "100vh" }}
+            style={{ minHeight: "80vh",   backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+             }}
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 Home__Image"
             src={Picture4}
             alt="Fourth slide"
-            style={{ maxHeight: "100vh" }}
+            style={{ minHeight: "80vh",  backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+             }}
           />
         </Carousel.Item>
       </Carousel>
@@ -412,24 +424,29 @@ function Home() {
 </Container>
 
    
-    <Container fluid className="padding_fourth ">
-      <Row >
-        <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0">
-          <Image src={SideImage} alt="Sixth Section" className="sixth_image w-100 " />
-        </Col>
-        <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 text-white d-flex align-items-center">
-          <div className="background_sixth p-5 w-100  d-flex flex-column justify-content-center">
-            <h2 className="heading_sixth fw-bold mb-2  fs-4">Engaging,<br/> purposeful, and<br/> creative<span className="extra">.</span></h2>
-            <p className="heading_sub_sixth mb-2 fs-5 ">
-              Every business is unique and so are its needs. At CodeCrazeSoftware solution, we provide the best solutions for designing, development, and digital marketing.
-            </p>
-            <Button variant="light"  onClick={() => window.location.href='/contact'} className="mt-3 rounded-pill btn_apply_sixth">
-              Enquire Us
-            </Button>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+
+
+<Container fluid className="padding_fourth p-0 m-0">
+  <Row className="m-0">
+    <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0">
+      <Image src={SideImage} alt="Sixth Section" className="sixth_image" style={{ width: '100%', height: '70vh' }} />
+    </Col>
+    <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0 text-white d-flex align-items-center">
+      <div className="background_sixth p-5 w-100 d-flex flex-column justify-content-center" style={{ height: '70vh' }}>
+        <h2 className="heading_sixth fw-bold mb-4 fs-4">
+          Engaging,<br /> purposeful, and<br /> creative<span className="extra">.</span>
+        </h2>
+        <p className="heading_sub_sixth mb-2 fs-5">
+          Every business is unique and so are its needs. At CodeCrazeSoftware solution, we provide the best solutions for designing, development, and digital marketing.
+        </p>
+        <Button variant="light" onClick={() => window.location.href='/contact'} className="mt-3 rounded-pill btn_apply_sixth">
+          Enquire Us
+        </Button>
+      </div>
+    </Col>
+  </Row>
+</Container>
+
     </div>
   );
 }

@@ -196,6 +196,7 @@ body {
     font-size: 0.8em !important;
 
   }
+  
 }
 @media (min-width:550px) and (max-width:650px) {
   .about-us-container #animatedText{
@@ -213,16 +214,29 @@ body {
   .about-us-description{
     font-size: 0.5em !important;
 
+
   }
+  .about-us-section {
+padding: 7em 4em;
+
+}
 
 }
 @media (max-width :467px){
   .about-us-container #animatedText{
-    font-size: 0.7em;
+    font-size: 1em;
   }
+  .about-us-section {
+    padding: 6em 2em;
+    
+    }
   .about-us-description{
-    font-size: 0.4em !important;
+    font-size: 0.7em !important;
 
+  }
+  .about_us_core_values{
+    position: relative;
+    top: 3em;
   }
 
 }

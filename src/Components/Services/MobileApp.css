@@ -42,7 +42,7 @@
 
 .MobileApp-us-section .MobileApp-us-description {
   font-size: 1.2em !important;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 .MobileApp-us-container .bg-white {
   position: relative;
@@ -210,6 +210,7 @@
 
 @media (min-width: 990px) and (max-width: 1112px) {
   
+  
   .MobileApp-us-section #animatedText {
 
       font-size: 2em !important;
@@ -224,17 +225,22 @@
 }
 
 @media (min-width: 759px) and (max-width: 990px) {
-  .MobileApp-header .MobileApp-description {
-      font-size: 14px !important;
-  }
+ 
   .MobileApp-us-section #animatedText {
       font-size: 2em !important;
-      position: relative;
-      top: 0em;
+     
+      top: -1em !important;
+      
      
   }
+  .MobileApp-us-section{
+    padding:10em 4em !important;
+  }
+  
   .MobileApp-us-section .MobileApp-us-description {
       font-size: 1em !important;
+    
+      
      
   }
   .MobileApp-us-section .row{
@@ -247,6 +253,7 @@
   .MobileApp-header .MobileApp-description {
       font-size: 14px !important;
   }
+  
   .MobileApp-us-section {
       padding: 5em 4em;
   }
@@ -256,7 +263,7 @@
       top: 0em;
   }
   .MobileApp-us-section .MobileApp-us-description {
-      font-size: 0.8em !important;
+      font-size: 1em !important;
   }
   .container-fluid .bg-white {
       bottom: 4em;
@@ -278,7 +285,20 @@
   .MobileApp-us-section .row{
     position: relative !important;
     bottom: 5em;
-    right: 3em;
+    right: 0em;
+    margin: 0 !important;
+    padding: 0 !important;
     
 }
+.MobileApp-us-section .MobileApp-us-description {
+  left: 1em;
+  position: relative;
+  
+  line-height: 1;
+}
+
+.MobileApp-us-section {
+  padding: 12em 2em;
+}
+
 }

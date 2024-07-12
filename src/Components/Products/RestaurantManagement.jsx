@@ -8,7 +8,7 @@ function RestaurantManagement() {
   return (
     <div className="container-fluid restaurant-management-container m-0 p-0">
       <section className="restaurant-management-section">
-        <h1 id="animatedText">Restaurant Management</h1>
+        <h1 id="animatedText">Restaurant Management<span className='Red'>.</span></h1>
         <p className="restaurant-management-description mt-5">
           Restaurant Management Systems Are The Crucial Technology Components That Enable A Single Outlet Or Enterprise To Better Serve Its Customers And Aid Employees With Food And Beverage Transactions And Controls.
         </p>

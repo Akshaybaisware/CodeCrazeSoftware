@@ -9,7 +9,7 @@ function CMS() {
   return (
     <div className="container-fluid Cms-us-container m-0 p-0">
       <section className="Cms-us-section ">
-        <h1 id="animatedText">Enterprise Resource Planning. </h1>
+        <h1 id="animatedText">Enterprise Resource Planning <span className='Red'>.</span> </h1>
         <p className="Cms-us-description mt-5">
         We Offer Unique And Secure Web Application Development Solutions Matching Customer’s Business Strategies And Requirements.Focused On Collaborative Approach, Our Team Understands Customers’ Needs To Deliver Business Value.
 

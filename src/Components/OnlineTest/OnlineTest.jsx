@@ -9,7 +9,7 @@ function OnlineTest() {
   return (
     <div className="container-fluid OnlineTest-us-container m-0 p-0">
       <section className="OnlineTest-us-section">
-        <h1 id="animatedText">Online Test System</h1>
+        <h1 id="animatedText">Online Test System <span className='Red'>.</span></h1>
         <p className="OnlineTest-us-description my-3">
           Online Test Engine, as the name suggests, is a test engine where administrators can arrange online tests for their students. It is designed for educational institutes to hold all their exams online.
         </p>

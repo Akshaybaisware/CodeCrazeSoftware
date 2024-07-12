@@ -144,6 +144,10 @@
   .OurExpertise-custom-container {
     padding: 0.75rem; /* Further adjust padding for very small screens */
   }
+  .OurExpertise-page__feature1{
+    padding: 8em 4em;
+    
+  }
 
   .OurExpertise-custom-header h1,
   .OurExpertise-custom-header h2,

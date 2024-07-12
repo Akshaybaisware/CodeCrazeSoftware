@@ -49,31 +49,31 @@ function JobDescription() {
     <h4 className="fw-bold my-5">RELATED SERVICES</h4>
     <div className="row justify-content-center related-services my-5">
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-primary rounded-pill">
+        <button className="btn btn-outline-danger rounded-pill">
           <i className="fas fa-lightbulb Enterprise-icon-bg"></i> 
           <span className="Enterprise-small-font">Business / Tech Consulting</span> 
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-primary rounded-pill">
+        <button className="btn btn-outline-danger rounded-pill">
           <i className="fas fa-drafting-compass Enterprise-icon-bg"></i> 
           <span className="Enterprise-small-font">Product Prototyping</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-primary rounded-pill">
+        <button className="btn btn-outline-danger rounded-pill">
           <i className="fas fa-handshake Enterprise-icon-bg"></i> 
           <span className="Enterprise-small-font">Managed Services</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-primary rounded-pill">
+        <button className="btn btn-outline-danger rounded-pill">
           <i className="fas fa-check-circle Enterprise-icon-bg"></i> 
           <span className="Enterprise-small-font">Quality Assurance & Testing</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-primary rounded-pill">
+        <button className="btn btn-outline-danger rounded-pill">
           <i className="fas fa-cogs Enterprise-icon-bg"></i> 
           <span className="Enterprise-small-font">Product Engineering</span>
         </button>

@@ -10,7 +10,7 @@ const AboutUs = () => {
   return (
     <div className="container-fluid about-us-container m-0 p-0">
       <section className="about-us-section ">
-        <h1 id="animatedText">About CodeCrazeSoftware Solution Pvt Ltd.</h1>
+        <h1 id="animatedText">About CodeCrazeSoftware Solution Pvt Ltd <span className='Red'>.</span></h1>
         <p className="about-us-description mt-5 ">
         CodeCrazeSoftware Solution Has The Solution Of Every Query, We Provides The Best Solution To Our Clients And Bring Smile On Their Entire Team. Prevoyance Solution Is The Best Software Development, Mobile App Design, Application Testing And Deplopment, Android Ipad And IPhone App Development, Custom Web Application Development Company, Software Testing Companies, UI/UX Design Company, Ecommerce Website Development Company, CRM Website And App Development Company, Content Management System (CMS) Software And Application Company, Enterprise Resource Planning (ERP) Software And Application Development Company, Java Development Company (Java SE, Java Embedded, Java EE), Complete Digital Marketing Services (Search Engine Optimization (SEO) Company & Paid Ads Media Add & PPC), We Are The Best Software Development Company In Nagpur, Pune , Mumbai And India Level Too We Have The Answer Of Every Questions. We Build Proper Strategy For Every Project And Work Accordingly On It With The Expert We Are Having In Our Team. We Deliver The Project On Given Time Interval And Also Provide The Technical Support. We Believe In Building Trust And 100% Transparency.
 

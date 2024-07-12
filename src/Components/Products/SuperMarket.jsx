@@ -8,7 +8,7 @@ function SuperMarketManagement() {
   return (
     <div className="container-fluid supermarket-management-container m-0 p-0">
       <section className="supermarket-management-section">
-        <h1 id="animatedText">Super Market Software.</h1>
+        <h1 id="animatedText">Super Market Software <span className='Red'>.</span></h1>
         <p className="supermarket-management-description mt-5">
           We Provide Perfect Retail POS (Point Of Sales) Solutions To Manage Your Billing, Serialized Inventory Based Supermarket, Grocery, Hypermarket, Convenience Retail Store Business With Our Retail Software Integrated With Retail Pos And Billing Software.
         </p>

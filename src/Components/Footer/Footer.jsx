@@ -69,11 +69,7 @@ const Footer = () => {
     <i className="fas fa-headset"></i> Online Support
  
 </li>
-<li  className="text-white my-2" style={{cursor:"pointer"}}>
 
-    <i className="fas fa-briefcase"></i> Business Solution
-
-</li>
 <li onClick={ClickForFAQ} className="text-white my-2">
    
     <i className="fas fa-question-circle"></i> FAQs
@@ -82,11 +78,22 @@ const Footer = () => {
 
             </ul>
             <div className="social-links mt-4">
-              <a href="#" className="text-white mx-2"><FontAwesomeIcon icon={faFacebookF} /></a>
-              <a href="#" className="text-white mx-2"><FontAwesomeIcon icon={faTwitter} /></a>
-              <a href="#" className="text-white mx-2"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-              <a href="#" className="text-white mx-2"><FontAwesomeIcon icon={faYoutube} /></a>
-              <a href="#" className="text-white mx-2"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.facebook.com" target="_blank" className="text-white mx-2">
+  <FontAwesomeIcon icon={faFacebookF} />
+</a>
+<a href="https://twitter.com" target="_blank" className="text-white mx-2">
+  <FontAwesomeIcon icon={faTwitter} />
+</a>
+<a href="https://www.linkedin.com/company/codecraze-software-solution/" target="_blank" className="text-white mx-2">
+  <FontAwesomeIcon icon={faLinkedinIn} />
+</a>
+<a href="https://www.youtube.com" target="_blank" className="text-white mx-2">
+  <FontAwesomeIcon icon={faYoutube} />
+</a>
+<a href="https://www.instagram.com" target="_blank" className="text-white mx-2">
+  <FontAwesomeIcon icon={faInstagram} />
+</a>
+
             </div>
           </div>
           <div className="col-md-6">

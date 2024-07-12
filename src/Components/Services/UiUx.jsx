@@ -15,7 +15,7 @@ function UiUx() {
           <div className="row">
             <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
               <h1 className="uiux-breadcrumbs__txt">
-                UI/UX Designing<span className="Uiux-uiux-extra">.</span>
+                UI/UX Designing<span className="Red">.</span>
               </h1>
               <div className="uiux-breadcrumb text-left">
                 <p className="uiux-why_para text-white mt-2 fs-4">

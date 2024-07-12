@@ -233,7 +233,7 @@
     top: -29em;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -46em;
+    top: -41em;
   }
   
   .Home__carousel .Homecarousel__image {
@@ -268,7 +268,7 @@
     top: -31em;
   }
   .BackgroundImage .Home-Picture-Container {
-    top: -45em;
+    top: -42em;
     
   }
   
@@ -282,8 +282,11 @@
     font-size: 0.5em !important;
   }
   .BackgroundImage .Home-Picture-Container {
-    bottom: -48em;
+    bottom: -42em;
     
+  }
+  .Home__Image{
+    max-height: 100vh !important;
   }
   .Home__carousel .Homecarousel__image {
     top: -30em;

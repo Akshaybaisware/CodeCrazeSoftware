@@ -157,14 +157,18 @@
   }
   @media (max-width: 499px) {
     .custom-app-page-feature-mobile .custom-app-breadcrumbs-txt {
-        font-size: 1.5em !important;
+        font-size: 1.2em !important;
         position: relative;
         top: -1em !important;
+        left: 0em !important;
        
     }
     .custom-app-breadcrumb .custom-app-why-para{
-        font-size: 0.8em !important;
+        font-size: 0.9em !important;
     
+      }
+      .custom-app-page-feature-mobile{
+        padding: 120px 0 50px
       }
    
   }

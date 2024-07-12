@@ -16,9 +16,7 @@
     font-weight: bold;
   }
   
-  .Website-extra {
-    color: #007bff;
-  }
+  
   
   .Website-why_para {
     font-size: 1rem;
@@ -176,7 +174,7 @@
 @media (max-width:499px){
   .Website-web-feature_mobile .Website-webwhy_para{
  
-    top: -1em;
+    top: 0em;
     font-size: 1em !important;
     
 }
@@ -189,8 +187,9 @@
 }
 .Website-web-feature_mobile .Website-webbreadcrumbs__txt{
   position: relative;
-  font-size: 1.2em !important;
-  top: 4em;
+  font-size: 0.5em !important;
+  top: 2em;
+  left: 0;
 
 }
 

@@ -13,7 +13,7 @@ function Website() {
             <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
               <div className="Website-text-container">
                 <h1 className="Website-webbreadcrumbs__txt  ">
-                  Website Programming &amp; Development<span className="Website-extra">.</span>
+                  Website Programming &amp; Development<span className="Red">.</span>
                 </h1>
               </div>
               <div className="Website-webbreadcrumb text-left">
@@ -34,7 +34,7 @@ function Website() {
           <div className="py-4">
             <h3 className="mb-3 Website-aboutheading">
               Professional Web Application Design &amp; Development Services
-              <span className="Website-extra">.</span>
+              <span className="Red">.</span>
             </h3>
           </div>
           <p className="Website-why_para">
@@ -70,7 +70,7 @@ function Website() {
           <div className="container mt-5">
             <div className="row align-items-center justify-content-center">
               <div className="col-lg-12">
-                <h4 className="Website-aboutheading text-center mb-4">Why Us for end-to-end web app development services<span className="Website-extra">?</span></h4>
+                <h4 className="Website-aboutheading text-center mb-4">Why Us for end-to-end web app development services<span className="Red">?</span></h4>
                 <p className="Website-why_para">
                   We are committed to delivering dynamic solutions as a prestigious company for web design and development. We offer high-quality business value with awesome features and a rich user experience. Programming and development services with technical support always keep us in a leading position among others. Each business is unique &amp; has distinctive requirements. Technical experts are smart enough to execute the code for simple to complex business needs.
                 </p>

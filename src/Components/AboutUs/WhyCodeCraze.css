@@ -71,10 +71,12 @@
     .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
       font-size: 1.4em !important;
     }
-
+    .WhyCodeCraze__animatedText{
+      padding: 6em 3em;
+    }
   }
   
-@media (max-width: 576px) {
+@media (min-width :437px ) and (max-width: 576px) {
   .WhycodeCraze-card_property_why {
     width: 100% !important;  /* Make the card take full width */
     max-width: 100% !important; /* Override the max-width */
@@ -82,4 +84,16 @@
   .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
     font-size: 1.2em !important;
   }
+  .WhyCodeCraze__animatedText{
+    padding: 5em 1em;
+  }
+}
+@media (max-width: 436px){
+  .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
+    font-size: 0.9em !important;
+  }
+  .WhyCodeCraze__animatedText{
+    padding: 4em 1em;
+  }
+
 }

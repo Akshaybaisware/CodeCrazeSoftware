@@ -9,7 +9,7 @@ function CRM() {
   return (
     <div className="container-fluid EcommerceSolutions-us-container m-0 p-0">
       <section className="EcommerceSolutions-us-section">
-        <h1 id="animatedText"> E-Commerce Solutions</h1>
+        <h1 id="animatedText"> E-Commerce Solutions <span className='Red'>.</span></h1>
         <p className="EcommerceSolutions-us-description mt-2">
           The Websites Which Are Into Online Shopping’s Are Ecommerce Website. Ecommerce Basically Means Buying Or Selling The Goods And Services, Transferring The Money With The Help Of Internet Online. Ecommerce Website Are Also Known As Internet Commerce.
         </p>
@@ -23,7 +23,7 @@ function CRM() {
         <section className="EcommerceSolutions-servicesSection">
           <div className="row flex-column flex-lg-row">
             <div className="col-lg-6 EcommerceSolutions-servicesColumn text-black fw-bold">
-              <h2 className="EcommerceSolutions-servicesTitle">Our Services</h2>
+              <h2 className="EcommerceSolutions-servicesTitle">Our Services </h2>
               <ul className="EcommerceSolutions-servicesList my-5">
                 <li className="EcommerceSolutions-serviceItem my-3"><span className="EcommerceSolutions-tick">&#10003;</span> Consulting & Planning</li>
                 <li className="EcommerceSolutions-serviceItem my-3"><span className="EcommerceSolutions-tick">&#10003;</span> Implementation & Deployment</li>

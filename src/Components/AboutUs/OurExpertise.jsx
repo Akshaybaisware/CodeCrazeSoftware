@@ -8,7 +8,7 @@ const OurExpertise = () => {
     <div className="OurExpertise-page-feature p-0 m-0">
       <div className="OurExpertise-page__feature1 position-absolute w-100  m-0">
         <Container>
-          <p id="animatedText"  className="fs-1 fw-bold text-start">Our Expertise.</p>
+          <p id="animatedText"  className="fs-1 fw-bold text-start">Our Expertise <span className='Red'>.</span></p>
         </Container>
       </div>
 

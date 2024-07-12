@@ -29,7 +29,7 @@ const CompanyInfo = () => {
       <div className='WhyCodeCraze__animatedText position-absolute w-100'>
     <Container>
         <p id="animatedText" className='fs-1  '>
-            Why CodeCrazeSoftware Solution Pvt Ltd.
+            Why CodeCrazeSoftware Solution Pvt Ltd <span className="Red">.</span>
         </p>
     </Container>
 </div>

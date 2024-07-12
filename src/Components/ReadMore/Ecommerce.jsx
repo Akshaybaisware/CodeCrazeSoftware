@@ -7,7 +7,7 @@ function EcommerceSolution() {
   return (
     <div className="container-fluid ReadMoreMobileDescription-container bg-light m-0 p-0">
       <section className="ReadMoreMobileDescription-us-section">
-        <h1 id="animatedText">Blogs.</h1>
+        <h1 id="animatedText">Blogs<span className='Red'>.</span></h1>
       </section>
       <Container className='shadow-lg ReadMoreMobile__section p-5 bg-white rounded'>
         <header className="ReadMoreMobile-header my-3">

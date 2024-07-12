@@ -194,6 +194,10 @@ ul.Agencies-list-unstyled {
 .Agencies-small-font {
     font-size: 14px; /* Adjust the font size as needed */
 }
+.Agencies-related-services .btn-outline-danger{
+    font-size: 0.85em;
+   
+}
 
 @media (min-width: 990px) and (max-width: 1112px) {
     .Agencies-header .Agencies-description {

@@ -14,6 +14,9 @@
   .offcanvas-header {
     background: linear-gradient(to right, #000000, #434343);
   }
+  .dropdown-toggle::after{
+    color: white !important;
+  }
   
   .nav-link:hover {
     border-width: 0.1rem;
