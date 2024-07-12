@@ -10,7 +10,7 @@ function CRM() {
     <div className="container-fluid Crm-us-container m-0 p-0">
     <section className="Crm-us-section ">
         <h1 id="animatedText" >Customer Relationship Management<span className='Red'>.</span> </h1>
-        <p className="Crm-us-description mt-2  ">
+        <p className="Crm-us-description mt-5  ">
         Customer Relationship Management (CRM) Is A Technique That Helps Businesses Manage Their Interactions With Customers
            </p>
       </section>
