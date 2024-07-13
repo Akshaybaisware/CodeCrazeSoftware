@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image'; 
 import { NavLink } from "react-router-dom";
 
-import Logo from '../../Images/Logo.svg';
+import Logo from '../../Images/Logo.png';
 import './NavBar.css';
 
 function NavBar() {
@@ -65,7 +65,7 @@ function NavBar() {
             </Offcanvas.Body>
           </Navbar.Offcanvas>
           <Navbar.Brand as={NavLink} to="/" className="d-flex text-white mx-auto align-items-center navbar-center">
-            <Image src={Logo} rounded style={{ width: '65px', marginRight: '10px', position: "relative", top: "0.7em" }} />
+            <Image src={Logo} rounded style={{ width: '100px', marginRight: '-10px', position: "relative", top: "0.3em" }} />
             CODECRAZE SOFTWARE<br />
             SOLUTION
           </Navbar.Brand>
