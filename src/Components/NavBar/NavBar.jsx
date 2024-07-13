@@ -65,7 +65,7 @@ function NavBar() {
             </Offcanvas.Body>
           </Navbar.Offcanvas>
           <Navbar.Brand as={NavLink} to="/" className="d-flex text-white mx-auto align-items-center navbar-center">
-            <Image src={Logo} rounded style={{ width: '100px', marginRight: '-10px', position: "relative", top: "0.3em" }} />
+            <Image src={Logo} rounded style={{ width: '110px', marginRight: '-18px', position: "relative", top: "0.3em" }} />
             CODECRAZE SOFTWARE<br />
             SOLUTION
           </Navbar.Brand>
