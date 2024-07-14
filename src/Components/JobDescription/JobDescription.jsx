@@ -9,6 +9,7 @@ function JobDescription() {
 
   const ClickForApply = () => {
     navigate('/carrerapply');
+    window.scrollTo(0, 0);
   };
 
   return (

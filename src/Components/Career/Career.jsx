@@ -36,6 +36,7 @@ const OurExpertise = () => {
   const handleClick = () => {
   
     navigate('/jobdescription');
+    window.scrollTo(0, 0);
 };
 
 
@@ -52,16 +53,11 @@ const OurExpertise = () => {
       </div>
 
       <div className="container position-relative bg-white career-custom-subtle-shadow p-4 rounded career-custom-container">
-        <header className="text-start mb-4 my-4 career-custom-header">
-          <h1 className="fs-2 mt-3 fw-bold ">
-            We believe in four basic principles
-            <span className='Red'>.</span>
-          </h1>
-        </header>
+       
         <section className="row mb-4 career-custom-row">
        
   <Container className='border border-dark Carrer__Webtechnology'>
-  <h3 className='my-5 text-center fw-bold '>Web Technology</h3>
+  <h3 className='my-5 text-center fw-bold '> Technologies</h3>
     <Row>
       <Col className="d-flex justify-content-center">
         <Image className="small-image" src={MicrosoftAsp} />
@@ -136,7 +132,12 @@ const OurExpertise = () => {
     </Row>
   </Container>
 </section>
-
+<header className="text-start mb-4 my-4 career-custom-header">
+          <h1 className="fs-2 mt-3 fw-bold ">
+            We believe in four basic principles
+            <span className='Red'>.</span>
+          </h1>
+        </header>
 
         <section className="principles-section">
           <Container>

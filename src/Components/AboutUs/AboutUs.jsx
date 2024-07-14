@@ -44,9 +44,9 @@ const AboutUs = () => {
           </p>
         </Col>
         <Col md={4} className="text-center about_us_core_values hover-3d-shadow">
-          <i style={{position:"relative",top:"-0.6em"}} className="bi bi-lightbulb about-us-icon"></i>
-          <h3>Core Values</h3>
-          <ul className='about-us-core-values-list'>
+          <i className="bi bi-lightbulb about-us-icon "></i>
+          <h3 className='mt-5 mb-3'>Core Values</h3>
+          <ul className='about-us-core-values-list '>
             <p className='fs-5'>Prevoyance Solutions believe that the success is accomplished through</p>
             <li>Commitment</li>
             <li>Discipline</li>

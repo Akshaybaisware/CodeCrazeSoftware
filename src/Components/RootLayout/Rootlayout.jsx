@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
-import WhatsAppButton from "../WhatsApp/WhatsApp"; // Adjust the path accordingly
+import WhatsAppButton from "../WhatsApp/WhatsApp"; 
 
 function RootLayout() {
   return (
@@ -24,7 +24,7 @@ function RootLayout() {
         <Footer />
       </div>
 
-      <WhatsAppButton /> {/* Add the WhatsAppButton here */}
+      <WhatsAppButton /> 
     </div>
   );
 }

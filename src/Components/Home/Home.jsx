@@ -64,14 +64,17 @@ function Home() {
   const ClickForMore = () => {
     
     navigate('/enterprice');
+    window.scrollTo(0, 0);
   }
   const ClickForMore1 = () => {
     
     navigate('/agency');
+    window.scrollTo(0, 0);
   }
   const ClickForMore2 = () => {
     
     navigate('/startup');
+    window.scrollTo(0, 0);
   }
   
 

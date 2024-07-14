@@ -95,7 +95,7 @@
 /* Other existing CSS rules */
 
 .Agencies-icon-color {
-    background-color: blue;
+    background-color: rgb(3, 3, 48);
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -154,7 +154,7 @@ ul.Agencies-list-unstyled {
 }
 
 .Agencies-blue-icon {
-    background-color: blue;
+    background-color: rgb(3, 3, 61);
     color: white;
     padding: 5px;
     border-radius: 50%;
@@ -183,7 +183,10 @@ ul.Agencies-list-unstyled {
     padding: 10px;
     border-radius: 50%;
 }
+.Agencies-list-unstyled .blue-icon {
+    background-color: rgb(3, 3, 61);
 
+}
 .Agencies-agency-picture .card-body {
     background-image: url('../../../Images/enterprise.jpg');
     background-size: cover;

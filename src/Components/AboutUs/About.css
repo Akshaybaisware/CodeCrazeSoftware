@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
 
-body {
- 
-  background-color: #d9d9d9;
-}
+
 
 .about-us-container .shadow-lg {
   position: relative;
@@ -159,6 +156,7 @@ body {
 .about-us-core-values-list {
   text-align: left;
   padding-left: 20px;
+  
 }
 @media(max-width:991px){
   .about-us-content .mt-5{

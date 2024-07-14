@@ -10,9 +10,6 @@
     font-size: 1.1em;
   }
   
-  .NavBar__page .navbar-toggler {
-    background-color: white !important;
-  }
   
   .offcanvas-header {
     background: linear-gradient(to right, #000000, #434343);
@@ -47,6 +44,19 @@
   .offcanvas-title{
     color: white !important;
   }
+  .navbar-toggler {
+    background-image: url('../../Images/ICON/hamburger.png') !important;
+    background-size: contain; /* Ensure the icon scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating */
+    width: 40px; /* Adjust width to match the icon dimensions */
+    height: 40px; /* Adjust height to match the icon dimensions */
+    border: none; /* Remove border if present */
+  }
+  .navbar-toggler{
+    border: 0 !important;
+    color: transparent !important;
+  }
+  
  
   @media (min-width: 990px) and (max-width: 1112px) {
   

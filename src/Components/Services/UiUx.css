@@ -26,3 +26,9 @@ font-size: 46px;
     cursor: pointer;
     transition: transform 0.3s !important; /* You can adjust the duration as needed */
 }
+
+@media (max-width:400px){
+    .uiux-breadcrumbs__txt{
+      font-size: 2.5em !important;
+    }
+  }

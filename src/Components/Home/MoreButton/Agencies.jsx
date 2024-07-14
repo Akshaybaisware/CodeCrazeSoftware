@@ -75,9 +75,9 @@ function Agencies() {
           <div className="row">
             <div className="col-lg-6 Agencies-agency-services-list">
               <ul className="fw-normal Agencies-list-unstyled">
-                <li className="Agencies-red-border"><i className="fas fa-cogs blue-icon p-3"></i> Enterprise Business Solutions / Automation</li>
-                <li className="Agencies-blue-border"><i className="fas fa-network-wired blue-icon p-3"></i> Enterprise System Integration</li>
-                <li className="Agencies-red-border"><i className="fas fa-mobile-alt blue-icon p-3"></i> Enterprise Mobility</li>
+                <li className="Agencies-red-border"><i className="fas fa-cogs blue-icon px-3 py-3"></i> Enterprise Business Solutions / Automation</li>
+                <li className="Agencies-blue-border"><i className="fas fa-network-wired blue-icon px-3 py-3"></i> Enterprise System Integration</li>
+                <li className="Agencies-red-border"><i className="fas fa-mobile-alt blue-icon px-4 py-3"></i> Enterprise Mobility</li>
               </ul>
             </div>
             <div className="col-lg-6 Agencies-agency-services-list">

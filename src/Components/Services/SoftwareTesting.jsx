@@ -51,59 +51,61 @@ function SoftwareTesting() {
                 Our approach to software testing can help clients take advantage of critical information which could be used to:
               </p>
               <div className="row">
-                <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12">
-                  <div className="SoftwareTesting_para_left_about mt-1 row">
-                    <div className="col-1">
-                      <i className="fas fa-bullseye me-3"></i>
-                    </div>
-                    <div className="col-11">
-                      <span className='fs-6'>Redefine the application / software development process</span>
-                    </div>
-                  </div>
-                  <div className="SoftwareTesting_para_left_about mt-1 row">
-                    <div className="col-1">
-                      <i className="fas fa-bullseye me-3"></i>
-                    </div>
-                    <div className="col-11">
-                      <span className='fs-6'>Verify the accuracy of logic.</span>
-                    </div>
-                  </div>
-                  <div className="SoftwareTesting_para_left_about mt-1 row">
-                    <div className="col-1">
-                      <i className="fas fa-bullseye me-3"></i>
-                    </div>
-                    <div className="col-11">
-                      <span className='fs-6'>Identify areas of weakness and enhancements</span>
-                    </div>
-                  </div>
-                  <div className="SoftwareTesting_para_left_about mt-1 row">
-                    <div className="col-1">
-                      <i className="fas fa-bullseye me-3"></i>
-                    </div>
-                    <div className="col-11">
-                      <span className='fs-6'>Ensure that business requirements of the system have been met</span>
-                    </div>
-                  </div>
-                  <div className="SoftwareTesting_para_left_about mt-1 row">
-                    <div className="col-1">
-                      <i className="fas fa-bullseye me-3"></i>
-                    </div>
-                    <div className="col-11">
-                      <span className='fs-6'>Verify the expected performance.</span>
-                    </div>
-                  </div>
-                  <div className="SoftwareTesting_para_left_about mt-1 row">
-                    <div className="col-1">
-                      <i className="fas fa-bullseye me-3"></i>
-                    </div>
-                    <div className="col-11">
-                      <span className='fs-6'>Reduce rework that is needed to fix buggy software</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-3 col-sm-12 col-12 mx-5 position-absolute top-70 start-50">
-                  <img src={SoftwaretestingClient} alt="" className="SoftwareTesting-Image" />
-                </div>
+  <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12">
+    <div className="SoftwareTesting_para_left_about mt-1 row">
+      <div className="col-1">
+        <i className="fas fa-bullseye me-3"></i>
+      </div>
+      <div className="col-11">
+        <span className='fs-6'>Redefine the application / software development process</span>
+      </div>
+    </div>
+    <div className="SoftwareTesting_para_left_about mt-1 row">
+      <div className="col-1">
+        <i className="fas fa-bullseye me-3"></i>
+      </div>
+      <div className="col-11">
+        <span className='fs-6'>Verify the accuracy of logic.</span>
+      </div>
+    </div>
+    <div className="SoftwareTesting_para_left_about mt-1 row">
+      <div className="col-1">
+        <i className="fas fa-bullseye me-3"></i>
+      </div>
+      <div className="col-11">
+        <span className='fs-6'>Identify areas of weakness and enhancements</span>
+      </div>
+    </div>
+    <div className="SoftwareTesting_para_left_about mt-1 row">
+      <div className="col-1">
+        <i className="fas fa-bullseye me-3"></i>
+      </div>
+      <div className="col-11">
+        <span className='fs-6'>Ensure that business requirements of the system have been met</span>
+      </div>
+    </div>
+    <div className="SoftwareTesting_para_left_about mt-1 row">
+      <div className="col-1">
+        <i className="fas fa-bullseye me-3"></i>
+      </div>
+      <div className="col-11">
+        <span className='fs-6'>Verify the expected performance.</span>
+      </div>
+    </div>
+    <div className="SoftwareTesting_para_left_about mt-1 row">
+      <div className="col-1">
+        <i className="fas fa-bullseye me-3"></i>
+      </div>
+      <div className="col-11">
+        <span className='fs-6'>Reduce rework that is needed to fix buggy software</span>
+      </div>
+    </div>
+  </div>
+  <div className="col-lg-4 col-md-12 col-sm-12 col-12 mt-4 mt-lg-0">
+    <img src={SoftwaretestingClient} alt="" className="SoftwareTesting-Image Software-img-fluid " />
+  </div>
+
+
               </div>
             </div>
           </div>
