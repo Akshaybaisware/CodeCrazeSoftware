@@ -30,16 +30,16 @@ function JobDescription() {
          <div className="row my-5">
   <div className="col-lg-6 enterprise-services-list">
     <ul className="fw-normal list-unstyled">
-      <li className="red-border"><i className="fas fa-cogs fa-3x Enterprise-icon-color"></i> Enterprise Business Solutions / Automation</li>
-      <li className="yellow-border"><i className="fas fa-network-wired fa-3x Enterprise-icon-color"></i> Enterprise System Integration</li>
-      <li className="blue-border"><i className="fas fa-mobile-alt fa-3x Enterprise-icon-color"></i> Enterprise Mobility</li>
+      <li className="red-border"><i className="fas fa-cogs p-3 Enterprise-icon-color"></i> Enterprise Business Solutions / Automation</li>
+      <li className="yellow-border"><i className="fas fa-network-wired p-3  Enterprise-icon-color"></i> Enterprise System Integration</li>
+      <li className="blue-border"><i className="fas fa-mobile-alt px-4 py-3 Enterprise-icon-color"></i> Enterprise Mobility</li>
     </ul>
   </div>
   <div className="col-lg-6 enterprise-services-list">
     <ul className="fw-normal list-unstyled">
-      <li className="red-border"><i className="fas fa-database fa-3x Enterprise-icon-color"></i> Enterprise Content Management System (CMS)</li>
-      <li className="yellow-border"><i className="fas fa-code fa-3x Enterprise-icon-color"></i> Enterprise Application Development & Maintenance (ADM)</li>
-      <li className="blue-border"><i className="fas fa-sync-alt fa-3x Enterprise-icon-color"></i> Technology Migration / Re-engineering</li>
+      <li className="red-border"><i className="fas fa-database px-3 py-3 Enterprise-icon-color"></i> Enterprise Content Management System (CMS)</li>
+      <li className="yellow-border"><i className="fas fa-code  px-3 py-3 Enterprise-icon-color"></i> Enterprise Application Development & Maintenance (ADM)</li>
+      <li className="blue-border"><i className="fas fa-sync-alt  px-3 py-3 Enterprise-icon-color"></i> Technology Migration / Re-engineering</li>
     </ul>
   </div>
 </div>
@@ -50,31 +50,31 @@ function JobDescription() {
     <div className="row justify-content-center related-services my-5">
       <div className="col-md-2 text-center">
         <button className="btn btn-outline-danger rounded-pill">
-          <i className="fas fa-lightbulb Enterprise-icon-bg"></i> 
+          <i className="fas fa-lightbulb Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Business / Tech Consulting</span> 
         </button>
       </div>
       <div className="col-md-2 text-center">
         <button className="btn btn-outline-danger rounded-pill">
-          <i className="fas fa-drafting-compass Enterprise-icon-bg"></i> 
+          <i className="fas fa-drafting-compass Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Product Prototyping</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
         <button className="btn btn-outline-danger rounded-pill">
-          <i className="fas fa-handshake Enterprise-icon-bg"></i> 
+          <i className="fas fa-handshake Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Managed Services</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
         <button className="btn btn-outline-danger rounded-pill">
-          <i className="fas fa-check-circle Enterprise-icon-bg"></i> 
+          <i className="fas fa-check-circle Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Quality Assurance & Testing</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
         <button className="btn btn-outline-danger rounded-pill">
-          <i className="fas fa-cogs Enterprise-icon-bg"></i> 
+          <i className="fas fa-cogs Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Product Engineering</span>
         </button>
       </div>

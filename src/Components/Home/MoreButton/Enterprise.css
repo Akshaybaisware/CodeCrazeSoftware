@@ -85,6 +85,8 @@ ul.list-unstyled {
     padding: 10px;
     border-radius: 50%;
   }
+ 
+
   .enterprise-picture .card-body{
     background-image: url('../../../Images/enterprise.jpg');
     background-size: cover;
