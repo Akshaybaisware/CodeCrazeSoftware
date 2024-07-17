@@ -1,7 +1,8 @@
 import React from 'react';
 import './OurExpertise.css';
 import { Container } from 'react-bootstrap';
-import SoftwareDeveloper from '../../Images/SoftwareDeveloper.webp'
+import SoftwareDeveloper from '../../Images/SoftwareDeveloper.webp';
+import Counter from './Counter'; // Import the Counter component
 
 const OurExpertise = () => {
   return (
@@ -111,25 +112,24 @@ const OurExpertise = () => {
         </section>
 
         <footer className="row text-center bg-light py-4 OurExpertise-custom-footer">
-  <p className='fs-2 my-2 text-black fw-bold'>WHAT SET US APART, BY THE NUMBERS</p>
-  <div className="col-lg-3 col-md-6 col-sm-12 my-1">
-    <h4 className="fs-1 text-danger fw-bold">3856+</h4>
-    <p className="fs-3 text-black-50">Websites Designed and Developed</p>
-  </div>
-  <div className="col-lg-3 col-md-6 col-sm-12 my-1">
-    <h4 className="fs-1 text-danger fw-bold">3856+</h4>
-    <p className="fs-3 text-black-50">Apps Published</p>
-  </div>
-  <div className="col-lg-3 col-md-6 col-sm-12 my-1">
-    <h4 className="fs-1 text-danger fw-bold">35+</h4>
-    <p className="fs-3 text-black-50">Employees</p>
-  </div>
-  <div className="col-lg-3 col-md-6 col-sm-12 my-1">
-    <h4 className="fs-1 text-danger fw-bold">856+</h4>
-    <p className="fs-3 text-black-50">Happy Customers</p>
-  </div>
-</footer>
-
+          <p className='fs-2 my-2 text-black fw-bold'>WHAT SET US APART, BY THE NUMBERS</p>
+          <div className="col-lg-3 col-md-6 col-sm-12 my-1">
+            <Counter target="3856" />
+            <p className="fs-3 text-black-50">Websites Designed and Developed</p>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 my-1">
+            <Counter target="3856" />
+            <p className="fs-3 text-black-50">Apps Published</p>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 my-1">
+            <Counter target="35" />
+            <p className="fs-3 text-black-50">Employees</p>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 my-1">
+            <Counter target="856" />
+            <p className="fs-3 text-black-50">Happy Customers</p>
+          </div>
+        </footer>
       </div>
     </div>
   );
