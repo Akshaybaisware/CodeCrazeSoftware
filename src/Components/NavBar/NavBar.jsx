@@ -37,7 +37,7 @@ function NavBar() {
                 <NavDropdown title={<span className="text-white">ABOUT US</span>} id="offcanvasNavbarDropdown-expand-lg">
                   <NavDropdown.Item as={NavLink} to="/aboutus" className="text-white" onClick={handleClose}>About Us</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/ourexpertise" className="text-white" onClick={handleClose}>Our Expertise</NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/whycodecraze" className="text-white" onClick={handleClose}>Why CodeCraze</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/whyAISOFT" className="text-white" onClick={handleClose}>Why AISOFT</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title={<span className="text-white">PRODUCTS</span>} id="offcanvasNavbarDropdown-expand-lg">
                   <NavDropdown.Item as={NavLink} to="/e-commerce" className="text-white" onClick={handleClose}>E-Commerce Solution</NavDropdown.Item>
@@ -66,7 +66,7 @@ function NavBar() {
           </Navbar.Offcanvas>
           <Navbar.Brand as={NavLink} to="/" className="d-flex text-white mx-auto align-items-center navbar-center">
             <Image src={Logo} rounded style={{ width: '110px', marginRight: '-18px', position: "relative", top: "0.3em" }} />
-            CODECRAZE SOFTWARE<br />
+            AISOFT SOFTWARE<br />
             SOLUTION
           </Navbar.Brand>
         </Container>

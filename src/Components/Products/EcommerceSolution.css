@@ -1,0 +1,24 @@
+.custom-icon-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+  }
+  
+  .custom-icon-list li {
+    position: relative;
+    padding-left: 30px; /* Space for the icon */
+    margin-bottom: 10px;
+  }
+  
+  .custom-icon-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    /* background-image: url('https://via.placeholder.com/20'); Replace with your icon URL */
+    background-image: url('../../Images/checkmark.jpeg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  

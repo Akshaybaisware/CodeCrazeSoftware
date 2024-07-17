@@ -154,7 +154,7 @@ function Home() {
           <i className="bi icon-large bi-play"></i>
           <h3 className="fw-bold fs-2">We develop</h3>
           <p className="fs-5 color-light custom-p-tag">
-            At CodeCraze Software Solutions, we are bestowed with dexterity to
+            At AISOFT Software Solutions, we are bestowed with dexterity to
             develop all your minutest application development specifications
             acutely & exact to the described requirements.
           </p>
@@ -188,7 +188,7 @@ function Home() {
   <Container className="text-overlay position-absolute top-0 start-50 text-center translate-middle">
     <h1 className="fw-bold fs-1">We Work With.</h1>
     <p className="fs-5 text-body-secondary">
-      CodeCrazeSoftware Solutions is a team of professionals who are striving to
+      AISOFTSoftware Solutions is a team of professionals who are striving to
       deliver the best IT solutions to the people we work with.
     </p>
   </Container>
@@ -354,7 +354,7 @@ function Home() {
       <div className="Home__carousel ">
         <Container className="Home__Description text-center mb-5 ">
         <p className="fs-1 fw-bold ">Our Work</p>
-        <p className=" fs-5 text-black-50 " >Yes, at CodeCraze Software, we're obsessed with quality. We rely on our portfolio to do business and<br/> always ensure that each of our web or mobile deliverable is unique and world class.
+        <p className=" fs-5 text-black-50 " >Yes, at AISOFT Software, we're obsessed with quality. We rely on our portfolio to do business and<br/> always ensure that each of our web or mobile deliverable is unique and world class.
         </p>
         </Container>
       <Carousel data-bs-theme="dark" interval={3000} className="Homecarousel__image"> 
@@ -415,7 +415,7 @@ function Home() {
 
     <Container className="Home__approachesection">
   <p className="text-center fs-1 fw-bold Our__business">Our business approach.</p>
-  <p className="text-body-secondary mb-5 text-center">Every business is different and our approach towards clients makes us stand in the crowd, making CodeCrazeSoftware solution their first choice for IT solutions.</p>
+  <p className="text-body-secondary mb-5 text-center">Every business is different and our approach towards clients makes us stand in the crowd, making AISOFTSoftware solution their first choice for IT solutions.</p>
 
   <Row className="mx-5 text-center">
     {approaches.map((approach, index) => (
@@ -444,7 +444,7 @@ function Home() {
           Engaging,<br /> purposeful, and<br /> creative<span className="extra">.</span>
         </h2>
         <p className="heading_sub_sixth mb-2 fs-5">
-          Every business is unique and so are its needs. At CodeCrazeSoftware solution, we provide the best solutions for designing, development, and digital marketing.
+          Every business is unique and so are its needs. At AISOFTSoftware solution, we provide the best solutions for designing, development, and digital marketing.
         </p>
         <Button variant="light" onClick={() => window.location.href='/contact'} className="mt-3 rounded-pill btn_apply_sixth">
           Enquire Us

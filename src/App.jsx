@@ -24,7 +24,7 @@ import CustomApp from "./Components/Services/CustomApp";
 import Website from "./Components/Services/Website";
 import SoftwareTesting from "./Components/Services/SoftwareTesting";
 import UiUx from "./Components/Services/UiUx";
-import WhyCodeCraze from "./Components/AboutUs/WhyCodeCraze";
+import WhyAISOFT from "./Components/AboutUs/WhyCodeCraze";
 import OnlineTest from "./Components/OnlineTest/OnlineTest";
 import JobDescription from "./Components/JobDescription/JobDescription";
 import CarrerApply from "./Components/CarrerApply/CarrerApply";
@@ -44,7 +44,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="ourexpertise" element={<OurExpertise />} />
-      <Route path="whycodecraze" element={<WhyCodeCraze />} />
+      <Route path="whyAISOFT" element={<WhyAISOFT />} />
       <Route path="e-commerce" element={<EcommerceSoluion />} />
       <Route path="crm" element={<CRM />} />
       <Route path="cms" element={<CMS />} />

@@ -35,7 +35,7 @@ function SoftwareTesting() {
           <div className="row d-flex justify-content-center">
             <div className="col-12">
               <p className="SoftwareTesting_why_para text-secondary fs-5">
-                CodeCrazeSoftwareSolutions offers assistance with software testing. CodeCrazeSoftwareSolutions supports every testing requirement at any stage of the software development cycle. To identify the flaws and mistakes committed during the development stages, software testing is actually necessary.CodeCrazeSoftwareSolution provides the best Software Testing service in Nagpur and it is the best company in Software company all over in Nagpur Pune Mumbai India.
+                AISOFTSoftwareSolutions offers assistance with software testing. AISOFTSoftwareSolutions supports every testing requirement at any stage of the software development cycle. To identify the flaws and mistakes committed during the development stages, software testing is actually necessary.AISOFTSoftwareSolution provides the best Software Testing service in Nagpur and it is the best company in Software company all over in Nagpur Pune Mumbai India.
               </p>
             </div>
           </div>

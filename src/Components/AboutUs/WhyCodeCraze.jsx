@@ -25,18 +25,18 @@ const CompanyInfo = () => {
   ];
 
   return (
-    <div className='WhyCodeCraze p-0 m-0 bg-light'> 
-      <div className='WhyCodeCraze__animatedText position-absolute w-100'>
+    <div className='WhyAISOFT p-0 m-0 bg-light'> 
+      <div className='WhyAISOFT__animatedText position-absolute w-100'>
     <Container>
         <p id="animatedText" className='fs-1  '>
-            Why CodeCrazeSoftware Solution Pvt Ltd <span className="Red">.</span>
+            Why AISOFTSoftware Solution Pvt Ltd <span className="Red">.</span>
         </p>
     </Container>
 </div>
 
-<Container className="WhycodeCraze-container shadow-lg card_body p-4">
+<Container className="WhyAISOFT-container shadow-lg card_body p-4">
       <div>
-        <h3 className="mb-3 fs-1 fw-bold WhycodeCraze-aboutheading">
+        <h3 className="mb-3 fs-1 fw-bold WhyAISOFT-aboutheading">
           Who we are<span className="extra">.</span>
         </h3>
       </div>
@@ -44,14 +44,14 @@ const CompanyInfo = () => {
         <Container>
           <Container>
             <Container>
-              <div className="row WhycodeCraze-row_width mt-3">
+              <div className="row WhyAISOFT-row_width mt-3">
                 {infoData.map((item, index) => (
                   <div
                     key={index}
-                    className="WhycodeCraze-info-card col-lg-3 col-sm-4 col-12 d-flex flex-column align-items-center p-2"
+                    className="WhyAISOFT-info-card col-lg-3 col-sm-4 col-12 d-flex flex-column align-items-center p-2"
                   >
                     <div
-                      className="card bg-light WhycodeCraze-card_property_why"
+                      className="card bg-light WhyAISOFT-card_property_why"
                       style={{
                         marginBottom: '10px',
                         width: '100%',
@@ -60,7 +60,7 @@ const CompanyInfo = () => {
                       }}
                     >
                       <div
-                        className="WhycodeCraze-icon_why d-flex align-items-center justify-content-center mx-auto"
+                        className="WhyAISOFT-icon_why d-flex align-items-center justify-content-center mx-auto"
                         style={{
                           background:
                             'linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%)',
@@ -72,13 +72,13 @@ const CompanyInfo = () => {
                       >
                         <FontAwesomeIcon
                           icon={item.icon}
-                          className="WhycodeCraze-icon_why_inner"
+                          className="WhyAISOFT-icon_why_inner"
                           style={{ fontSize: '2rem', color: '#ffffff' }}
                         />
                       </div>
                       <div className="text-center">
-                        <h4 className="WhycodeCraze-name mb-3">{item.title}</h4>
-                        <p className="WhycodeCraze-why_para text-secondary fs-5">
+                        <h4 className="WhyAISOFT-name mb-3">{item.title}</h4>
+                        <p className="WhyAISOFT-why_para text-secondary fs-5">
                           {item.description}
                         </p>
                       </div>

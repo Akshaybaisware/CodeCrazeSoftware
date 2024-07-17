@@ -90,7 +90,7 @@ const Footer = () => {
 <a href="https://twitter.com" target="_blank" className="text-white mx-2">
   <FontAwesomeIcon icon={faTwitter} />
 </a>
-<a href="https://www.linkedin.com/company/codecraze-software-solution/" target="_blank" className="text-white mx-2">
+<a href="https://www.linkedin.com/company/AISOFT-software-solution/" target="_blank" className="text-white mx-2">
   <FontAwesomeIcon icon={faLinkedinIn} />
 </a>
 <a href="https://www.youtube.com" target="_blank" className="text-white mx-2">
@@ -122,7 +122,7 @@ const Footer = () => {
         </div>
         <div className="row mt-4">
           <div className="col text-center">
-            <p  > <span className="text-danger ">&copy; CodeCrazeSoftware Solutions Pvt Ltd </span> <span className='text-white'>© 2024. All Rights Reserved.</span> </p>
+            <p  > <span className="text-danger ">&copy; AISOFTSoftware Solutions Pvt Ltd </span> <span className='text-white'>© 2024. All Rights Reserved.</span> </p>
           </div>
         </div>
       </div>

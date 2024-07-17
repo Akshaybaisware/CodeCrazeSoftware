@@ -1,15 +1,15 @@
-.WhycodeCraze-container{
+.WhyAISOFT-container{
     background-color: white;
     position: relative;
     margin-top:18.1em;
     margin-bottom:6.1em;
     
 }
-.WhyCodeCraze__animatedText #animatedText{
+.WhyAISOFT__animatedText #animatedText{
   margin-bottom: 1em !important;
 }
 
-.WhyCodeCraze__animatedText {
+.WhyAISOFT__animatedText {
   word-wrap: break-word;
   font-family: "Catamaran, sans-serif";
   line-height: 39px;
@@ -23,7 +23,7 @@
 }
 
 
-.WhyCodeCraze__animatedText #animatedText {
+.WhyAISOFT__animatedText #animatedText {
   font-size: 46px;
   font-weight: bold;
   color: #fff;
@@ -46,57 +46,57 @@
 
 
 
-.WhycodeCraze-info-card .card {
+.WhyAISOFT-info-card .card {
     transition: transform 0.3s, background-color 0.3s;
     background-color: #f8f9fa; /* Default background color */
   }
   
-  .WhycodeCraze-info-card .card:hover {
+  .WhyAISOFT-info-card .card:hover {
     transform: scale(1.05);
     background-color: #ffffff !important; /* Change background color to white on hover */
   }
   
-  .WhycodeCraze-info-card .WhycodeCraze-icon_why {
+  .WhyAISOFT-info-card .WhyAISOFT-icon_why {
     transition: background-color 0.3s;
   }
   
-  .WhycodeCraze-info-card .card:hover .WhycodeCraze-icon_why {
+  .WhyAISOFT-info-card .card:hover .WhyAISOFT-icon_why {
     background-color: #ff3a4c;
   }
   
-  .WhycodeCraze-info-card .card:hover .WhycodeCraze-icon_why_inner {
+  .WhyAISOFT-info-card .card:hover .WhyAISOFT-icon_why_inner {
     color: #ffffff;
   }
   @media (min-width :577px ) and (max-width :767px){
-    .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
+    .WhyAISOFT .WhyAISOFT__animatedText .fs-1{
       font-size: 1.4em !important;
     }
-    .WhyCodeCraze__animatedText{
+    .WhyAISOFT__animatedText{
       padding: 10em 4em;
     }
   }
   
 @media (min-width :437px ) and (max-width: 576px) {
-  .WhycodeCraze-card_property_why {
+  .WhyAISOFT-card_property_why {
     width: 100% !important;  /* Make the card take full width */
     max-width: 100% !important; /* Override the max-width */
   }
-  .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
+  .WhyAISOFT .WhyAISOFT__animatedText .fs-1{
     font-size: 1.2em !important;
   }
-  .WhyCodeCraze__animatedText{
+  .WhyAISOFT__animatedText{
     padding: 10em 1em;
   }
 }
 @media (max-width: 436px){
-  .WhycodeCraze-card_property_why {
+  .WhyAISOFT-card_property_why {
     width: 100% !important;  /* Make the card take full width */
     max-width: 100% !important; /* Override the max-width */
   }
-  .WhyCodeCraze .WhyCodeCraze__animatedText .fs-1{
+  .WhyAISOFT .WhyAISOFT__animatedText .fs-1{
     font-size: 1em !important;
   }
-  .WhyCodeCraze__animatedText{
+  .WhyAISOFT__animatedText{
     padding: 10em 1em;
   }
 

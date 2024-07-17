@@ -15,7 +15,7 @@ const OurExpertise = () => {
 
       <div className="container position-relative bg-white OurExpertise-custom-subtle-shadow p-4 rounded OurExpertise-custom-container">
         <header className="text-start mb-4 OurExpertise-custom-header">
-          <h1 className="fs-2 mt-3">CodeCrazeSoftware Solution Provide a wide Range of Services.</h1>
+          <h1 className="fs-2 mt-3">AISOFTSoftware Solution Provide a wide Range of Services.</h1>
         </header>
 
         <section className="row mb-4 OurExpertise-custom-row">
