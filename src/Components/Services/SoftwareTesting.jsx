@@ -19,7 +19,7 @@ function SoftwareTesting() {
                   Software Testing is one of the most vital stages in the software development life cycle. Testing of apps, devices, websites, and systems is an integral part of any company. It provides insights into the performance of the software. Software testing is a method for identifying gaps between provided input and desired output.
                 </p>
                 <p className='text-white fs-5 '>
-                  If you are looking for the best Software Testing company in Nagpur, Pune, Mumbai, India, then Yes Prevoyance Solutions is the right place. We are ranked among the top Software Testing Companies in Nagpur, Pune, Mumbai, and across India.
+                  If you are looking for the best Software Testing company in Nagpur, Pune, Mumbai, India, then Yes Aisoft Solutions is the right place. We are ranked among the top Software Testing Companies in Nagpur, Pune, Mumbai, and across India.
                 </p>
               </div>
             </div>

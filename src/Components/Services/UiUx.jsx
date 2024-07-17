@@ -19,7 +19,7 @@ function UiUx() {
               </h1>
               <div className="uiux-breadcrumb text-left">
                 <p className="uiux-why_para text-white mt-2 fs-4">
-                  We at Prevoyance Solutions are the leading UI/UX design company in Nagpur, Pune, Mumbai, and pan India.
+                  We at Aisoft Solutions are the leading UI/UX design company in Nagpur, Pune, Mumbai, and pan India.
                   We provide top-notch design services across Pan India. We are one of the best companies providing UI/UX design
                   services in Nagpur, India.
                 </p>
@@ -96,7 +96,7 @@ function UiUx() {
             </div>
             <div className="col-lg-7 col-md-7 col-sm-12 col-12 d-flex align-items-center">
               <p className="Uiux-aboutus">
-                All user experience processes housed under one roof Prevoyance Solutions is a
+                All user experience processes housed under one roof Aisoft Solutions is a
                 one-stop solution for all your UX design needs. We are a warehouse of UX design services, starting
                 from conceptualizing, analyzing, researching, prototyping, designing to the final stage of UX
                 testing all under one roof.

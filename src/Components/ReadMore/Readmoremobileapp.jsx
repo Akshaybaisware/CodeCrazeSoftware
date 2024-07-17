@@ -23,7 +23,7 @@ function ReadMoreMobile() {
             </div>
             <div className='my-4'>
               <p className="fs-5 text-black-50">
-                Prevoyance Solutions is a leading mobile app development company, specializing in building Android and iOS apps for clients. Our expertise allows us to create superior construction company or industry apps that consolidate all necessary information in one accessible place. With a strong presence in Nagpur, Pune, Mumbai, and across India, we are recognized for delivering excellence in app development.
+                Aisoft Solutions is a leading mobile app development company, specializing in building Android and iOS apps for clients. Our expertise allows us to create superior construction company or industry apps that consolidate all necessary information in one accessible place. With a strong presence in Nagpur, Pune, Mumbai, and across India, we are recognized for delivering excellence in app development.
               </p>
             </div>
             <div className='my-4'>

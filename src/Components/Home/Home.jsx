@@ -15,7 +15,7 @@ import Picture2 from "../../Images/TechnologyImage2.png";
 import Picture3 from "../../Images/TechnologyImage3.png";
 import Picture4 from "../../Images/TechnologyImage4.png";
 import Picture5 from "../../Images/second-section-1.png";
-import Picture6 from "../../Images/second-section-1.png";
+import Picture6 from "../../Images/second-section-3.jpg";
 import Picture7 from "../../Images/second-section-2.png";
 import Picture8 from "../../Images/third-section-1.jpg";
 import Picture9 from "../../Images/third-section-2.jpg";
@@ -32,7 +32,7 @@ function Home() {
     {
       icon: "src/Images/gradient-icon-circle-1.webp",
       title: "Best Development Strategy",
-      description: "A streamlined strategy of delivering great web & mobile apps is what Prevoyance Solutions is recognized for."
+      description: "A streamlined strategy of delivering great web & mobile apps is what Aisoft Solutions is recognized for."
     },
     {
       icon: "src/Images/gradient-icon-circle-2.webp",

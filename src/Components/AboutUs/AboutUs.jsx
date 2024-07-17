@@ -12,7 +12,7 @@ const AboutUs = () => {
       <section className="about-us-section ">
         <h1 id="animatedText">About AISOFTSoftware Solution Pvt Ltd <span className='Red'>.</span></h1>
         <p className="about-us-description mt-5 ">
-        AISOFTSoftware Solution Has The Solution Of Every Query, We Provides The Best Solution To Our Clients And Bring Smile On Their Entire Team. Prevoyance Solution Is The Best Software Development, Mobile App Design, Application Testing And Deplopment, Android Ipad And IPhone App Development, Custom Web Application Development Company, Software Testing Companies, UI/UX Design Company, Ecommerce Website Development Company, CRM Website And App Development Company, Content Management System (CMS) Software And Application Company, Enterprise Resource Planning (ERP) Software And Application Development Company, Java Development Company (Java SE, Java Embedded, Java EE), Complete Digital Marketing Services (Search Engine Optimization (SEO) Company & Paid Ads Media Add & PPC), We Are The Best Software Development Company In Nagpur, Pune , Mumbai And India Level Too We Have The Answer Of Every Questions. We Build Proper Strategy For Every Project And Work Accordingly On It With The Expert We Are Having In Our Team. We Deliver The Project On Given Time Interval And Also Provide The Technical Support. We Believe In Building Trust And 100% Transparency.
+        AISOFTSoftware Solution Has The Solution Of Every Query, We Provides The Best Solution To Our Clients And Bring Smile On Their Entire Team. Aisoft Solution Is The Best Software Development, Mobile App Design, Application Testing And Deplopment, Android Ipad And IPhone App Development, Custom Web Application Development Company, Software Testing Companies, UI/UX Design Company, Ecommerce Website Development Company, CRM Website And App Development Company, Content Management System (CMS) Software And Application Company, Enterprise Resource Planning (ERP) Software And Application Development Company, Java Development Company (Java SE, Java Embedded, Java EE), Complete Digital Marketing Services (Search Engine Optimization (SEO) Company & Paid Ads Media Add & PPC), We Are The Best Software Development Company In Nagpur, Pune , Mumbai And India Level Too We Have The Answer Of Every Questions. We Build Proper Strategy For Every Project And Work Accordingly On It With The Expert We Are Having In Our Team. We Deliver The Project On Given Time Interval And Also Provide The Technical Support. We Believe In Building Trust And 100% Transparency.
 
 
         </p>
@@ -47,7 +47,7 @@ const AboutUs = () => {
           <i className="bi bi-lightbulb about-us-icon "></i>
           <h3 className='mt-5 mb-3'>Core Values</h3>
           <ul className='about-us-core-values-list '>
-            <p className='fs-5'>Prevoyance Solutions believe that the success is accomplished through</p>
+            <p className='fs-5'>Aisoft Solutions believe that the success is accomplished through</p>
             <li>Commitment</li>
             <li>Discipline</li>
             <li>Integrity</li>
@@ -64,7 +64,7 @@ const AboutUs = () => {
     <div className="row about-us-content">
       <div className="about-us-description-businessrelationships mt-5 col-lg-6 col-md-12 col-12">
         <p className='mt-5'>
-          AISOFT Software Solutions providing paper the total business solution. We are a client-centered and quality-conscious company that offers a complete portfolio of Software Development, Website Designing, Mobile Application Development, Digital Marketing, Internet Marketing, and Technology Solutions. Founded in 2009 and headquartered at Nagpur, Prevoyance Solutions has been promoted by some highly experienced professionals dedicated to providing total IT and online solutions under one roof. It offers not only the latest technology gadgets but also the most knowledgeable.
+          AISOFT Software Solutions providing paper the total business solution. We are a client-centered and quality-conscious company that offers a complete portfolio of Software Development, Website Designing, Mobile Application Development, Digital Marketing, Internet Marketing, and Technology Solutions. Founded in 2009 and headquartered at Nagpur, Aisoft Solutions has been promoted by some highly experienced professionals dedicated to providing total IT and online solutions under one roof. It offers not only the latest technology gadgets but also the most knowledgeable.
         </p>
       </div>
       <div className="about-us-logos d-flex flex-column align-items-center col-lg-6 col-md-12 col-12">
