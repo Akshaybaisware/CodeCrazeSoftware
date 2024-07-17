@@ -170,5 +170,8 @@
       .custom-app-page-feature-mobile{
         padding: 120px 0 50px
       }
+   .custom-app-bg-all   .custom-app-card-body{
+    padding: 0.2rem !important;
+   }
    
   }

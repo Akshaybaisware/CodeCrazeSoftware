@@ -114,11 +114,11 @@ const OurExpertise = () => {
         <footer className="row text-center bg-light py-4 OurExpertise-custom-footer">
           <p className='fs-2 my-2 text-black fw-bold'>WHAT SET US APART, BY THE NUMBERS</p>
           <div className="col-lg-3 col-md-6 col-sm-12 my-1">
-            <Counter target="3856" />
+            <Counter target="756" />
             <p className="fs-3 text-black-50">Websites Designed and Developed</p>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 my-1">
-            <Counter target="3856" />
+            <Counter target="674" />
             <p className="fs-3 text-black-50">Apps Published</p>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 my-1">

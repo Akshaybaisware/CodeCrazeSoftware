@@ -112,11 +112,11 @@
   height: auto;
 }
 .Home-Picture-Container .Home-Paragraph1{
-  background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
+  background: black;
 
 }
 .Home-Picture-Container .Home-Paragraph {
-  background: linear-gradient(to right bottom, #595ea5 25%, #ff3a4c 50%, #595ea5 100%);
+  background: black;
   width: 13vw !important;
 }
 

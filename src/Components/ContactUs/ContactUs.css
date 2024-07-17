@@ -44,9 +44,9 @@
   background-color: #001d5a !important;
   color: white !important;
   border-radius: 10px !important;
-  padding: 2rem !important;
+  padding: 1rem !important;
   position: relative !important;
-  width: 100% !important;
+  width: 105% !important;
 }
 
 .contact-us-card-title {
@@ -60,9 +60,12 @@
 .contact-us-form-label {
   font-weight: bold;
 }
-
+.contact-us-form{
+    margin-left:1rem ;
+}
 .contact-us-form-control {
-  border-radius: 5px;
+  border-radius: 5px !important;
+  border: 1px solid black !important;
 }
 
 .contact-us-btn {
@@ -90,88 +93,28 @@
 
 
 @media (min-width: 990px) and (max-width: 1112px) {
-    .CareerApply-header .CareerApply-description {
-        font-size: 14px !important;
-    }
-    .CareerApply-us-section #animatedText {
-        font-size: 3em !important;
-    }
-    .CareerApply-us-section .CareerApply-us-description {
-        font-size: 1.2em !important;
-    }
+   
 }
 
 @media (min-width: 759px) and (max-width: 990px) {
-    .CareerApply-header .CareerApply-description {
-        font-size: 14px !important;
-    }
-    .CareerApply-us-section #animatedText {
-        font-size: 2em !important;
-    }
-    .CareerApply-us-section .CareerApply-us-description {
-        font-size: 1em !important;
-    }
-    .CareerApply-us-section {
-        padding: 7em 3em !important;
-    }
+   
 }
 
 @media (min-width: 550px) and (max-width: 758px) {
-    .CareerApply-us-section {
-        padding: 7em 3em !important;
-    }
-    .CareerApply-header .CareerApply-description {
-        font-size: 12px !important;
-    }
-    .CareerApply-us-section #animatedText {
-        font-size: 1.5em !important;
-    }
-    .CareerApply-us-section .CareerApply-us-description {
-        font-size: 0.8em !important;
-    }
+    
 }
 
 @media (min-width: 550px) and (max-width: 650px) {
-    .CareerApply-header .CareerApply-description {
-        font-size: 10px !important;
-    }
-    .CareerApply-us-section #animatedText {
-        font-size: 1.2em;
-    }
-    .CareerApply-us-section .CareerApply-us-description {
-        font-size: 0.6em !important;
-    }
-    .CareerApply-us-section {
-        padding: 7em 3em !important;
-    }
+   
 }
 
 @media (min-width: 468px) and (max-width: 549px) {
-    .CareerApply-header .CareerApply-description {
-        font-size: 8px !important;
-    }
-    .CareerApply-us-section #animatedText {
-        font-size: 1.2em !important;
-    }
-    .CareerApply-us-section .CareerApply-us-description {
-        font-size: 0.7em !important;
-    }
-    .CareerApply-us-section {
-        padding: 7em 3em !important;
-    }
+   
 }
 
 @media (max-width: 467px) {
-    .CareerApply-header .CareerApply-description {
-        font-size: 10px !important;
-    }
-    .CareerApply-us-section #animatedText {
-        font-size: 1em !important;
-    }
-    .CareerApply-us-section .CareerApply-us-description {
-        font-size: 0.8em !important;
-    }
-    .CareerApply-us-section {
-        padding: 7em 3em !important;
+   
+    .contact-us-form{
+        margin-left:0rem  !important;
     }
 }

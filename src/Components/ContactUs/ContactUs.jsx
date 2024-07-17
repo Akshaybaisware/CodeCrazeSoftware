@@ -26,7 +26,7 @@ const CareerApplyFormComponent = () => {
             </div>
           </div>
         </div>
-        <div className="contact-us-col col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12 mt-5">
+        <div className="contact-us-col col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12 mt-1 ">
           <form className="contact-us-form mt-5">
             <div className="row">
               <div className="col-md-6 mb-3">

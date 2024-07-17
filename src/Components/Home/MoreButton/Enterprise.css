@@ -85,6 +85,15 @@ ul.list-unstyled {
     padding: 10px;
     border-radius: 50%;
   }
+  .Enterprise-Custom-button {
+    background-color: black !important;
+    color: white !important;
+  }
+  
+  .Enterprise-Custom-button i {
+    margin-right: 5px;
+  }
+  
  
 
   .enterprise-picture .card-body{

@@ -82,45 +82,45 @@ function Agencies() {
             </div>
           </div>
 
-          <section id="Startup-related-sec">
-            <div className="Startup-related-service">
-              <h3>Related Services</h3>
-              <div className="Startup-rel-ser-sec">
-                <ul className="d-flex justify-content-around flex-wrap list-unstyled">
-                  <li className="Startup-sub-b">
-                    <a href="#" target="_blank" className="btn btn-light px-3 rounded-pill btn-red-border d-flex align-items-center flex-column">
-                      <i className="fas fa-sync-alt"></i>
-                      <p className="text-center m-0">Business / Tech <br /> Consulting</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" className="btn btn-light px-4 rounded-pill btn-red-border d-flex align-items-center flex-column">
-                      <i className="fas fa-sync-alt"></i>
-                      <p className="text-center m-0">Product <br /> Prototyping</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" className="btn btn-light  px-4 rounded-pill btn-red-border d-flex align-items-center flex-column">
-                      <i className="fas fa-sync-alt"></i>
-                      <p className="text-center m-0">Managed <br /> Services</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" className="btn btn-light  rounded-pill btn-red-border d-flex align-items-center flex-column">
-                      <i className="fas fa-sync-alt"></i>
-                      <p className="text-center m-0">Quality Assurance <br /> & Testing</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" className="btn btn-light px-4 rounded-pill btn-red-border d-flex align-items-center flex-column">
-                      <i className="fas fa-sync-alt"></i>
-                      <p className="text-center m-0">Product <br /> Engineering</p>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
+          <div className="row">
+  <div className="col-lg-12 text-center">
+    <h4 className="fw-bold my-5">RELATED SERVICES</h4>
+    <div className="row justify-content-center related-services my-5">
+      <div className="col-md-2 text-center">
+        <button className="btn r rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-lightbulb Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Business / Tech Consulting</span> 
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-drafting-compass Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Product Prototyping</span>
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-handshake Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Managed Services</span>
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-check-circle Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Quality Assurance & Testing</span>
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-cogs Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Product Engineering</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
           <footer className="Cms-footer">
           <h2 className="Cms-footerTitle text-white mb-5 fs-3">Looking for Content Management System services?

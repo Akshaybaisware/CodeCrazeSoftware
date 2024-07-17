@@ -90,33 +90,44 @@ function Agencies() {
           </div>
           
           <div className="row">
-            <div className="col-lg-12 text-center">
-              <section id='Agencies_related-sec'>
-                <div className="Agencies-related-service">
-                  <h3 className="fw-bold mt-5">RELATED SERVICES</h3>
-                </div>
-              </section>
-             
-              <div className="row justify-content-center Agencies-related-services my-5">
-                <div className="col-md-2 text-center">
-                  <button className="btn btn-outline-danger rounded-pill py-3"><i className="fas fa-lightbulb"></i> Business / Tech Consulting</button>
-                </div>
-                <div className="col-md-2 text-center">
-                  <button className="btn  btn-outline-danger rounded-pill py-3"><i className="fas fa-drafting-compass"></i> Product Prototyping</button>
-                </div>
-                <div className="col-md-2 text-center">
-                  <button className="btn btn-outline-danger rounded-pill py-3"><i className="fas fa-handshake"></i> Managed Services</button>
-                </div>
-                <div className="col-md-2 text-center">
-                  <button className="btn  btn-outline-danger rounded-pill py-3"><i className="fas fa-check-circle"></i> Quality Assurance & Testing</button>
-                </div>
-                <div className="col-md-2 text-center">
-                  <button className="btn  btn-outline-danger rounded-pill py-3"><i className="fas fa-cogs"></i> Product Engineering</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+  <div className="col-lg-12 text-center">
+    <h4 className="fw-bold my-5">RELATED SERVICES</h4>
+    <div className="row justify-content-center related-services my-5">
+      <div className="col-md-2 text-center">
+        <button className="btn r rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-lightbulb Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Business / Tech Consulting</span> 
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-drafting-compass Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Product Prototyping</span>
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-handshake Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Managed Services</span>
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-check-circle Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Quality Assurance & Testing</span>
+        </button>
+      </div>
+      <div className="col-md-2 text-center">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
+          <i className="fas fa-cogs Enterprise-icon-bg1"></i> 
+          <span className="Enterprise-small-font">Product Engineering</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
           <footer className="Cms-footer">
           <h2 className="Cms-footerTitle text-white mb-5 fs-3">Looking for Content Management System services?
           </h2>

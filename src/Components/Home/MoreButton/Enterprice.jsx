@@ -44,36 +44,36 @@ function JobDescription() {
   </div>
 </div>
 
-          <div className="row">
+<div className="row">
   <div className="col-lg-12 text-center">
     <h4 className="fw-bold my-5">RELATED SERVICES</h4>
     <div className="row justify-content-center related-services my-5">
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-danger rounded-pill">
+        <button className="btn r rounded-pill Enterprise-Custom-button">
           <i className="fas fa-lightbulb Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Business / Tech Consulting</span> 
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-danger rounded-pill">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
           <i className="fas fa-drafting-compass Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Product Prototyping</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-danger rounded-pill">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
           <i className="fas fa-handshake Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Managed Services</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-danger rounded-pill">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
           <i className="fas fa-check-circle Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Quality Assurance & Testing</span>
         </button>
       </div>
       <div className="col-md-2 text-center">
-        <button className="btn btn-outline-danger rounded-pill">
+        <button className="btn  rounded-pill Enterprise-Custom-button">
           <i className="fas fa-cogs Enterprise-icon-bg1"></i> 
           <span className="Enterprise-small-font">Product Engineering</span>
         </button>
@@ -81,6 +81,7 @@ function JobDescription() {
     </div>
   </div>
 </div>
+
 
 
           <footer className="OnlineTest-footer text-center">

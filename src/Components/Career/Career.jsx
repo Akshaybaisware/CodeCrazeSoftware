@@ -140,37 +140,46 @@ const OurExpertise = () => {
         </header>
 
         <section className="principles-section">
-          <Container>
-            <Row className="mb-4 align-items-center principle-row">
-              <Col xs={1} className="d-flex justify-content-center"><FaHeart size={40} color="#ff6b6b" /></Col>
-              <Col xs={11}>
-                <p className='fs-3 fw-bold'>Be a Host.</p>
-                <p className='fs-5 text-black-50'>Care for others and make them feel like they belong. Encourage others to participate to their fullest. Listen, communicate openly and set clear expectations.</p>
-              </Col>
-            </Row>
-            <Row className="mb-4 align-items-center principle-row">
-              <Col xs={1} className="d-flex justify-content-center"><FaLightbulb size={40} color="#feca57" /></Col>
-              <Col xs={11}>
-                <p className='fs-3 fw-bold'>Be a Cereal Entrepreneur.</p>
-                <p className='fs-5 text-black-50'>Be bold and apply original thinking. Imagine the ideal outcome. Be resourceful to make the outcome a reality.</p>
-              </Col>
-            </Row>
-            <Row className="mb-4 align-items-center principle-row">
-              <Col xs={1} className="d-flex justify-content-center"><FaTrophy size={40} color="#54a0ff" /></Col>
-              <Col xs={11}>
-                <p className='fs-3 fw-bold'>Champion the mission.</p>
-                <p className='fs-5 text-black-50'>Prioritize work that advances the mission and positively impacts the community. Build with the long-term in mind. Actively participate in the community and culture.</p>
-              </Col>
-            </Row>
-            <Row className="mb-4 align-items-center principle-row">
-              <Col xs={1} className="d-flex justify-content-center"><FaMountain size={40} color="#1dd1a1" /></Col>
-              <Col xs={11}>
-                <p  className='fs-3 fw-bold' >Embrace the Adventure.</p>
-                <p className='fs-5 text-black-50'>Be curious, ask for help, and demonstrate an ability to grow. Own and learn from mistakes. Bring joy and optimism to work.</p>
-              </Col>
-            </Row>
-          </Container>
-        </section>
+  <Container>
+    <Row className="mb-4 align-items-center principle-row">
+      <Col xs={1} className="d-flex justify-content-center">
+        <FaHeart className="principle-icon" color="#ff6b6b" />
+      </Col>
+      <Col xs={11}>
+        <p className='fs-3 fw-bold'>Be a Host.</p>
+        <p className='fs-5 text-black-50'>Care for others and make them feel like they belong. Encourage others to participate to their fullest. Listen, communicate openly and set clear expectations.</p>
+      </Col>
+    </Row>
+    <Row className="mb-4 align-items-center principle-row">
+      <Col xs={1} className="d-flex justify-content-center">
+        <FaLightbulb className="principle-icon" color="#feca57" />
+      </Col>
+      <Col xs={11}>
+        <p className='fs-3 fw-bold'>Be a Cereal Entrepreneur.</p>
+        <p className='fs-5 text-black-50'>Be bold and apply original thinking. Imagine the ideal outcome. Be resourceful to make the outcome a reality.</p>
+      </Col>
+    </Row>
+    <Row className="mb-4 align-items-center principle-row">
+      <Col xs={1} className="d-flex justify-content-center">
+        <FaTrophy className="principle-icon" color="#54a0ff" />
+      </Col>
+      <Col xs={11}>
+        <p className='fs-3 fw-bold'>Champion the mission.</p>
+        <p className='fs-5 text-black-50'>Prioritize work that advances the mission and positively impacts the community. Build with the long-term in mind. Actively participate in the community and culture.</p>
+      </Col>
+    </Row>
+    <Row className="mb-4 align-items-center principle-row">
+      <Col xs={1} className="d-flex justify-content-center">
+        <FaMountain className="principle-icon" color="#1dd1a1" />
+      </Col>
+      <Col xs={11}>
+        <p className='fs-3 fw-bold'>Embrace the Adventure.</p>
+        <p className='fs-5 text-black-50'>Be curious, ask for help, and demonstrate an ability to grow. Own and learn from mistakes. Bring joy and optimism to work.</p>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
 
         <div className="container job-footer border mt-4 pt-4">
       <h4 className="job-title text-gradient">Android Developer</h4>

@@ -175,7 +175,7 @@
   .Website-web-feature_mobile .Website-webwhy_para{
  
     top: 0em;
-    font-size: 1em !important;
+    font-size: 0.9em !important;
     
 }
 .Website-web-feature_mobile .row{
@@ -187,7 +187,7 @@
 }
 .Website-web-feature_mobile .Website-webbreadcrumbs__txt{
   position: relative;
-  font-size: 0.5em !important;
+  font-size: 1.2em !important;
   top: 2em;
   left: 0;
 

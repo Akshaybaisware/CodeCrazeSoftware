@@ -171,6 +171,12 @@
     width: 100%;
     border-left:5px solid #243859;
   }
+  .principle-icon {
+    font-size: 40px;
+  }
+  
+ 
+  
   
   
 
@@ -192,6 +198,9 @@
   .career-custom-footer {
     font-size: 1.2rem; /* Increased font size for footer on smaller screens */
   }
+  .principle-icon {
+    min-width:  188vw  !important; 
+  }
 }
 
 @media (max-width: 576px) {
@@ -205,8 +214,11 @@
   .career-custom-header h4,
   .career-custom-header h5,
   .career-custom-header h6 {
-    font-size: 1.5rem; /* Further adjust font size for very small screens */
-    margin-bottom: 0.5rem; /* Further adjust margin for very small screens */
+    font-size: 1.5rem; 
+    margin-bottom: 0.5rem; 
+  }
+  .principle-icon {
+    min-width:  188vw  !important; 
   }
 
   .career-custom-paragraph p {

@@ -8,7 +8,7 @@ const Counter = ({ target }) => {
     const end = parseInt(target);
     if (start === end) return;
 
-    let totalMilSecDur = 1; // Duration of the counting animation in milliseconds
+    let totalMilSecDur = 0.1; 
     let incrementTime = (totalMilSecDur / end);
 
     let timer = setInterval(() => {
