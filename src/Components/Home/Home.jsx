@@ -14,9 +14,9 @@ import Picture1 from "../../Images/TechnologyImage1.png";
 import Picture2 from "../../Images/TechnologyImage2.png";
 import Picture3 from "../../Images/TechnologyImage3.png";
 import Picture4 from "../../Images/TechnologyImage4.png";
-import Picture5 from "../../Images/second-section-1.jpg";
-import Picture6 from "../../Images/second-section-2.jpg";
-import Picture7 from "../../Images/second-section-3.jpg";
+import Picture5 from "../../Images/second-section-1.png";
+import Picture6 from "../../Images/second-section-1.png";
+import Picture7 from "../../Images/second-section-2.png";
 import Picture8 from "../../Images/third-section-1.jpg";
 import Picture9 from "../../Images/third-section-2.jpg";
 import Picture10 from "../../Images/third-section-3.jpg";
@@ -30,32 +30,32 @@ function Home() {
   const navigate =useNavigate();
   const approaches = [
     {
-      icon: "src/Images/gradient-icon-circle-1.png",
+      icon: "src/Images/gradient-icon-circle-1.webp",
       title: "Best Development Strategy",
       description: "A streamlined strategy of delivering great web & mobile apps is what Prevoyance Solutions is recognized for."
     },
     {
-      icon: "src/Images/gradient-icon-circle-2.png",
+      icon: "src/Images/gradient-icon-circle-2.webp",
       title: "Value Added Services",
       description: "Our value added services guarantee the clients to have outcomes beyond the expectations."
     },
     {
-      icon: "src/Images/gradient-icon-circle-3.png",
+      icon: "src/Images/gradient-icon-circle-3.webp",
       title: "Customer Satisfaction",
       description: "We consider our success on the basis of the clients' successfully performing websites or mobile apps."
     },
     {
-      icon: "src/Images/gradient-icon-circle-4.png",
+      icon: "src/Images/gradient-icon-circle-4.webp",
       title: "Best Technological Solutions",
       description: "Inspired IT specialists are looking forward to understanding the varied project requirements & come up with the superlative solutions."
     },
     {
-      icon: "src/Images/gradient-icon-circle-5.png",
+      icon: "src/Images/gradient-icon-circle-5.webp",
       title: "Customer Tailored Support",
       description: "We are dedicated to ensuring that our customers can contact us in the best way for them."
     },
     {
-      icon: "src/Images/gradient-icon-circle-6.png",
+      icon: "src/Images/gradient-icon-circle-6.webp",
       title: "Customize Solutions",
       description: "Absolutely customized development services are defined for Start-ups, Small businesses & large organizations."
     },
@@ -86,7 +86,7 @@ function Home() {
             className="d-block w-100 Home__Image"
             src={Picture1}
             alt="First slide"
-            style={{ minHeight: "80vh",  backgroundSize: "cover",
+            style={{ minHeight: "65vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
              
@@ -98,7 +98,7 @@ function Home() {
             className="d-block w-100 Home__Image"
             src={Picture2}
             alt="Second slide"
-            style={{ minHeight: "80vh",  backgroundSize: "cover",
+            style={{ minHeight: "65vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               
@@ -110,7 +110,7 @@ function Home() {
             className="d-block w-100 Home__Image"
             src={Picture3}
             alt="Third slide"
-            style={{ minHeight: "80vh",   backgroundSize: "cover",
+            style={{ minHeight: "65vh",   backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               
@@ -122,7 +122,7 @@ function Home() {
             className="d-block w-100 Home__Image"
             src={Picture4}
             alt="Fourth slide"
-            style={{ minHeight: "80vh",  backgroundSize: "cover",
+            style={{ minHeight: "65vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               
@@ -130,16 +130,15 @@ function Home() {
           />
         </Carousel.Item>
       </Carousel>
-
       <div className="Home__tiles">
   <Row className="m-0 p-0 Home__tilesRow">
     <Col xs={12} md={6} lg={4} className="m-0 p-0 order-md-1">
       <div style={{ position: 'relative' }}>
         <Image src={Picture5} fluid style={{ height: '400px', objectFit: 'cover' }} />
         <div className="Home__tileContent">
-          <i className="bi icon-large bi-pause-fill"></i>
-          <h3 className="fw-bold fs-2">We design</h3>
-          <p className="fs-5 color-light">
+          <i className="bi icon-large bi-pencil" style={{ color: 'black' }}></i>
+          <h3 className="fw-bold fs-2" style={{ color: 'black' }}>We design</h3>
+          <p className="fs-5" style={{ color: 'black' }}>
             Having experience in designing engaging UI, we assure you to
             cater optimal quality solutions that definitely boost business’
             performance incredibly.
@@ -151,9 +150,9 @@ function Home() {
       <div className="text-center" style={{ position: 'relative' }}>
         <Image src={Picture6} fluid style={{ height: '400px', objectFit: 'cover' }} />
         <div className="Home__tileContent">
-          <i className="bi icon-large bi-play"></i>
-          <h3 className="fw-bold fs-2">We develop</h3>
-          <p className="fs-5 color-light custom-p-tag">
+          <i className="bi icon-large bi-code-slash" style={{ color: 'black' }}></i>
+          <h3 className="fw-bold fs-2" style={{ color: 'black' }}>We develop</h3>
+          <p className="fs-5 custom-p-tag" style={{ color: 'black' }}>
             At AISOFT Software Solutions, we are bestowed with dexterity to
             develop all your minutest application development specifications
             acutely & exact to the described requirements.
@@ -165,9 +164,9 @@ function Home() {
       <div className="text-center" style={{ position: 'relative' }}>
         <Image src={Picture7} fluid style={{ height: '400px', objectFit: 'cover' }} />
         <div className="Home__tileContent">
-          <i className="bi icon-large bi-stop-fill"></i>
-          <h3 className="fw-bold fs-2">We test it</h3>
-          <p className="fs-5 color-light p-0">
+          <i className="bi icon-large bi-check2-circle" style={{ color: 'black' }}></i>
+          <h3 className="fw-bold fs-2" style={{ color: 'black' }}>We test it</h3>
+          <p className="fs-5 p-0" style={{ color: 'black' }}>
             Our application development team tests the developed solutions
             thoroughly from the root and ensures satisfactory solution
             delivery within stipulated time.

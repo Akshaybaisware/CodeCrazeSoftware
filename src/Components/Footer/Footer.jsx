@@ -90,7 +90,7 @@ const Footer = () => {
 <a href="https://twitter.com" target="_blank" className="text-white mx-2">
   <FontAwesomeIcon icon={faTwitter} />
 </a>
-<a href="https://www.linkedin.com/company/AISOFT-software-solution/" target="_blank" className="text-white mx-2">
+<a href="https://www.linkedin.com/company/aisoftsolution.in/?viewAsMember=true" target="_blank" className="text-white mx-2">
   <FontAwesomeIcon icon={faLinkedinIn} />
 </a>
 <a href="https://www.youtube.com" target="_blank" className="text-white mx-2">
