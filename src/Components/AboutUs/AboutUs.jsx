@@ -32,21 +32,21 @@ const AboutUs = () => {
         <Col md={4} className="text-center about_us_col hover-3d-shadow">
           <i className="bi bi-bullseye about-us-icon"></i>
           <h3 className='mt-5 mb-2'>Mission</h3>
-          <p className='text-left fs-5'>
+          <p className='text-left fs-5' style={{ fontWeight: 600 }}>
             AISOFT Software Solutions aims to provide services globally and emerge as a leader in the international market. We emphasize strong human relations and prioritize customer satisfaction at every business level.
           </p>
         </Col>
         <Col md={4} className="text-center about_us_col hover-3d-shadow">
           <i className="bi bi-graph-up about-us-icon"></i>
           <h3 className='mb-2 mt-5'>Capabilities</h3>
-          <p className='text-left fs-5'>
+          <p className='text-left fs-5' style={{ fontWeight: 600 }}>
             At AISOFT Software Solutions, we understand that every business is unique, driven by different goals and needs. Whether you seek revenue growth, cost reduction, or operational efficiency, we provide tailored solutions to meet your specific business objectives.
           </p>
         </Col>
         <Col md={4} className="text-center about_us_core_values hover-3d-shadow">
           <i className="bi bi-lightbulb about-us-icon "></i>
           <h3 className='mt-5 mb-3'>Core Values</h3>
-          <ul className='about-us-core-values-list '>
+          <ul className='about-us-core-values-list ' style={{ fontWeight: 600 }}>
             <p className='fs-5'>Aisoft Solutions believe that the success is accomplished through</p>
             <li>Commitment</li>
             <li>Discipline</li>
