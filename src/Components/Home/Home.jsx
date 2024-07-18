@@ -84,9 +84,9 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100 Home__Image"
-            src={Picture1}
+            src={Picture3}
             alt="First slide"
-            style={{ minHeight: "65vh",  backgroundSize: "cover",
+            style={{ minHeight: "50vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
              
@@ -98,7 +98,7 @@ function Home() {
             className="d-block w-100 Home__Image"
             src={Picture2}
             alt="Second slide"
-            style={{ minHeight: "65vh",  backgroundSize: "cover",
+            style={{ minHeight: "50vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               
@@ -108,9 +108,9 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100 Home__Image"
-            src={Picture3}
+            src={Picture1}
             alt="Third slide"
-            style={{ minHeight: "65vh",   backgroundSize: "cover",
+            style={{ minHeight: "50vh",   backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               
@@ -122,7 +122,7 @@ function Home() {
             className="d-block w-100 Home__Image"
             src={Picture4}
             alt="Fourth slide"
-            style={{ minHeight: "65vh",  backgroundSize: "cover",
+            style={{ minHeight: "50vh",  backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               
@@ -435,17 +435,17 @@ function Home() {
 <Container fluid className="padding_fourth p-0 m-0">
   <Row className="m-0">
     <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0">
-      <Image src={SideImage} alt="Sixth Section" className="sixth_image" style={{ width: '100%', height: '77vh' }} />
+      <Image src={SideImage} alt="Sixth Section" className="sixth_image" style={{ width: '100%', height: '67vh' }} />
     </Col>
-    <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0 text-white d-flex align-items-center">
-      <div className="background_sixth p-5 w-100 d-flex flex-column justify-content-center" style={{ height: '77vh' }}>
-        <h2 className="heading_sixth fw-bold mb-4 fs-4">
+    <Col xl={6} lg={6} md={12} sm={12} xs={12} className="p-0 m-0 text-white d-flex align-items-center" >
+      <div className="background_sixth p-5 w-100 d-flex flex-column justify-content-center" style={{ height: '67vh'  }}>
+      <h2 className="heading_fifth fw-bold mb-9 fs-4" >
           Engaging,<br /> purposeful, and<br /> creative<span className="extra">.</span>
         </h2>
-        <p className="heading_sub_sixth mb-2 fs-5">
+        <p className="heading_sub_sixth mb-0 fs-5">
           Every business is unique and so are its needs. At AISOFTSoftware solution, we provide the best solutions for designing, development, and digital marketing.
         </p>
-        <Button variant="light" onClick={() => window.location.href='/contact'} className="mt-3 rounded-pill btn_apply_sixth">
+        <Button variant="light" onClick={() => window.location.href='/contact'} className="mt-2 rounded-pill btn_apply_sixth">
           Enquire Us
         </Button>
       </div>
