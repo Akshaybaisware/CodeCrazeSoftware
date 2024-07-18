@@ -21,7 +21,7 @@ const AboutUs = () => {
       <Container className='shadow-lg p-5 mb-5 bg-white rounded'>
         <section className="about-us-overview-section">
           <h2>Overview About AISOFT Software Solutions Pvt Ltd.</h2>
-          <p className='text-black-50 fs-5'>
+          <p className='text-black-50 fs-5' style={{ fontWeight: 600 }}>
             We, AISOFT Software Solutions, provide precise and effective business solutions. We are a client-oriented and quality-conscious organization offering a wide range of business strategies and services. Our goal is to help businesses achieve success through innovation and efficiency. We prioritize building trust and maintaining transparency with our clients. Our services include web development, digital marketing, data analysis, and more. We are dedicated to delivering projects on time and providing comprehensive technical support to ensure client satisfaction.
           </p>
         </section>
@@ -46,8 +46,8 @@ const AboutUs = () => {
         <Col md={4} className="text-center about_us_core_values hover-3d-shadow">
           <i className="bi bi-lightbulb about-us-icon "></i>
           <h3 className='mt-5 mb-3'>Core Values</h3>
-          <ul className='about-us-core-values-list ' style={{ fontWeight: 600 }}>
-            <p className='fs-5'>Aisoft Solutions believe that the success is accomplished through</p>
+          <ul className='about-us-core-values-list ' >
+            <p className='fs-5' style={{ fontWeight: 600 }}>Aisoft Solutions believe that the success is accomplished through</p>
             <li>Commitment</li>
             <li>Discipline</li>
             <li>Integrity</li>
