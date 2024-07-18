@@ -108,15 +108,15 @@ const Footer = () => {
             </h3>
             <p  className='text-white'>
               <FontAwesomeIcon icon={faEnvelope} />  Email:
-              <a href="mailto:prafulanathile@gmail.com" className="text-danger"> CodeSoftwareSolution@gmail.com</a>
+              <a href="mailto:aisoftsolutions8@gmail.com" className="text-danger">aisoftsolutions8@gmail.com</a>
             </p>
             <p className='text-white'>
               <FontAwesomeIcon icon={faPhone} /> Phone:
-              <a href="tel:+919970850512" className="text-danger"> 9503007527/9403452788</a>
+              <a href="tel:+919970850512" className="text-danger"> 7756940249</a>
             </p>
             <p className='text-white'>
               <FontAwesomeIcon className='me-2' icon={faMapMarkerAlt} /> 
-              address Nagpur medical square
+              NAGPUR/NOIDA/MOHALI
             </p>
           </div>
         </div>
