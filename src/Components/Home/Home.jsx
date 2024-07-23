@@ -30,32 +30,32 @@ function Home() {
   const navigate =useNavigate();
   const approaches = [
     {
-      icon: "src/Images/gradient-icon-circle-1.webp",
+      icon: "src/Images/Business-development-startrgy.png",
       title: "Best Development Strategy",
       description: "A streamlined strategy of delivering great web & mobile apps is what Aisoft Solutions is recognized for."
     },
     {
-      icon: "src/Images/gradient-icon-circle-2.webp",
+      icon: "src/Images/valule-added-services.jpg",
       title: "Value Added Services",
       description: "Our value added services guarantee the clients to have outcomes beyond the expectations."
     },
     {
-      icon: "src/Images/gradient-icon-circle-3.webp",
+      icon: "src/Images/Customer_Satisfaction.jpeg",
       title: "Customer Satisfaction",
       description: "We consider our success on the basis of the clients' successfully performing websites or mobile apps."
     },
     {
-      icon: "src/Images/gradient-icon-circle-4.webp",
+      icon: "src/Images/technology.jpeg",
       title: "Best Technological Solutions",
       description: "Inspired IT specialists are looking forward to understanding the varied project requirements & come up with the superlative solutions."
     },
     {
-      icon: "src/Images/gradient-icon-circle-5.webp",
+      icon: "src/Images/Customer_tailored_support.jpeg",
       title: "Customer Tailored Support",
       description: "We are dedicated to ensuring that our customers can contact us in the best way for them."
     },
     {
-      icon: "src/Images/gradient-icon-circle-6.webp",
+      icon: "src/Images/cutomer.png",
       title: "Customize Solutions",
       description: "Absolutely customized development services are defined for Start-ups, Small businesses & large organizations."
     },

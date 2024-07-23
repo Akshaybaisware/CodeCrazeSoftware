@@ -21,7 +21,7 @@ const CareerApplyFormComponent = () => {
               <h2 className="contact-us-card-text card-text">Let's Connect With Us</h2>
               <p>THIS COULD BE THE BEGINNING OF THE BEAUTIFUL RELATIONSHIP</p>
               <p className="contact-us-icon-background"><i className="fas fa-phone-alt"></i> Phone Number<br/>7756940249</p>
-              <p className="contact-us-icon-background text-"><i className="fas fa-map-marker-alt"></i> Visit Us Office:<br/><span className='text-warning'> address Nagpur medical square .</span></p>
+              <p className="contact-us-icon-background text-"><i className="fas fa-map-marker-alt"></i> Visit Us Office:<br/><span className='text-warning'> Gayatri Nagar IT PARK </span></p>
               <p className="contact-us-icon-background"><i className="fas fa-envelope"></i> Mail Us:<br/>aisoftsolutions8@gmail.com</p>
             </div>
           </div>
