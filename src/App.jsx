@@ -37,6 +37,7 @@ import FAQ from './Components/FAQ/FAQ'
 import Enterprice from './Components/Home/MoreButton/Enterprice'
 import Agency from './Components/Home/MoreButton/Agencies'
 import Startup from './Components/Home/MoreButton/Startup'
+import Payment from "../aisoft-payment/payment";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -75,7 +76,7 @@ const router = createBrowserRouter(
     <Route path="/enterprice" element={<Enterprice/>}/>
     <Route path="/agency" element={<Agency/>}/>
     <Route path="/startup" element={<Startup/>}/>
-    
+      <Route path="/pay" element={<Payment />} />
 
     </Route>
   )
