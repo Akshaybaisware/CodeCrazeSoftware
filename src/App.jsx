@@ -37,7 +37,7 @@ import FAQ from './Components/FAQ/FAQ'
 import Enterprice from './Components/Home/MoreButton/Enterprice'
 import Agency from './Components/Home/MoreButton/Agencies'
 import Startup from './Components/Home/MoreButton/Startup'
-import Payment from "../aisoft-payment/payment";
+import Payment from "./Components/Career/payment"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
