@@ -15,12 +15,9 @@ const RazerPay = () => {
     };
 
     const fetchOrderID = async () => {
-        const response = await fetch('http://localhost:3030/orders', {
+        const response = await fetch('http://localhost:5173/', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ amount: 500 }), 
+            body: {amount:500}, 
         });
         const data = await response.json();
         setOrderID(data.id);
