@@ -29,13 +29,15 @@ import vuejs from '../../Images/ICON/vue-js.png';
 import jquery from '../../Images/ICON/jquery.png';
 import expressjs80 from '../../Images/ICON/expressjs80.png';
 import { useNavigate } from 'react-router-dom';
+import RazerPay from './RazerPay';
+
 
 
 const OurExpertise = () => {
   const navigate = useNavigate();
   const handleClick = () => {
   
-    navigate('/jobdescription');
+    navigate('/carrerapply');
     window.scrollTo(0, 0);
 };
 
@@ -182,6 +184,26 @@ const OurExpertise = () => {
 
 
         <div className="container job-footer border mt-4 pt-4">
+      <h4 className="job-title text-gradient">Dot Net Developer</h4>
+      <div className="d-flex align-items-center mb-3">
+        <FaRegClock className="icon" />
+        <span className="mx-2">5-7 Years</span>
+        <span className="mx-2">|</span>
+        <FaMapMarkerAlt className="icon" />
+        <span className="mx-2">Noida/Pune</span>
+      </div>
+      <div className="mb-3">
+        <strong>Description:</strong>
+        We are seeking a Senior .NET Developer with 5-7 years of experience in .NET development. The ideal candidate will excel in C#, .NET frameworks, and front-end technologies, ensuring high-quality, scalable, and efficient applications. Key responsibilities include designing, developing, and maintaining .NET applications, collaborating with teams, and optimizing performance.
+      </div>
+      <div className="mb-3">
+        <strong>Package:</strong> 
+      14-21LPA
+      </div>
+      <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
+
+    </div>
+    <div className="container job-footer border mt-4 pt-4">
       <h4 className="job-title text-gradient">Android Developer</h4>
       <div className="d-flex align-items-center mb-3">
         <FaRegClock className="icon" />
@@ -196,8 +218,58 @@ const OurExpertise = () => {
       <div className="mb-3">
         <strong>Skills:</strong> Design and build Android mobile applications · Collaborate with cross-functional teams to analyze, design, and ship new features · Fully responsible for mobile app development · Implement new technologies to maximize application performance.
       </div>
+      <div className="mb-3">
+        <strong>Package:</strong> 
+      6-7.5LPA
+      </div>
       <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
 
+    </div>
+
+    <div className="container job-footer border mt-4 pt-4">
+      <h4 className="job-title text-gradient">kafka</h4>
+      <div className="d-flex align-items-center mb-3">
+        <FaRegClock className="icon" />
+        <span className="mx-2">3-4 Years</span>
+        <span className="mx-2">|</span>
+        <FaMapMarkerAlt className="icon" />
+        <span className="mx-2">Noida</span>
+      </div>
+      <div className="mb-3">
+        <strong>Description:</strong>
+        We are looking for a Kafka Developer with 3-4years of experience. The ideal candidate will have expertise in developing, managing, and optimizing Kafka-based data pipelines. Responsibilities include designing and implementing scalable Kafka solutions, ensuring data integrity, and collaborating with cross-functional teams for seamless data flow integration.
+      </div>
+    
+      <div className="mb-3">
+        <strong>Package:</strong> 
+      12-15LPA
+      </div>
+      <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
+
+    </div>
+    <div className="container job-footer border mt-4 pt-4">
+      <h4 className="job-title text-gradient">ReactJs</h4>
+      <div className="d-flex align-items-center mb-3">
+        <FaRegClock className="icon" />
+        <span className="mx-2">Fresher</span>
+        <span className="mx-2">|</span>
+        <FaMapMarkerAlt className="icon" />
+        <span className="mx-2">Noida/Gurgaon</span>
+      </div>
+      <div className="mb-3">
+        <strong>Description: </strong>
+        We are seeking a React Developer (Fresher) with basic knowledge of JavaScript, HTML, CSS, and React.js. Responsibilities include assisting in developing web applications, writing clean code, and collaborating with senior developers. This role requires a keen eye for detail, strong problem-solving skills, and a willingness to learn and adapt.
+       </div>
+      <div className="mb-3">
+        <strong>Skills: </strong>
+           HTML , CSS , JAVASCRIPT , REACTJS , BOOTSTRAP 
+      </div>
+      <div className="mb-3">
+        <strong>Package: </strong> 
+        4-5.5LPA
+      </div>
+     
+      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white"}}><RazerPay/></button>
     </div>
       </div>
     </div>
