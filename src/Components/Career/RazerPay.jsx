@@ -46,7 +46,7 @@ const RazerPay = () => {
             name: 'Aisoft Software Solution',
             description: 'Test Transaction',
             //  image: '../../Images/AISOFTLOGO.jpg',
-            image: '../../Images/ICON/LOGO.png',
+            // image: '../../Images/ICON/LOGO.png',
             handler: function (response) {
                 alert(`Payment ID: ${response.razorpay_payment_id}`);
                 alert(`Order ID: ${response.razorpay_order_id}`);
