@@ -40,11 +40,12 @@ const RazerPay = () => {
 
         const options = {
             key: 'rzp_live_gwN4MYAKKclYZW',
-            amount: 10*100, 
+            amount: 249*100, 
             currency: 'INR', 
             order_id: orderID, 
             name: 'Aisoft Software Solution',
             description: 'Test Transaction',
+            //  image: '../../Images/AISOFTLOGO.jpg',
             image: '../../Images/ICON/LOGO.png',
             handler: function (response) {
                 alert(`Payment ID: ${response.razorpay_payment_id}`);
