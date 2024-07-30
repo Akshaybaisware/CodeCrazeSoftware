@@ -15,7 +15,7 @@ const RazerPay = () => {
     };
 
     const fetchOrderID = async () => {
-        const response = await fetch('https://aisoft-payment-production.up.railway.app/orders', {
+        const response = await fetch('https://aisoft-payment-production-4340.up.railway.app/orders', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ const RazerPay = () => {
 
         const options = {
             key: 'rzp_live_gwN4MYAKKclYZW',
-            amount: 50000, 
+            amount: 10*100, 
             currency: 'INR', 
             order_id: orderID, 
             name: 'Your Company Name',
