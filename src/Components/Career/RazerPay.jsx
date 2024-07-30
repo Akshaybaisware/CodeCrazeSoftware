@@ -43,9 +43,9 @@ const RazerPay = () => {
             amount: 10*100, 
             currency: 'INR', 
             order_id: orderID, 
-            name: 'Your Company Name',
+            name: 'Aisoft Software Solution',
             description: 'Test Transaction',
-            image: 'https://your-logo-url.com/logo.png',
+            image: '../../Images/ICON/LOGO.png',
             handler: function (response) {
                 alert(`Payment ID: ${response.razorpay_payment_id}`);
                 alert(`Order ID: ${response.razorpay_order_id}`);
