@@ -71,7 +71,7 @@ const RazerPay = () => {
 
     return (
         <div>
-            <button onClick={displayRazerPay}>Pay with Razer Pay</button>
+            <button onClick={displayRazerPay}>Registeration</button>
         </div>
     );
 };
