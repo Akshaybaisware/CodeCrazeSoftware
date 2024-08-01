@@ -184,21 +184,27 @@ const OurExpertise = () => {
 
 
         <div className="container job-footer border mt-4 pt-4">
-      <h4 className="job-title text-gradient">Dot Net Developer</h4>
+      <h4 className="job-title text-gradient">AWS</h4>
       <div className="d-flex align-items-center mb-3">
         <FaRegClock className="icon" />
-        <span className="mx-2">5-7 Years</span>
+        <span className="mx-2">3-4 Years</span>
         <span className="mx-2">|</span>
         <FaMapMarkerAlt className="icon" />
         <span className="mx-2">Noida/Pune</span>
       </div>
       <div className="mb-3">
         <strong>Description:</strong>
-        We are seeking a Senior .NET Developer with 5-7 years of experience in .NET development. The ideal candidate will excel in C#, .NET frameworks, and front-end technologies, ensuring high-quality, scalable, and efficient applications. Key responsibilities include designing, developing, and maintaining .NET applications, collaborating with teams, and optimizing performance.
+        Compute Services:
+EC2 (Elastic Compute Cloud)
+Lambda
+Elastic Beanstalk
+Auto Scaling and Load Balancing
+Storage Services:
+S3
       </div>
       <div className="mb-3">
         <strong>Package:</strong> 
-      14-21LPA
+      10-12LPA
       </div>
       <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
 
