@@ -214,23 +214,31 @@ Excellent communication and problem-solving abilities.
 
     </div>
     <div className="container job-footer border mt-4 pt-4">
-      <h4 className="job-title text-gradient">Android Developer</h4>
+      <h4 className="job-title text-gradient">Senior Software Engineer - Systems</h4>
       <div className="d-flex align-items-center mb-3">
         <FaRegClock className="icon" />
-        <span className="mx-2">1-2 Years</span>
+        <span className="mx-2"> 5+ years</span>
         <span className="mx-2">|</span>
         <FaMapMarkerAlt className="icon" />
-        <span className="mx-2">Nagpur</span>
+        <span className="mx-2">Indore</span>
       </div>
       <div className="mb-3">
-        <strong>Description:</strong> Excellent knowledge in core Java · Hands on experience in the full life cycle of Android application development · Strong knowledge in RESTful web services JSON · Good Knowledge of Android SDK's · Push Notifications & Toast · familiar on open source Eclipse, Android Studio, edit plus
+        <strong>Key Responsibilities:</strong> 
+        Design and implement system-level software and APIs.
+Optimize software performance and scalability.
+Collaborate with cross-functional teams to integrate systems and improve functionality.
+Troubleshoot and resolve complex technical issues.
       </div>
       <div className="mb-3">
-        <strong>Skills:</strong> Design and build Android mobile applications · Collaborate with cross-functional teams to analyze, design, and ship new features · Fully responsible for mobile app development · Implement new technologies to maximize application performance.
+        <strong>Skills:</strong> 
+        5+ years of experience in software engineering with a focus on systems development.
+Proficiency in programming languages such as C++, Java, or Python.
+Experience with system design, distributed systems, and performance optimization.
+Strong problem-solving skills and ability to handle complex technical problems.
       </div>
       <div className="mb-3">
         <strong>Package:</strong> 
-      6-7.5LPA
+      12LPA+
       </div>
       <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
 
