@@ -184,27 +184,31 @@ const OurExpertise = () => {
 
 
         <div className="container job-footer border mt-4 pt-4">
-      <h4 className="job-title text-gradient">AWS</h4>
+      <h4 className="job-title text-gradient">Data Scientist / Senior Data Analyst</h4>
       <div className="d-flex align-items-center mb-3">
         <FaRegClock className="icon" />
-        <span className="mx-2">3-4 Years</span>
+        <span className="mx-2">5+ years</span>
         <span className="mx-2">|</span>
         <FaMapMarkerAlt className="icon" />
-        <span className="mx-2">Noida/Pune</span>
+        <span className="mx-2">Chennai</span>
       </div>
       <div className="mb-3">
-        <strong>Description:</strong>
-        Compute Services:
-EC2 (Elastic Compute Cloud)
-Lambda
-Elastic Beanstalk
-Auto Scaling and Load Balancing
-Storage Services:
-S3
+        <strong>Responsibilities:</strong>
+        Analyze and interpret complex datasets to generate actionable insights.
+       Develop predictive models and machine learning algorithms.
+      Create data visualizations and reports for stakeholders.
+      Collaborate with cross-functional teams to solve business problems.
+      </div>
+      <div className="mb-3">
+        <strong>Qualification:</strong>
+        5+ years of experience in data science or analytics.
+Proficiency in Python/R, SQL, and data visualization tools.
+Strong statistical and machine learning skills.
+Excellent communication and problem-solving abilities.
       </div>
       <div className="mb-3">
         <strong>Package:</strong> 
-      10-12LPA
+      22-25LPA
       </div>
       <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
 
