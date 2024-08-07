@@ -289,6 +289,55 @@ Strong problem-solving skills and ability to handle complex technical problems.
      
       <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white"}}><RazerPay/></button>
     </div>
+    <div className="container job-footer border mt-4 pt-4">
+      <h4 className="job-title text-gradient">Software Tester</h4>
+      <div className="d-flex align-items-center mb-3">
+        <FaRegClock className="icon" />
+        <span className="mx-2">Fresher</span>
+        <span className="mx-2">|</span>
+        <FaMapMarkerAlt className="icon" />
+        <span className="mx-2">Mohali</span>
+      </div>
+      <div className="mb-3">
+        <strong>Description: </strong>
+        Software Tester ensures the quality and functionality of software by identifying and reporting bugs through manual or automated testing. They create and execute test plans, collaborate with developers to resolve issues, and ensure that software meets requirements before release. Attention to detail and strong analytical skills are essential in this role.
+       </div>
+      <div className="mb-3">
+        <strong>Skills: </strong>
+        Proficiency in tools like Selenium, QTP, JUnit, TestNG, or Cypress for automating test cases.
+      </div>
+      <div className="mb-3">
+        <strong>Package: </strong> 
+        3-LPA4
+      </div>
+     
+      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white"}}></button>
+    </div>
+    <div className="container job-footer border mt-4 pt-4">
+      <h4 className="job-title text-gradient">NodeJS</h4>
+      <div className="d-flex align-items-center mb-3">
+        <FaRegClock className="icon" />
+        <span className="mx-2">Fresher</span>
+        <span className="mx-2">|</span>
+        <FaMapMarkerAlt className="icon" />
+        <span className="mx-2">Noida/Gurgaon</span>
+      </div>
+      <div className="mb-3">
+        <strong>Description: </strong>
+        We are seeking a skilled Node.js Developer to join our dynamic team. In this role, you will be responsible for developing and maintaining server-side components, ensuring high performance and responsiveness to requests from the frontend. You will collaborate with front-end developers, design APIs, and work on integrating data storage solutions, all while contributing to the overall software architecture.
+       </div>
+      <div className="mb-3">
+        <strong>Skills: </strong>
+        ES6+ , CSS , JAVASCRIPT , Express.js, Koa, or NestJS for building scalable applications , RESTful and/or GraphQL APIs, including authentication and authorization.
+      </div>
+      <div className="mb-3">
+        <strong>Package: </strong> 
+        4-5.5LPA
+      </div>
+     
+      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white"}}><RazerPay/></button>
+    </div>
+    
       </div>
     </div>
   );
