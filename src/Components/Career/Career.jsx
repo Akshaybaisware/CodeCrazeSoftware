@@ -308,7 +308,7 @@ Strong problem-solving skills and ability to handle complex technical problems.
       </div>
       <div className="mb-3">
         <strong>Package: </strong> 
-        3-LPA4
+        3-4LPA
       </div>
      
       <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
