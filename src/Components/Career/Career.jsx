@@ -311,7 +311,7 @@ Strong problem-solving skills and ability to handle complex technical problems.
         3-LPA4
       </div>
      
-      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white"}}></button>
+      <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>View / Apply</button>
     </div>
     <div className="container job-footer border mt-4 pt-4">
       <h4 className="job-title text-gradient">NodeJS</h4>
