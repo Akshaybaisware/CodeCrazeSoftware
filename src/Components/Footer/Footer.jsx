@@ -112,7 +112,7 @@ const Footer = () => {
             </p>
             <p className='text-white'>
               <FontAwesomeIcon icon={faPhone} /> Phone:
-              <a href="tel:+919970850512" className="text-danger"> 7756940249</a>
+              <a href="tel:+917756940249" className="text-danger"> 7756940249</a>
             </p>
             <p className='text-white'>
               <FontAwesomeIcon className='me-2' icon={faMapMarkerAlt} /> 
