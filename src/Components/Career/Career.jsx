@@ -283,6 +283,10 @@ Strong problem-solving skills and ability to handle complex technical problems.
            HTML , CSS , JAVASCRIPT , REACTJS , BOOTSTRAP 
       </div>
       <div className="mb-3">
+        <strong>Note: </strong>
+        After qualifying for the exam, you are ready to register for a React.js profile.
+   </div>
+      <div className="mb-3">
         <strong>Package: </strong> 
         4-5.5LPA
       </div>
@@ -330,6 +334,10 @@ Strong problem-solving skills and ability to handle complex technical problems.
         <strong>Skills: </strong>
         ES6+ , CSS , JAVASCRIPT , Express.js, Koa, or NestJS for building scalable applications , RESTful and/or GraphQL APIs, including authentication and authorization.
       </div>
+      <div className="mb-3">
+        <strong>Note: </strong>
+        After qualifying for the exam, you are ready to register for a Node.js profile.
+        </div>
       <div className="mb-3">
         <strong>Package: </strong> 
         4-5.5LPA
