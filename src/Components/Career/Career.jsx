@@ -290,8 +290,8 @@ Strong problem-solving skills and ability to handle complex technical problems.
         <strong>Package: </strong> 
         4-5.5LPA
       </div>
-      <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>Apply for Test</button>
-      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white" , marginLeft:"1rem"}}><RazerPay/></button>
+     
+      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white" }}><RazerPay/></button>
     </div>
     <div className="container job-footer border mt-4 pt-4">
       <h4 className="job-title text-gradient">Software Tester</h4>
@@ -342,8 +342,8 @@ Strong problem-solving skills and ability to handle complex technical problems.
         <strong>Package: </strong> 
         4-5.5LPA
       </div>
-      <button className="btn rounded-pill" onClick={handleClick} style={{backgroundColor:"#243859" ,color:"white"}}>Apply for Test</button>
-      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white" , marginLeft:"1rem"}}><RazerPay/></button>
+     
+      <button className="btn rounded-pill"  style={{backgroundColor:"#243859" ,color:"white" }}><RazerPay/></button>
     </div>
     
       </div>
